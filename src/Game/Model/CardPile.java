@@ -5,7 +5,7 @@ import java.util.LinkedList;
 
 public abstract class CardPile {
 
-    LinkedList<Card> LinkedCards = new LinkedList<>();
+    protected LinkedList<Card> LinkedCards = new LinkedList<>();
 
     public void addCard(Card card){
         LinkedCards.addLast(card);

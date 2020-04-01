@@ -5,9 +5,10 @@ import java.util.LinkedList;
 
 public class DeckPile extends CardPile {
 
-        LinkedList<Card> deckPopCard = new LinkedList<>();
+
 
         public LinkedList fjernTop() {
+            LinkedList<Card> deckPopCard = new LinkedList<>();
             /*
             Nedenstående kan nok laves lettere/pænere med et for-each loop
              */
@@ -23,6 +24,21 @@ public class DeckPile extends CardPile {
                     deckPopCard.removeAll(LinkedCards);
                 }
             }
+
+            /*
+            Kan det ikke laves sådan her?
+            for (int i = 0; i < 3; i++) {
+                if (!LinkedCards.isEmpty()){
+                    deckPopCard.add(popCard());
+                }
+            }
+
+            Der  skal også laves en metode således at hvis deckpile er tom så bliver DiscardPile lavet om til DeckPile
+            */
+            
+            
+            
+            
             return deckPopCard;
         }
 
