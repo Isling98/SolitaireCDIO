@@ -1,0 +1,51 @@
+package Game.Model;
+
+public class Card {
+
+    private int value;
+    private int suit;
+    private static int spade = 0;
+    private static int club =  1;
+    private static int heart =  2;
+    private static int diamond =  3;
+
+    private int color; // 0 = sort , 1 = rød
+    boolean faceup = false;
+
+
+    public Card(int value, int suit) {
+        this.value = value;
+        this.suit = suit;
+    }
+
+    public void flipCard(){
+        if(!faceup){
+            faceup = true;
+        }
+    }
+
+    public int getValue() {
+        return value;
+    }
+
+    public int getSuit() {
+        return suit;
+    }
+
+    public int getColor() {
+        return color;
+    }
+
+    public boolean isFaceup() {
+        return faceup;
+    }
+
+    public void setColor() {
+       if (getSuit() == spade || getSuit() == club){
+           color = 0;
+       }
+       else if (getSuit() == heart || getSuit() == diamond){
+           color = 1;
+       }
+    }
+}
