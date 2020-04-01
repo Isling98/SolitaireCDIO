@@ -4,13 +4,17 @@ import java.util.LinkedList;
 
 public class SuitPile extends CardPile {
 
+
+   
+
+
     public int nextCard(){
         if (!isFinished()) {
-            if (super.isEmpty()){
+            if (isEmpty()){
                 return 1;
             }
             else {
-                return super.popCard().getValue() + 1;
+                return popCard().getValue() + 1;
             }
         }
         // Returnerer 0 hvis rækken er fuldført
@@ -19,7 +23,7 @@ public class SuitPile extends CardPile {
 
 
     public boolean isFinished(){
-        if (super.popCard().getValue() == 13){
+        if (popCard().getValue() >= 13){
             return true;
         }
         else {

@@ -1,4 +1,4 @@
 package Game.Model;
 
-public class DeckPile {
+public class DeckPile extends CardPile {
 }

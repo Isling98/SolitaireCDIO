@@ -1,6 +1,6 @@
 package Game.Model;
 
-public class GamePile {
+public class GamePile extends  CardPile {
 
 
 
