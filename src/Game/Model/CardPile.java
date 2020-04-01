@@ -5,15 +5,14 @@ import java.util.LinkedList;
 
 public abstract class CardPile {
 
-    String test ="hej";
     LinkedList<Card> LinkedCards = new LinkedList<>();
 
     public void addCard(Card card){
         LinkedCards.addLast(card);
     }
 
-    public void popCard(){
-        LinkedCards.pop();
+    public Card popCard(){
+        return LinkedCards.pop();
     }
 
     public boolean isEmpty(){

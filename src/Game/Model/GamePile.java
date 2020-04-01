@@ -5,8 +5,4 @@ public class GamePile {
 
 
 
-    public void moveCard(){
-
-    }
-
 }

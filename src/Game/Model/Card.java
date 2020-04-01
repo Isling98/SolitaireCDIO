@@ -2,6 +2,8 @@ package Game.Model;
 
 public class Card {
 
+
+    // 1 = es, 2 = 2... 11 = knægt 12 = dronning 13 = konge
     private int value;
     private int suit;
     private static int spade = 0;
