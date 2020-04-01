@@ -16,6 +16,13 @@ public class Card {
     public Card(int value, int suit) {
         this.value = value;
         this.suit = suit;
+
+        if (getSuit() == spade || getSuit() == club){
+            color = 0;
+        }
+        else if (getSuit() == heart || getSuit() == diamond){
+            color = 1;
+        }
     }
 
     public void flipCard(){
@@ -36,16 +43,7 @@ public class Card {
         return color;
     }
 
-    public boolean isFaceup() {
+    public boolean isFaceup()    {
         return faceup;
-    }
-
-    public void setColor() {
-       if (getSuit() == spade || getSuit() == club){
-           color = 0;
-       }
-       else if (getSuit() == heart || getSuit() == diamond){
-           color = 1;
-       }
     }
 }
