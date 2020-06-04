@@ -1,4 +1,4 @@
-package Game.Model;
+package Model.Model;
 
 public class GamePile extends  CardPile {
 

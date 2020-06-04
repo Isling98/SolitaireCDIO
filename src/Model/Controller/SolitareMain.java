@@ -1,6 +1,6 @@
-package Game.Controller;
+package Model.Controller;
 
-import Game.Model.*;
+import Model.Model.*;
 
 public class SolitareMain {
 

@@ -1,6 +1,5 @@
-package Game.Model;
+package Model.Model;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 
 public abstract class CardPile {

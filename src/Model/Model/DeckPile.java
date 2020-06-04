@@ -1,6 +1,5 @@
-package Game.Model;
+package Model.Model;
 
-import javax.sound.sampled.Line;
 import java.util.LinkedList;
 
 public class DeckPile extends CardPile {
