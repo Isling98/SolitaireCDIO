@@ -1,4 +1,4 @@
 package Controller.Algorithm;
 
-public class SletMig {
+public class ALGOHER {
 }

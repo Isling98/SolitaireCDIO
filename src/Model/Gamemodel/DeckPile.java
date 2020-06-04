@@ -1,4 +1,4 @@
-package Model.Model;
+package Model.Gamemodel;
 
 import java.util.LinkedList;
 
