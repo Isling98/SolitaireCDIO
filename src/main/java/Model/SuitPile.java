@@ -1,13 +1,13 @@
-package Model.Gamemodel;
+package Model;
 
 public class SuitPile extends CardPile {
 
 
 
-
+    boolean isFinished = false;
 
     public int nextCard(){
-        if (!isFinished()) {
+        if (!isFinished) {
             if (isEmpty()){
                 return 1;
             }
@@ -20,13 +20,8 @@ public class SuitPile extends CardPile {
     }
 
 
-    public boolean isFinished(){
-        if (popCard().getValue() >= 13){
-            return true;
-        }
-        else {
-            return false;
-        }
+    public void isFinished(){
+        isFinished=popCard().getValue() >= 13;
     }
 
 

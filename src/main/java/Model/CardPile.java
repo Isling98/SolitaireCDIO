@@ -1,10 +1,12 @@
-package Model.Gamemodel;
+package Model;
 
 import java.util.LinkedList;
 
 public abstract class CardPile {
 
-    protected LinkedList<Card> LinkedCards = new LinkedList<>();
+    public String name = this.getClass().getSimpleName();
+
+    protected LinkedList<Card> LinkedCards = new LinkedList<Card>();
 
     public void addCard(Card card){
         LinkedCards.addLast(card);
@@ -26,5 +28,9 @@ public abstract class CardPile {
         return LinkedCards;
     }
 
+
+    public String printPile() {
+        return LinkedCards.toString();
+    }
 }
 
