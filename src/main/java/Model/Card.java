@@ -14,7 +14,6 @@ public class Card {
     private int color; // 0 = sort , 1 = rød
     boolean faceup = false;
 
-
     public Card(int value, int suit) {
         this.value = value;
         this.suit = suit;
@@ -51,19 +50,11 @@ public class Card {
     @Override
     public String toString() {
         if (!isFaceup()) {
-            return "Face down";
+            return "FD";
         }
-        else return "Card{" +
-                valueToString(value) +
-                suitToString(suit)+
-                '}';
-    }
-
-    public String colorToString (int value){
-        if (value == 0){
-            return "Black";
-        }
-        else return "Red";
+        else return
+                suitToString(suit)+ " "+
+                valueToString(value);
     }
 
     public String suitToString (int value){

@@ -6,7 +6,10 @@ import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class SimGame {
+
     CardPile[] cardPiles = new CardPile[13];
+    GameModel gameModel = new GameModel();
+
 
     public void setup() {
 
@@ -20,43 +23,57 @@ public class SimGame {
         }
         Collections.shuffle(allCards);
 
-        //GamePiles
+
+        // Deck and Discard pile 11, 12
+
+
+
+        //GamePiles 0...6
         for (int i = 0; i < 7; i++) {
             //
-            cardPiles[i] = new GamePile(i + 1);
+            cardPiles[i] = new GamePile();
             for (int j = 0; j <= i; j++) {
                 cardPiles[i].addCard(allCards.remove(0));
             }
         }
 
         //SuitPile 7,8,9,10
-        for (int i = 7; i < 11; i++) {
-            cardPiles[i] = new SuitPile();
+        for (int i = 0; i < 4; i++) {
+            cardPiles[i + 7] =  new SuitPile();
         }
 
-        //DiscardPile
-        cardPiles[11] = new DiscardPile();
+        cardPiles[11] = DeckPile.getInstance();
+        cardPiles[12] = DiscardPile.getInstance();
 
-        //DeckPile
-        cardPiles[12] = new DeckPile();
 
         int remainder = allCards.size();
         for (int i = 0; i < remainder; i++) {
-            cardPiles[12].addCard(allCards.remove(0));
+            cardPiles[11].addCard(allCards.remove(0));
         }
 
 
         //Flipping the last card in the game piles
-        for (int i = 0; i <7 ; i++) {
-            if (!cardPiles[i].getLinkedCards().isEmpty()){{
-                cardPiles[i].getLinkedCards().getLast().flipCard();
-            }}
+        for (int i = 0; i < 7; i++) {
+            if (!cardPiles[i].LinkedCards.isEmpty()) {
+                {
+                    cardPiles[i].LinkedCards.getFirst().flipCard();
+                }
+            }
+        }
+
+        for (CardPile cardPile : cardPiles) {
+            System.out.println(cardPile.LinkedCards);
         }
 
 
-      /*
-      for (CardPile pile: cardPiles){
-            System.out.println(pile.printPile());
-        }*/
+        cardPiles[11].select();
+        cardPiles[11].select();
+        cardPiles[11].select();
+        cardPiles[11].select();
+
+
+        for (CardPile cardPile : cardPiles) {
+            System.out.println(cardPile.LinkedCards);
+        }
     }
 }

@@ -20,13 +20,13 @@ public class GameController {
       StringBuilder sb = new StringBuilder();
 
         for (int i = 0; i < Game.cardPiles.length; i++) {
-            String jsonString = mapper.writeValueAsString(Game.cardPiles[i].printPile()) +"\n";
-            sb.append(jsonString);
+          //  String jsonString = mapper.writeValueAsString(Game.cardPiles[i].printPile()) +"\n";
+        //    sb.append(jsonString);
         }
 
 
 
-        System.out.println(sb);
+     //   System.out.println(sb);
 
       mapper.writeValue(new File("c:\\test\\Game.json"), sb.toString());
 

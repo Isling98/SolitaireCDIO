@@ -6,18 +6,28 @@ import java.util.List;
 public class DeckPile extends CardPile {
 
 
-        public LinkedList<Card> fjernTop() {
-            LinkedList<Card> deckPopCard = new LinkedList<Card>();
-            for (int i = 0; i < 3; i++) {
+    private static final DeckPile SINGLE_Deckpile = new DeckPile();
+
+
+    public static DeckPile getInstance(){
+        return SINGLE_Deckpile;
+    }
+
+        @Override
+        public void select() {
+            System.out.println("Test");
+
                 if (!LinkedCards.isEmpty()){
-                    deckPopCard.add(popCard());
+                    top().flipCard();
+                    DiscardPile.getInstance().addCard(popCard());
                 }
-            }
+
+
             /*
             Der  skal også laves en metode således at hvis deckpile er tom så bliver DiscardPile lavet om til DeckPile
             */
 
-            return deckPopCard;
+
         }
 
 }

@@ -6,28 +6,18 @@ public class SuitPile extends CardPile {
 
     boolean isFinished = false;
 
-    public int nextCard(){
-        if (!isFinished) {
-            if (isEmpty()){
-                return 1;
-            }
-            else {
-                return popCard().getValue() + 1;
-            }
+    // Method that checks if card is allowed to be placed
+    @Override
+    public boolean canTake(Card card) {
+        // If the pile is empty only allow aces
+        if (isEmpty()){
+            return card.getValue() == 0;
         }
-        // Returnerer 0 hvis rækken er fuldført
-        else return 0;
+        // Checks if the card is same suit and one value above the current top.
+        else {
+            return card.getSuit() == top().getSuit() && card.getValue() == 1+  top().getValue();
+        }
     }
-
-
-    public void isFinished(){
-        isFinished=popCard().getValue() >= 13;
-    }
-
-
-
-
-
 
 
 }
