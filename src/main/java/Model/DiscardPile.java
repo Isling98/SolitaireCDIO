@@ -1,8 +1,6 @@
 package Model;
 
-import java.util.LinkedList;
-
-public class DiscardPile extends Model.CardPile {
+public class DiscardPile extends CardPile {
 
     private static final DiscardPile SINGLE_DiscardPile = new DiscardPile();
 

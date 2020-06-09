@@ -1,8 +1,5 @@
 package Model;
 
-import java.util.LinkedList;
-import java.util.List;
-
 public class DeckPile extends CardPile {
 
 
@@ -15,7 +12,7 @@ public class DeckPile extends CardPile {
 
         @Override
         public void select() {
-                     if (!LinkedCards.isEmpty()){
+                     if (!linkedCards.isEmpty()){
                     top().flipCard();
                     DiscardPile.getInstance().addCard(popCard());
                 }
