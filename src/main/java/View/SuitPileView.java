@@ -1,4 +1,4 @@
-package main.java.View;
+package View;
 
 import javafx.geometry.Insets;
 import javafx.scene.image.ImageView;

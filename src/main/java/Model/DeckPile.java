@@ -23,5 +23,4 @@ public class DeckPile extends CardPile {
             Der  skal også laves en metode således at hvis deckpile er tom så bliver DiscardPile lavet om til DeckPile
             */
         }
-
 }
