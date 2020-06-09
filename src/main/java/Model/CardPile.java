@@ -5,37 +5,50 @@ import java.util.LinkedList;
 
 public abstract class CardPile {
 
-    public LinkedList<Card> LinkedCards = new LinkedList<Card>();
+    public LinkedList<Card> linkedCards = new LinkedList<Card>();
 
     public final Card top() {
         //Retrieves, but does not remove, the head (first element) of this list.
-        return LinkedCards.peek();
+        return linkedCards.peek();
     }
 
     public boolean isEmpty(){
-        return LinkedCards.isEmpty();
+        return linkedCards.isEmpty();
     }
 
     //removes and returns the first element of this list
     public Card popCard(){
         try {
-            return LinkedCards.pop();
+
+            Card tempcard = linkedCards.pop();
+            if (linkedCards.size()> 0){
+                linkedCards.getFirst().flipCard();
+            }
+
+            return tempcard;
         }
         catch (EmptyStackException e) {return null;}
 
+    }
+    public int getSize (){
+        return linkedCards.size();
     }
 
     // Sometimes overridden
 
     public void addCard(Card card){
-        LinkedCards.push(card);
+        linkedCards.push(card);
     }
 
     public void addPile(LinkedList<Card> pile){
-        LinkedCards.addAll(pile);
+        linkedCards.addAll(pile);
     }
 
     public void select (){ ;
+    }
+
+    public Card getLowestAvailable (){
+        return null;
     }
 
 
@@ -43,9 +56,9 @@ public abstract class CardPile {
 
 
     public String printPile() {
-        if (!LinkedCards.isEmpty()) {
+        if (!linkedCards.isEmpty()) {
 
-            return LinkedCards.toString();
+            return linkedCards.toString();
         }
         else return "empty";
     }

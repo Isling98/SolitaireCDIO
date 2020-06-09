@@ -3,7 +3,6 @@ package Simulation;
 import Model.*;
 
 import java.util.*;
-import java.util.concurrent.ThreadLocalRandom;
 
 public class SimGame {
 
@@ -42,9 +41,9 @@ public class SimGame {
 
         //Flipping the last card in the game piles
         for (int i = 0; i < 7; i++) {
-            if (!cardPiles[i].LinkedCards.isEmpty()) {
+            if (!cardPiles[i].linkedCards.isEmpty()) {
                 {
-                    cardPiles[i].LinkedCards.getFirst().flipCard();
+                    cardPiles[i].linkedCards.getFirst().flipCard();
                 }
             }
         }

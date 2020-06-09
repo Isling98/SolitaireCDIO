@@ -14,5 +14,14 @@ public class GamePile extends  CardPile {
     }
 
 
-
+    @Override
+    public Card getLowestAvailable() {
+        Card TempCard = null;
+        for (Card linkedCard : linkedCards) {
+            if (linkedCard.isFaceup()) {
+                TempCard = linkedCard;
+            }
+        }
+        return TempCard;
+    }
 }
