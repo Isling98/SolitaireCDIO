@@ -9,11 +9,11 @@ public class SimGame {
 
     CardPile[] cardPiles = new CardPile[13];
 
-    public void setup() {
+    public CardPile[] setup() {
         ArrayList<Card> startDeck = new ArrayList<>();
 
         //Inserting all cards and shuffeling
-        startDeck = initDeck(startDeck);
+        initDeck(startDeck);
         // Deck and Discard pile 11, 12
 
         //GamePiles 0...6
@@ -48,11 +48,11 @@ public class SimGame {
                 }
             }
         }
-
+        return cardPiles;
     }
 
 
-    public ArrayList<Card> initDeck(ArrayList<Card> deck){
+    private ArrayList<Card> initDeck(ArrayList<Card> deck){
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 13; j++) {
                 Card card = new Card(j, i);
