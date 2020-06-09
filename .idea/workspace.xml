@@ -2,22 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05b7c33f-953f-4390-8f9b-72cab173444c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/View/Cards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/DeckPileView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/DiscardView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/SuitPileView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SolitaireCDIO/Algorithm/SletMig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SolitaireCDIO/GUI/SletMig2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SolitaireCDIO/Game/Model/Card.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SolitaireCDIO/Game/Model/CardPile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SolitaireCDIO/Game/Model/GamePile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Gamemodel/CardPile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Gamemodel/CardPile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Gamemodel/DeckPile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Gamemodel/DeckPile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Gamemodel/GamePile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Gamemodel/GamePile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Gamemodel/SuitPile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Gamemodel/SuitPile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Simulation/Controller/SolitareMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Simulation/Controller/SolitareMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/GUIHER.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/GUIHER.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SolitaireCDIO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SolitaireCDIO.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Gamemodel/DeckPile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Gamemodel/GamePile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Gamemodel/SuitPile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Simulation/Controller/SolitareMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/Cards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/Cards.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/DeckPileView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/DeckPileView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/DiscardView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/DiscardView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/SuitPileView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/SuitPileView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/DiscardPile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/DiscardPile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/View/GUIHER.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/GUIHER.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,13 +27,13 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gif" value="1" />
-          <entry key="java" value="18" />
+          <entry key="java" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="18" />
+          <entry key="JAVA" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -62,64 +58,85 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/View/GUIHER.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/View/Cards.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="100">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/View/DeckPileView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#237#238#0" expanded="true" />
-                <element signature="e#265#266#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/View/DiscardView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/View/GUIHER.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/DiscardPile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/Card.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/View/SuitPileView.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/DeckPile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="100">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/View/Cards.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/View/SuitPileView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#829#830#0" expanded="true" />
-                <element signature="e#865#866#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/View/DiscardView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/View/DeckPileView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            <state relative-caret-position="125">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,6 +165,10 @@
         <option value="$PROJECT_DIR$/src/View/Cards.java" />
         <option value="$PROJECT_DIR$/src/View/GUIHER.java" />
         <option value="$PROJECT_DIR$/src/View/SuitPileView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/View/Cards.java" />
+        <option value="$PROJECT_DIR$/src/main/java/View/GUIHER.java" />
+        <option value="$PROJECT_DIR$/src/main/java/View/SuitPileView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/DiscardPile.java" />
       </list>
     </option>
   </component>
@@ -156,6 +177,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="874" />
@@ -170,9 +198,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,18 +217,21 @@
               <item name="SolitaireCDIO" type="b2602c69:ProjectViewProjectNode" />
               <item name="SolitaireCDIO" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Gamemodel" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SolitaireCDIO" type="b2602c69:ProjectViewProjectNode" />
               <item name="SolitaireCDIO" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SolitaireCDIO" type="b2602c69:ProjectViewProjectNode" />
               <item name="SolitaireCDIO" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="View" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -217,7 +248,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591624124902" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591693272976" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/card_images" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -247,11 +278,11 @@
   </component>
   <component name="RunManager" selected="Application.GUIHER">
     <configuration name="GUIHER" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="View.GUIHER" />
+      <option name="MAIN_CLASS_NAME" value="main.java.View.GUIHER" />
       <module name="SolitaireCDIO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="View.*" />
+          <option name="PATTERN" value="main.java.View.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -311,13 +342,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20241000" />
+    <option name="totallyTimeSpent" value="21949000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4952381" visible="true" weight="0.18864866" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4952381" visible="true" weight="0.24972972" />
       <window_info id="Structure" order="1" sideWeight="0.50476193" side_tool="true" weight="0.27297297" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -337,7 +367,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50061053" side_tool="true" weight="0.32920536" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4993895" weight="0.32959184" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4993895" weight="0.32857144" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -372,59 +402,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Gamemodel/DiscardPile.java">
+    <entry file="file://$PROJECT_DIR$/src/Model/Gamemodel/DiscardPile.java" />
+    <entry file="file://$PROJECT_DIR$/src/Model/Gamemodel/Card.java" />
+    <entry file="file://$PROJECT_DIR$/src/Controller/Algorithm/ALGOHER.java" />
+    <entry file="file://$PROJECT_DIR$/src/images/2c.gif" />
+    <entry file="file://$PROJECT_DIR$/src/Controller/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/GUIHER.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Gamemodel/DeckPile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Gamemodel/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/Algorithm/ALGOHER.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/2c.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/DiscardView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/DeckPileView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/Cards.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-            <element signature="e#865#866#0" expanded="true" />
-          </folding>
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -435,32 +429,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/Cards.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/DeckPileView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/DiscardView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/SuitPileView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/GUIHER.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/DiscardPile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Card.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/GUIHER.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/DeckPile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/SuitPileView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="100">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -521,6 +555,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -528,6 +563,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
