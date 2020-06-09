@@ -2,31 +2,212 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05b7c33f-953f-4390-8f9b-72cab173444c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/View/Cards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/DeckPileView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/DiscardView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/SuitPileView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Simulation/SimGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Simulation/SimGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SolitaireCDIO/Algorithm/SletMig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SolitaireCDIO/GUI/SletMig2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SolitaireCDIO/Game/Model/Card.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SolitaireCDIO/Game/Model/CardPile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SolitaireCDIO/Game/Model/GamePile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Gamemodel/CardPile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Gamemodel/CardPile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Gamemodel/DeckPile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Gamemodel/DeckPile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Gamemodel/GamePile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Gamemodel/GamePile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Gamemodel/SuitPile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Gamemodel/SuitPile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Simulation/Controller/SolitareMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Simulation/Controller/SolitareMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/GUIHER.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/GUIHER.java" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="SolitaireCDIO" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="1842890329">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gif" value="1" />
+          <entry key="java" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="1" />
+          <entry key="JAVA" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="980" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="980" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/View/GUIHER.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/View/SuitPileView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/View/Cards.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#829#830#0" expanded="true" />
+                <element signature="e#865#866#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/View/DiscardView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/View/DeckPileView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/View/SletMig2.java" />
+        <option value="$PROJECT_DIR$/src/View/DeckPileView.java" />
+        <option value="$PROJECT_DIR$/src/View/DiscardView.java" />
+        <option value="$PROJECT_DIR$/src/View/Cards.java" />
+        <option value="$PROJECT_DIR$/src/View/GUIHER.java" />
+        <option value="$PROJECT_DIR$/src/View/SuitPileView.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="874" />
+    <option name="y" value="109" />
+    <option name="width" value="1612" />
+    <option name="height" value="876" />
+  </component>
   <component name="ProjectId" id="1cqzkiZR6lIdYL3zipWqhikths5" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SolitaireCDIO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SolitaireCDIO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SolitaireCDIO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SolitaireCDIO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SolitaireCDIO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SolitaireCDIO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Gamemodel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SolitaireCDIO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SolitaireCDIO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SolitaireCDIO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SolitaireCDIO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,34 +215,43 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585738811850" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591624124902" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/card_images" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="restartRequiresConfirmation" value="false" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="Simulation" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\SolitaireCDIO\src\card_images" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\SolitaireCDIO\src\card_images" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="GameController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Simulation.GameController" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.GUIHER">
+    <configuration name="GUIHER" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="View.GUIHER" />
       <module name="SolitaireCDIO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Simulation.*" />
+          <option name="PATTERN" value="View.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,23 +259,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolitareMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Model.Controller.SolitareMain" />
+      <module name="SolitaireCDIO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Model.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SolitareMain" />
+      <item itemvalue="Application.GUIHER" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GameController" />
+        <item itemvalue="Application.GUIHER" />
+        <item itemvalue="Application.SolitareMain" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -101,167 +297,246 @@
       <workItem from="1585726151536" duration="38000" />
       <workItem from="1585726192630" duration="1738000" />
       <workItem from="1585727966242" duration="4354000" />
-      <workItem from="1591345055880" duration="6273000" />
-      <workItem from="1591550922987" duration="395000" />
-      <workItem from="1591687945443" duration="1451000" />
+      <workItem from="1591342322202" duration="3436000" />
+      <workItem from="1591605533131" duration="537000" />
+      <workItem from="1591606175407" duration="13937000" />
     </task>
-    <task id="LOCAL-00001" summary="Opsætning af packages">
-      <created>1591271552535</created>
+    <task id="LOCAL-00001" summary="Igang med at sætte spil og arkitektur op. Kort klassen er lavet.">
+      <created>1585724104880</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1591271552535</updated>
+      <updated>1585724104883</updated>
     </task>
-    <task id="LOCAL-00002" summary="Opsætning af packages">
-      <created>1591271809172</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1591271809172</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Sim opsat v.1">
-      <created>1591286585664</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1591286585664</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Prøver at lave en gamemodel">
-      <created>1591348714760</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1591348714760</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Lavet simulationsopstilling af spil, som ligger i linkedlist&lt;card&gt;">
-      <created>1591688587710</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1591688587710</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20241000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4952381" visible="true" weight="0.18864866" />
+      <window_info id="Structure" order="1" sideWeight="0.50476193" side_tool="true" weight="0.27297297" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" weight="0.32857144" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4993895" weight="0.32941177" />
+      <window_info anchor="bottom" id="SVN Repositories" order="7" sideWeight="0.498779" weight="0.32941177" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50061053" side_tool="true" weight="0.32920536" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4993895" weight="0.32959184" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_NEW_TODO" value="false" />
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Opsætning af packages" />
-    <MESSAGE value="Sim opsat v.1" />
-    <MESSAGE value="Prøver at lave en gamemodel" />
-    <MESSAGE value="Lavet simulationsopstilling af spil, som ligger i linkedlist&lt;card&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lavet simulationsopstilling af spil, som ligger i linkedlist&lt;card&gt;" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591349533480">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591349533480" />
-    <state x="739" y="227" key="#com.intellij.ide.util.MemberChooser" timestamp="1591280179875">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="739" y="227" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591280179875" />
-    <state x="595" y="213" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1591281461631">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="595" y="213" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591281461631" />
-    <state x="766" y="391" width="387" height="261" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1591689081287">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="766" y="391" width="387" height="261" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591689081287" />
-    <state x="928" y="109" key="CommitChangelistDialog2" timestamp="1591688586683">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="928" y="109" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591688586683" />
-    <state x="484" y="119" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591271808453" />
-    <state width="1382" height="100" key="GridCell.Tab.0.bottom" timestamp="1591551317841">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1382" height="100" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591551317841" />
-    <state width="1382" height="100" key="GridCell.Tab.0.center" timestamp="1591551317841">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1382" height="100" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591551317841" />
-    <state width="1382" height="100" key="GridCell.Tab.0.left" timestamp="1591551317841">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1382" height="100" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591551317841" />
-    <state width="1382" height="100" key="GridCell.Tab.0.right" timestamp="1591551317841">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1382" height="100" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591551317841" />
-    <state width="1877" height="246" key="GridCell.Tab.1.bottom" timestamp="1591293470821">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="246" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591293470821" />
-    <state width="1877" height="246" key="GridCell.Tab.1.center" timestamp="1591293470821">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="246" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591293470821" />
-    <state width="1877" height="246" key="GridCell.Tab.1.left" timestamp="1591293470821">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="246" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591293470821" />
-    <state width="1877" height="246" key="GridCell.Tab.1.right" timestamp="1591293470821">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="246" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591293470821" />
-    <state x="490" y="178" key="Maven.ArtifactSearchDialog" timestamp="1591281971223">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="490" y="178" key="Maven.ArtifactSearchDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591281971223" />
-    <state x="440" y="97" key="SettingsEditor" timestamp="1591281824898">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="440" y="97" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591281824898" />
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1591688590488">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591688590488" />
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591271811167" />
-    <state x="786" y="301" key="chooseDestDirectoryDialog" timestamp="1591281676163">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="786" y="301" key="chooseDestDirectoryDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591281676163" />
-    <state x="774" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591281881862">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="774" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591281881862" />
-    <state x="731" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1591349344007">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="731" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591349344007" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1591289548024">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591289548024" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591281355078">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591281355078" />
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Model/Model/Card.java" />
+    <entry file="file://$PROJECT_DIR$/src/View/SletMig2.java" />
+    <entry file="file://$PROJECT_DIR$/src/Model/Gamemodel/SuitPile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Gamemodel/GamePile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Gamemodel/DiscardPile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Gamemodel/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/Algorithm/ALGOHER.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/2c.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/DiscardView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/DeckPileView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/Cards.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Simulation/Controller/SolitareMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/GUIHER.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/SuitPileView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/Model/DeckPile.java</url>
-          <line>16</line>
-          <properties class="Model.DeckPile" method="select">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="cardPiles[7]" />
-        <watch expression="cardPiles" language="JAVA" />
-      </configuration>
-    </watches-manager>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SolitaireCDIO</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
