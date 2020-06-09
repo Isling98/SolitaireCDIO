@@ -8,32 +8,20 @@ import java.util.concurrent.ThreadLocalRandom;
 public class SimGame {
 
     CardPile[] cardPiles = new CardPile[13];
-    GameModel gameModel = new GameModel();
-
 
     public void setup() {
+        ArrayList<Card> startDeck = new ArrayList<>();
 
         //Inserting all cards and shuffeling
-        ArrayList<Card> allCards = new ArrayList<>();
-        for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 13; j++) {
-                Card card = new Card(j, i);
-                allCards.add(card);
-            }
-        }
-        Collections.shuffle(allCards);
-
-
+        startDeck = initDeck(startDeck);
         // Deck and Discard pile 11, 12
-
-
 
         //GamePiles 0...6
         for (int i = 0; i < 7; i++) {
             //
             cardPiles[i] = new GamePile();
             for (int j = 0; j <= i; j++) {
-                cardPiles[i].addCard(allCards.remove(0));
+                cardPiles[i].addCard(startDeck.remove(0));
             }
         }
 
@@ -46,9 +34,9 @@ public class SimGame {
         cardPiles[12] = DiscardPile.getInstance();
 
 
-        int remainder = allCards.size();
+        int remainder = startDeck.size();
         for (int i = 0; i < remainder; i++) {
-            cardPiles[11].addCard(allCards.remove(0));
+            cardPiles[11].addCard(startDeck.remove(0));
         }
 
 
@@ -61,19 +49,18 @@ public class SimGame {
             }
         }
 
-        for (CardPile cardPile : cardPiles) {
-            System.out.println(cardPile.LinkedCards);
+    }
+
+
+    public ArrayList<Card> initDeck(ArrayList<Card> deck){
+        for (int i = 0; i < 4; i++) {
+            for (int j = 0; j < 13; j++) {
+                Card card = new Card(j, i);
+                deck.add(card);
+            }
         }
+        Collections.shuffle(deck);
 
-
-        cardPiles[11].select();
-        cardPiles[11].select();
-        cardPiles[11].select();
-        cardPiles[11].select();
-
-
-        for (CardPile cardPile : cardPiles) {
-            System.out.println(cardPile.LinkedCards);
-        }
+        return deck;
     }
 }

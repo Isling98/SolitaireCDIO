@@ -12,17 +12,21 @@ public class GameController {
 
 
     public static void main(String[] args) throws IOException {
-      SimGame Game = new SimGame();
+      SimGame Simulator = new SimGame();
 
-      Game.setup();
+      Simulator.setup();
+
+
       // Algorithm.AnalyseMove(Game);
       ObjectMapper mapper = new ObjectMapper();
       StringBuilder sb = new StringBuilder();
 
-        for (int i = 0; i < Game.cardPiles.length; i++) {
-          //  String jsonString = mapper.writeValueAsString(Game.cardPiles[i].printPile()) +"\n";
-        //    sb.append(jsonString);
+        for (int i = 0; i < Simulator.cardPiles.length; i++) {
+           String jsonString = mapper.writeValueAsString(Simulator.cardPiles[i].printPile());
+            sb.append(jsonString);
         }
+        System.out.println(sb);
+
 
 
 

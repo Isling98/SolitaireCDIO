@@ -6,10 +6,6 @@ public class Card {
     // 0 = es, 1 = 1, 2 = 2... 11 = knægt 12 = dronning 13 = konge
     private int value;
     private int suit;
-    private static int spade = 0;
-    private static int club = 1;
-    private static int heart = 2;
-    private static int diamond = 3;
 
     private int color; // 0 = sort , 1 = rød
     boolean faceup = false;
@@ -17,10 +13,9 @@ public class Card {
     public Card(int value, int suit) {
         this.value = value;
         this.suit = suit;
-
-        if (getSuit() == spade || getSuit() == club) {
+        if (getSuit() == 0 || getSuit() == 1) {
             color = 0;
-        } else if (getSuit() == heart || getSuit() == diamond) {
+        } else if (getSuit() == 2 || getSuit() == 3) {
             color = 1;
         }
     }

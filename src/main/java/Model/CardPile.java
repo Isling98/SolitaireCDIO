@@ -5,11 +5,7 @@ import java.util.LinkedList;
 
 public abstract class CardPile {
 
-    //Måske unødvendigt
-    public String name = this.getClass().getSimpleName();
-
     public LinkedList<Card> LinkedCards = new LinkedList<Card>();
-
 
     public final Card top() {
         //Retrieves, but does not remove, the head (first element) of this list.

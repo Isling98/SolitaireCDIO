@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05b7c33f-953f-4390-8f9b-72cab173444c" name="Default Changelist" comment="Opsætning af packages">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/GameModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="05b7c33f-953f-4390-8f9b-72cab173444c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SolitaireCDIO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SolitaireCDIO.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Model/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Model/CardPile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/CardPile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Model/DeckPile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/DeckPile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/DiscardPile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/DiscardPile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/GameModel.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Model/GamePile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/GamePile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/SuitPile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/SuitPile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Simulation/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Simulation/GameController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Simulation/SimGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Simulation/SimGame.java" afterDir="false" />
     </list>
@@ -23,10 +27,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SolitaireCDIO" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -48,11 +56,21 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585738811850" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Simulation" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="GameController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -100,7 +118,9 @@
       <workItem from="1585726151536" duration="38000" />
       <workItem from="1585726192630" duration="1738000" />
       <workItem from="1585727966242" duration="4354000" />
-      <workItem from="1591345055880" duration="3643000" />
+      <workItem from="1591345055880" duration="6273000" />
+      <workItem from="1591550922987" duration="395000" />
+      <workItem from="1591687945443" duration="588000" />
     </task>
     <task id="LOCAL-00001" summary="Opsætning af packages">
       <created>1591271552535</created>
@@ -123,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591286585664</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Prøver at lave en gamemodel">
+      <created>1591348714760</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591348714760</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,9 +162,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Opsætning af packages" />
     <MESSAGE value="Sim opsat v.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sim opsat v.1" />
+    <MESSAGE value="Prøver at lave en gamemodel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prøver at lave en gamemodel" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591349533480">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591349533480" />
     <state x="739" y="227" key="#com.intellij.ide.util.MemberChooser" timestamp="1591280179875">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -150,27 +182,27 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="766" y="391" width="387" height="261" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591285562879" />
-    <state x="928" y="109" key="CommitChangelistDialog2" timestamp="1591286584887">
+    <state x="928" y="109" key="CommitChangelistDialog2" timestamp="1591348714016">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="928" y="109" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591286584887" />
+    <state x="928" y="109" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591348714016" />
     <state x="484" y="119" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591271808453" />
-    <state width="937" height="318" key="GridCell.Tab.0.bottom" timestamp="1591347235237">
+    <state width="1382" height="100" key="GridCell.Tab.0.bottom" timestamp="1591551317841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="937" height="318" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591347235237" />
-    <state width="937" height="318" key="GridCell.Tab.0.center" timestamp="1591347235237">
+    <state width="1382" height="100" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591551317841" />
+    <state width="1382" height="100" key="GridCell.Tab.0.center" timestamp="1591551317841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="937" height="318" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591347235237" />
-    <state width="937" height="318" key="GridCell.Tab.0.left" timestamp="1591347235237">
+    <state width="1382" height="100" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591551317841" />
+    <state width="1382" height="100" key="GridCell.Tab.0.left" timestamp="1591551317841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="937" height="318" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591347235237" />
-    <state width="937" height="318" key="GridCell.Tab.0.right" timestamp="1591347235237">
+    <state width="1382" height="100" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591551317841" />
+    <state width="1382" height="100" key="GridCell.Tab.0.right" timestamp="1591551317841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="937" height="318" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591347235237" />
+    <state width="1382" height="100" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591551317841" />
     <state width="1877" height="246" key="GridCell.Tab.1.bottom" timestamp="1591293470821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -207,6 +239,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="774" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591281881862" />
+    <state x="731" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1591349344007">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="731" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591349344007" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1591289548024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
