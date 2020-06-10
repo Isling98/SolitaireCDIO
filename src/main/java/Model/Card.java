@@ -8,11 +8,13 @@ public class Card {
     private int suit;
 
     private int color; // 0 = sort , 1 = rød
-    boolean faceup = false;
+    boolean faceup;
 
     public Card(int value, int suit) {
         this.value = value;
         this.suit = suit;
+        faceup = false;
+
         if (getSuit() == 0 || getSuit() == 1) {
             color = 0;
         } else if (getSuit() == 2 || getSuit() == 3) {

@@ -3,7 +3,7 @@ package View;
 import javafx.geometry.Insets;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.HBox;
-
+import main.java.View.Cards;
 
 public class DeckPileView extends HBox {
 

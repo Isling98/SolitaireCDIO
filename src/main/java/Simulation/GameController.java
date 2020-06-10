@@ -14,8 +14,6 @@ public class GameController {
     public static void main(String[] args) throws IOException {
       SimGame Simulator = new SimGame();
 
-      Simulator.setup();
-
 
       // Algorithm.AnalyseMove(Game);
       ObjectMapper mapper = new ObjectMapper();

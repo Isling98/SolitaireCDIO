@@ -1,6 +1,9 @@
-package Model;
+package Model.Piles;
 
-public class GamePile extends  CardPile {
+import Model.Card;
+import Model.Piles.CardPile;
+
+public class GamePile extends CardPile {
 
 
 

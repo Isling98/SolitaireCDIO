@@ -1,19 +1,19 @@
-package Model.Algorithm;
+package Model;
 
-import Model.CardPile;
+import Model.Piles.CardPile;
 import Simulation.SimGame;
 
-public class ALGOHER {
+public class AlgorithmSolitare {
 
     CardPile[] cardPiles2;
 
-    public ALGOHER() {
+    public AlgorithmSolitare() {
         SimGame simGame = new SimGame();
-        cardPiles2 = simGame.setup();
+        cardPiles2 = simGame.cardPiles;
     }
 
     public static void main(String[] args) {
-        ALGOHER algoher = new ALGOHER();
+        AlgorithmSolitare algoher = new AlgorithmSolitare();
         algoher.firstPrio();
     }
 

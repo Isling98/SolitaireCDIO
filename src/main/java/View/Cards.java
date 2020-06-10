@@ -11,7 +11,6 @@ public class Cards {
 
     private static Map<String, Image> cards = new HashMap<>();
 
-
     private static Image getImage(String card) {
         Image image = cards.get(card);
         if (image == null) {

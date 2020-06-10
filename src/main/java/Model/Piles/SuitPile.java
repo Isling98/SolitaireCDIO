@@ -1,4 +1,7 @@
-package Model;
+package Model.Piles;
+
+import Model.Card;
+import Model.Piles.CardPile;
 
 public class SuitPile extends CardPile {
 

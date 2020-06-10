@@ -1,4 +1,6 @@
-package Model;
+package Model.Piles;
+
+import Model.Card;
 
 public class DiscardPile extends CardPile {
 

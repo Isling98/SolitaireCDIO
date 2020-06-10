@@ -1,4 +1,4 @@
-package Model;
+package Model.Piles;
 
 public class DeckPile extends CardPile {
 

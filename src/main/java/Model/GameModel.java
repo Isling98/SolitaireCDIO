@@ -1,15 +1,18 @@
-package Simulation;
+package Model;
 
-import Model.*;
 import Model.Piles.*;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
 
-public class SimGame {
+public class GameModel {
 
     public CardPile[] cardPiles = new CardPile[13];
 
-    public SimGame(){
+  //  CardPile DiscardPile = new DiscardPile();
+ //   CardPile DeckPile = new DeckPile();
+
+    public GameModel(){
         ArrayList<Card> startDeck = new ArrayList<>();
         //Inserting all cards and shuffeling
         initDeck(startDeck);
@@ -31,7 +34,6 @@ public class SimGame {
 
         cardPiles[11] = DeckPile.getInstance();
         cardPiles[12] = DiscardPile.getInstance();
-
 
         int remainder = startDeck.size();
         for (int i = 0; i < remainder; i++) {
