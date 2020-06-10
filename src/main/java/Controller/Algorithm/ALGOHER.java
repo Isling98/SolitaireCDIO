@@ -1,5 +1,6 @@
 package Controller.Algorithm;
 
+import Model.Card;
 import Model.CardPile;
 import Simulation.SimGame;
 
@@ -19,6 +20,11 @@ public class ALGOHER {
 
     public void firstPrio() {
         System.out.println("Metode 1");
+        if (cardPiles2[11].isEmpty()){
+            for (int i = 0; i <= cardPiles2[12].getSize(); i++) {
+                cardPiles2[11].addCard(cardPiles2[12].popCard());
+            }
+        }
         for (int i = 7; i <= 10; i++) {
             while (cardPiles2[11].getSize() == 24) {
                 if (cardPiles2[i].getSize() == 0) {
@@ -78,10 +84,6 @@ public class ALGOHER {
 
         }
 
-
-
-
-
         int size = 0;
         int antalUkendt = 0;
         for (int i = 0; i <= gamePile[i]; i++){
@@ -111,6 +113,7 @@ public class ALGOHER {
         // at tallet er en større end den første piles kort.
     }
 
+
     public void fifthPrio() {
         if (discardPile.contains(suitPile.getValue + 1)){
             suitPile.add(popCard().getValue());
@@ -120,30 +123,59 @@ public class ALGOHER {
                 suitPile.add(popCard().getValue());
             }
         }
-    }
+    }*/
 
     public void sixthPrio() {
-        for (int i = 0; i <= deckPile; i++){
-            if(deckPile[i].getValue == Card.getValue(1)){
-                suitPile.add(deckPile[i]);
-                //Refresh deckPile her til sidst
+        System.out.println("Metode 6");
+        boolean cardMoved = false;
+        while (!cardMoved) {
+            for (int a = 7; a < 10; a++) {
+                if (!cardPiles2[a].isEmpty()) {
+                    for (int i = 0; i <= cardPiles2[11].getSize(); i++) {
+                        cardPiles2[12].addCard(cardPiles2[11].popCard());
+                        if (cardPiles2[12].top().getValue() == 0) {
+                            for (int j = 7; j <= 10; j++) {
+                                if (cardPiles2[j].canTake(cardPiles2[12].top())) {
+                                    cardPiles2[j].addCard(cardPiles2[12].popCard());
+                                    cardMoved = true;
+                                    //Her skal måske 'shuffles' alle kort fra discard tilbage til decket igen.
+
+                                    firstPrio();
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            if (!cardMoved){
+                seventhPrio();
             }
         }
     }
 
     public void seventhPrio() {
-        for (int i = 0; i <= gamePile[i]; i++){
-            if (gamePile[i].lastCard > discardPile.lastCard && gamePile[i].getSuit != discardPile.getSuit){
-                gamePile[i].add(discardPile.popCard());
+        System.out.println("Metode 7");
+        boolean cardMoved = false;
+        while (!cardMoved) {
+            for (int i = 0; i < 6; i++) {
+                if (cardPiles2[12].top().getValue() == cardPiles2[i].top().getValue() - 1 && cardPiles2[12].top().getColor() != cardPiles2[i].top().getColor()) {
+                    cardPiles2[i].addCard(cardPiles2[12].popCard());
+                    cardMoved = true;
+
+                    firstPrio();
+                }
+            }
+            if (!cardMoved){
+                eighthPrio();
             }
         }
-
-        //Få fat i det sidste/'øverste' kort i discardPile og tjek om det kan benyttes på en gamePile ved at gå alle
-        //gamePiles igennem og tjek deres sidste kort. Hvis kortet fra discardPile er modsat farven af den gamepilens
-        //sidste kort og at tallet er mindre end kortet fra gamePilen, så kan der flyttes.
     }
 
+
     public void eighthPrio() {
-        fjernTop();
-    }*/
+        System.out.println("Metode 8");
+        cardPiles2[12].addCard(cardPiles2[11].popCard());
+
+        firstPrio();
+    }
 }
