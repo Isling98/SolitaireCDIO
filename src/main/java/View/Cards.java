@@ -15,21 +15,20 @@ public class Cards {
     private static Image getImage(String card) {
         Image image = cards.get(card);
         if (image == null) {
-            StringBuilder sb = new StringBuilder();
-            sb.append("C:\\fancy/");
-            sb.append(card);
-            sb.append(".gif");
-
+//            StringBuilder sb = new StringBuilder();
+//            sb.append("C:\\fancy/");
+//            sb.append(card);
+//            sb.append(".gif");
+//
             try {
-                image = new Image(new FileInputStream(String.valueOf(sb)));
+                image = new Image(new FileInputStream("C:\\SolitaireCDIO\\src\\main\\resources\\2c.gif"));
 
                 // image = new Image(Cards.class.getClassLoader()
-                //       .getResourceAsStream("resources" + card + ".gif"));
+                   //    .getResourceAsStream("resources" + card + ".gif"));
                 cards.put(card, image);
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
-            }
-            // }
+           }
         }
 
             return image;
