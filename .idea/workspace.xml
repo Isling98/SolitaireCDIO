@@ -2,8 +2,76 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05b7c33f-953f-4390-8f9b-72cab173444c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/2d.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/2h.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/2s.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/3c.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/3d.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/3h.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/3s.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/4c.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/4d.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/4h.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/4s.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/5c.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/5d.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/5h.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/5s.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/6c.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/6d.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/6h.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/6s.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/7c.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/7d.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/7h.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/7s.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/8c.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/8d.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/8h.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/8s.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/9c.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/9d.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/9h.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/9s.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/BB.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/BK.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/BN.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/BP.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/BQ.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/BR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/WB.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/WK.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/WN.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/WP.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/WQ.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/WR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ac.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ad.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ah.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/as.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/b.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jd.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jh.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/js.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/kc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/kd.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/kh.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ks.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/qc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/qd.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/qh.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/qs.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/tc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/td.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/th.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ts.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/GameModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/GameModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/View/Cards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/Cards.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/View/DeckPileView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/DeckPileView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/View/GUIHER.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/GUIHER.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/View/GamePileView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/GamePileView.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,26 +92,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="11" />
+          <entry key="java" value="18" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="11" />
+          <entry key="JAVA" value="18" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="256" />
-          <entry key="txt" value="8" />
+          <entry key="java" value="1124" />
+          <entry key="txt" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="256" />
-          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="JAVA" value="1124" />
+          <entry key="PLAIN_TEXT" value="17" />
         </counts>
       </usages-collector>
     </session>
@@ -53,14 +121,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/View/Cards.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
+            <state relative-caret-position="571">
+              <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
               <folding>
-                <element signature="e#994#995#0" expanded="true" />
-                <element signature="e#1039#1040#0" expanded="true" />
+                <element signature="e#867#868#0" expanded="true" />
+                <element signature="e#904#905#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,8 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/View/SuitPileView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="375">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,11 +146,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/View/GUIHER.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="419">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/View/GamePileView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,8 +187,11 @@
         <option value="$PROJECT_DIR$/src/main/java/Model/DiscardPile.java" />
         <option value="$PROJECT_DIR$/src/main/java/Controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/View/SuitPileView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/View/GamePileView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/View/DeckPileView.java" />
         <option value="$PROJECT_DIR$/src/main/java/View/Cards.java" />
+        <option value="$PROJECT_DIR$/src/main/java/View/GamePileView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/GameModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/View/GUIHER.java" />
       </list>
     </option>
   </component>
@@ -164,14 +247,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SolitaireCDIO" type="b2602c69:ProjectViewProjectNode" />
               <item name="SolitaireCDIO" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="Piles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SolitaireCDIO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SolitaireCDIO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -192,7 +285,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591786104765" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591797463210" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -207,6 +300,9 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\SolitaireCDIO\src\main\resources" />
     </key>
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
@@ -223,8 +319,14 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Model/DiscardPile.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/View/SuitPileView.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/SolitaireCDIO.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/pom.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Controller/Controller.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Model/Card.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Simulation/GameController.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Simulation/SimGame.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/View/Cards.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/View/DeckPileView.java</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -232,8 +334,16 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Model/Algorithm/ALGOHER.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/PythonConnector/PythonConnector.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Model/AlgorithmSolitare.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Model/GameModel.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Model/Piles/CardPile.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Model/Piles/DeckPile.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Model/Piles/DiscardPile.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Model/Piles/GamePile.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Model/Piles/SuitPile.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Util/Observer.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Util/PythonConnector.java</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -241,7 +351,13 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Controller/Algorithm/ALGOHER.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Model/Algorithm/ALGOHER.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Model/CardPile.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Model/DeckPile.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Model/DiscardPile.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Model/GamePile.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Model/SuitPile.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/PythonConnector/PythonConnector.java</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -403,7 +519,7 @@
       <workItem from="1591550922987" duration="395000" />
       <workItem from="1591687945443" duration="6440000" />
       <workItem from="1591697962080" duration="2736000" />
-      <workItem from="1591778580471" duration="4593000" />
+      <workItem from="1591778580471" duration="13429000" />
     </task>
     <task id="LOCAL-00001" summary="Opsætning af packages">
       <created>1591271552535</created>
@@ -454,17 +570,24 @@
       <option name="project" value="LOCAL" />
       <updated>1591781727729</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="rezources">
+      <created>1591786118481</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591786118481</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7329000" />
+    <option name="totallyTimeSpent" value="16165000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25405404" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19567567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -474,7 +597,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3297619" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3297619" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -494,6 +617,37 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25405404" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3297619" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3297619" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -510,7 +664,8 @@
     <MESSAGE value="Lavet simulationsopstilling af spil, som ligger i linkedlist&lt;card&gt;" />
     <MESSAGE value="Setup returnerer pile" />
     <MESSAGE value="suitpile" />
-    <option name="LAST_COMMIT_MESSAGE" value="suitpile" />
+    <MESSAGE value="rezources" />
+    <option name="LAST_COMMIT_MESSAGE" value="rezources" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591349533480">
@@ -624,13 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Model/GamePile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Model/DeckPile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -656,13 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/View/GamePileView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -670,17 +811,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/View/GUIHER.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/GamePile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Piles/CardPile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Piles/GamePile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/View/SuitPileView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        <state relative-caret-position="375">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/DeckPileView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -689,12 +854,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/View/Cards.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
+        <state relative-caret-position="571">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
           <folding>
-            <element signature="e#994#995#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/GamePileView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/GameModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-925">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/GUIHER.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>

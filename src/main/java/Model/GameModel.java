@@ -7,9 +7,22 @@ import java.util.Collections;
 
 public class GameModel {
 
-    public CardPile[] cardPiles = new CardPile[13];
+    private static final GameModel INSTANCE = new GameModel();
+    private CardPile[] cardPiles = new CardPile[13];
 
-  //  CardPile DiscardPile = new DiscardPile();
+    public Card[] getCardPiles(int index) {
+        Card[] cards = new Card[cardPiles[index].getSize()];
+        for(int i=0; i<cardPiles[index].getSize(); i++){
+            cards[i] = cardPiles[index].popCard();
+        }
+
+        return cards;
+    }
+
+    public static GameModel getINSTANCE() {
+        return INSTANCE;
+    }
+    //  CardPile DiscardPile = new DiscardPile();
  //   CardPile DeckPile = new DeckPile();
 
     public GameModel(){

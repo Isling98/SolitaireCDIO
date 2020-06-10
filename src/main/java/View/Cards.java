@@ -14,28 +14,23 @@ public class Cards {
     private static Image getImage(String card) {
         Image image = cards.get(card);
         if (image == null) {
-//            StringBuilder sb = new StringBuilder();
-//            sb.append("C:\\fancy/");
-//            sb.append(card);
-//            sb.append(".gif");
-//
-            try {
-                image = new Image(new FileInputStream("C:\\SolitaireCDIO\\src\\main\\resources\\2c.gif"));
+            StringBuilder sb = new StringBuilder();
+            sb.append("C:\\SolitaireCDIO\\src\\main\\resources\\");
+            sb.append(card);
+            sb.append(".gif");
 
-                // image = new Image(Cards.class.getClassLoader()
-                   //    .getResourceAsStream("resources" + card + ".gif"));
+            try {
+                image = new Image(new FileInputStream(String.valueOf(sb)));
                 cards.put(card, image);
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
-           }
+            }
         }
-
-            return image;
+        return image;
     }
 
-        public static Image getFaceDownCard(){
-            return getImage("2c");
-        }
-
+    public static Image getFaceDownCard() {
+        return getImage("b");
+    }
 }
 
