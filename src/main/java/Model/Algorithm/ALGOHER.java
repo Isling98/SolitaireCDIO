@@ -1,6 +1,5 @@
-package Controller.Algorithm;
+package Model.Algorithm;
 
-import Model.Card;
 import Model.CardPile;
 import Simulation.SimGame;
 
