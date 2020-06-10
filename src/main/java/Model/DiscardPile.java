@@ -18,6 +18,6 @@ public class DiscardPile extends CardPile {
     }
 
     public void showTop(){
-        LinkedCards.getFirst().flipCard();
+        linkedCards.getFirst().flipCard();
     }
 }
