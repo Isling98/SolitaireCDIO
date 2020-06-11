@@ -22,8 +22,13 @@ public class SuitPile extends CardPile {
         }
         // Checks if the card is same suit and one value above the current top.
         else {
-            return card.getSuit() == top().getSuit() && card.getValue() == 1+  top().getValue();
+            return card.getSuit() == top().getSuit() && card.getValue() -1 ==  top().getValue();
         }
+    }
+
+    @Override
+    public String printPile() {
+        return  "SuitPile: " + super.printPile();
     }
 
 

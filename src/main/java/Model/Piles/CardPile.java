@@ -29,7 +29,7 @@ public abstract class CardPile {
 
             return tempcard;
         }
-        catch (EmptyStackException e) {
+        catch (Exception e) {
             System.out.println(e);
             return null;}
 
@@ -38,9 +38,32 @@ public abstract class CardPile {
         return linkedCards.size();
     }
 
+    public boolean canItStack(CardPile cardPile){
+        try{
+        if (backCard().getValue() == 13 && cardPile == null){
+            return  true;
+        }
+        else return backCard().getValue() == cardPile.top().getValue() - 1 && backCard().getColor() != cardPile.top().getColor();
+        }catch (NullPointerException e){
+            return false;
+        }
+
+    }
+
 
 
     public int faceDownAmount(){
+        int counter = 0;
+        for (Card linkedCard : linkedCards) {
+            if (!linkedCard.isFaceup()) {
+                counter++;
+            }
+        }
+        return counter;
+    }
+
+
+    public int faceUpAmount(){
         int counter = 0;
         for (int i = 0; i < linkedCards.size(); i++) {
             if (linkedCards.get(i).isFaceup()){
@@ -57,6 +80,10 @@ public abstract class CardPile {
     }
 
 
+    public LinkedList<Card> popAllFaceUp(){
+        return null;
+    }
+
 
 
     public void addPile(LinkedList<Card> pile){
@@ -66,7 +93,7 @@ public abstract class CardPile {
     public void select (){ ;
     }
 
-    public Card getLowestAvailable (){
+    public Card backCard(){
         return null;
     }
 
