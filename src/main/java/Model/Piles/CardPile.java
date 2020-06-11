@@ -38,6 +38,16 @@ public abstract class CardPile {
 
     // Sometimes overridden
 
+    public int faceDownAmount(){
+        int counter = 0;
+        for (int i = 0; i < linkedCards.size(); i++) {
+            if (linkedCards.get(i).isFaceup()){
+                counter++;
+            }
+        }
+        return counter;
+    }
+
     public void addCard(Card card){
         linkedCards.push(card);
     }

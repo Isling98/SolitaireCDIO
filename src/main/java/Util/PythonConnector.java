@@ -48,11 +48,10 @@ public class PythonConnector {
         while (run) {
             BufferedReader in = new BufferedReader(new InputStreamReader(client.getInputStream()));
             PrintWriter out = new PrintWriter(client.getOutputStream(), true);
-            StringBuilder sb = new StringBuilder();
 
 
-            Stream<String> data = in.lines();
-            fromClient = data.toString();
+
+            fromClient = in.readLine();
             System.out.println(fromClient);
 
 
