@@ -47,7 +47,7 @@ public class Card {
     @Override
     public String toString() {
         if (!isFaceup()) {
-            return "FD";
+            return "fd";
         }
         else return
                 valueToString(value)+
@@ -97,7 +97,7 @@ public class Card {
                 returnMe = "9";
                 break;
             case 9:
-                returnMe = "10";
+                returnMe = "t";
                 break;
             case 10:
                 returnMe = "j";
