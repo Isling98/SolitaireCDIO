@@ -50,17 +50,16 @@ public class Card {
             return "fd";
         }
         else return
-                valueToString(value)+
-                suitToString(suit);
+                valueToString(value)+suitToString(suit);
     }
 
     public String suitToString (int value){
-        String returnMe =" ";
+        String returnMe ="";
         switch (value){
-            case 0: returnMe = " s"; break;
-            case 1: returnMe = " c"; break;
-            case 2: returnMe = " h"; break;
-            case 3: returnMe = " d"; break;
+            case 0: returnMe = "s"; break;
+            case 1: returnMe = "c"; break;
+            case 2: returnMe = "h"; break;
+            case 3: returnMe = "d"; break;
         }
         return returnMe;
     }

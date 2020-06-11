@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05b7c33f-953f-4390-8f9b-72cab173444c" name="Default Changelist" comment="ændret 10 til t">
+    <list default="true" id="05b7c33f-953f-4390-8f9b-72cab173444c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Model/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/View/Cards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/Cards.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/View/GamePileView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/GamePileView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/BB.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/BK.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/BN.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/BP.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/BQ.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/BR.gif" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591869491178</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ændret 10 til t og b til fd">
+      <created>1591869984355</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1591869984355</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +257,8 @@
     <MESSAGE value="Ændret GUI til at tage imod sim for nu" />
     <MESSAGE value="Ændret i Algo så  den oprettes i Controller" />
     <MESSAGE value="Ændret navne i toString i cards så det passer med ressourcer til GUI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ændret navne i toString i cards så det passer med ressourcer til GUI" />
+    <MESSAGE value="ændret 10 til t og b til fd" />
+    <option name="LAST_COMMIT_MESSAGE" value="ændret 10 til t og b til fd" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591349533480">
@@ -274,27 +277,27 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="766" y="391" width="387" height="261" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591689081287" />
-    <state x="928" y="109" key="CommitChangelistDialog2" timestamp="1591869959479">
+    <state x="928" y="109" key="CommitChangelistDialog2" timestamp="1591869983635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="928" y="109" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591869959479" />
+    <state x="928" y="109" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591869983635" />
     <state x="484" y="119" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591271808453" />
-    <state width="1877" height="260" key="GridCell.Tab.0.bottom" timestamp="1591869897797">
+    <state width="1877" height="260" key="GridCell.Tab.0.bottom" timestamp="1591870191864">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591869897797" />
-    <state width="1877" height="260" key="GridCell.Tab.0.center" timestamp="1591869897797">
+    <state width="1877" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591870191864" />
+    <state width="1877" height="260" key="GridCell.Tab.0.center" timestamp="1591870191864">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591869897797" />
-    <state width="1877" height="260" key="GridCell.Tab.0.left" timestamp="1591869897797">
+    <state width="1877" height="260" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591870191864" />
+    <state width="1877" height="260" key="GridCell.Tab.0.left" timestamp="1591870191864">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591869897797" />
-    <state width="1877" height="260" key="GridCell.Tab.0.right" timestamp="1591869897797">
+    <state width="1877" height="260" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591870191864" />
+    <state width="1877" height="260" key="GridCell.Tab.0.right" timestamp="1591870191864">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591869897797" />
+    <state width="1877" height="260" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591870191864" />
     <state width="1877" height="246" key="GridCell.Tab.1.bottom" timestamp="1591293470821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -327,10 +330,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="97" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591281824898" />
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1591869492410">
+    <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1591869985734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591869492410" />
+    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591869985734" />
     <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591271811167" />
     <state x="786" y="301" key="chooseDestDirectoryDialog" timestamp="1591281676163">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -358,7 +361,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Model/Card.java</url>
-          <line>57</line>
+          <line>56</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
