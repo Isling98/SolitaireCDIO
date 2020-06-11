@@ -30,7 +30,7 @@ public class Cards {
     }
 
     public static Image getFaceDownCard() {
-        return getImage("b");
+        return getImage("fd");
     }
 }
 

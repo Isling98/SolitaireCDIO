@@ -29,7 +29,7 @@ public class GamePileView extends StackPane{
         LinkedList<Card> cards = cardPiles[index].linkedCards;
 
         for(Card card: cards){
-            ImageView imageView = new ImageView(card.toString());
+            ImageView imageView = new ImageView(Cards.getImage(card.toString()));
             imageView.setTranslateY(17*base);
             getChildren().add(imageView);
             base++;
