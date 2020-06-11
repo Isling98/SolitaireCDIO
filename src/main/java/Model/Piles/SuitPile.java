@@ -13,6 +13,10 @@ public class SuitPile extends CardPile {
     @Override
     public boolean canTake(Card card) {
         // If the pile is empty only allow aces
+
+        if (card == null){
+            return false;
+        }
         if (isEmpty()){
             return card.getValue() == 0;
         }
