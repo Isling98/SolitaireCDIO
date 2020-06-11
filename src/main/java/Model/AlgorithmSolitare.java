@@ -6,33 +6,28 @@ import java.util.Scanner;
 
 public class AlgorithmSolitare {
 
-    CardPile[] cardPiles2;
+    CardPile[] cardPiles;
     Scanner scanner = new Scanner(System.in);
 
-    public AlgorithmSolitare() {
-        SimGame simGame = new SimGame();
-        cardPiles2 = simGame.cardPiles;
+    public AlgorithmSolitare(CardPile[] cardPiles) {
+        this.cardPiles = cardPiles;
     }
 
-    public static void main(String[] args) {
-        AlgorithmSolitare algoher = new AlgorithmSolitare();
-        algoher.firstPrio();
-    }
 
     public void firstPrio() {
         System.out.println("\nPress ENTER to make next move:");
         scanner.nextLine();
 
-        if (cardPiles2[11].isEmpty()){
-            for (int i = 0; i <= cardPiles2[12].getSize(); i++) {
-                cardPiles2[11].addCard(cardPiles2[12].popCard());
+        if (cardPiles[11].isEmpty()){
+            for (int i = 0; i <= cardPiles[12].getSize(); i++) {
+                cardPiles[11].addCard(cardPiles[12].popCard());
             }
         }
 
         for (int i = 7; i <= 10; i++) {
-            while (cardPiles2[11].getSize() == 24) {
-                if (cardPiles2[i].getSize() == 0) {
-                    cardPiles2[12].addCard(cardPiles2[11].popCard());
+            while (cardPiles[11].getSize() == 24) {
+                if (cardPiles[i].getSize() == 0) {
+                    cardPiles[12].addCard(cardPiles[11].popCard());
 
                     System.out.println("Metode 1. Træk et kort fra bunken.");
 
@@ -50,11 +45,11 @@ public class AlgorithmSolitare {
         while (!cardMoved) {
             for (int i = 7; i <= 10; i++) {
                 for (int j = 0; j < 6; j++) {
-                    if (cardPiles2[i].canTake(cardPiles2[j].top())) {
-                        cardPiles2[i].addCard(cardPiles2[j].popCard());
+                    if (cardPiles[i].canTake(cardPiles[j].top())) {
+                        cardPiles[i].addCard(cardPiles[j].popCard());
                         cardMoved = true;
 
-                        System.out.println("Metode 2. Flyt " + cardPiles2[i].top() + " til suitPile.");
+                        System.out.println("Metode 2. Flyt " + cardPiles[i].top() + " til suitPile.");
 
                         firstPrio();
                     }
@@ -72,13 +67,13 @@ public class AlgorithmSolitare {
         boolean cardMoved = false;
         while (!cardMoved) {
             for (int i = 0; i <= 6; i++) {
-                if (cardPiles2[i].top().getValue() == 13 && cardPiles2[i].getSize() > 1) {
+                if (cardPiles[i].top().getValue() == 13 && cardPiles[i].getSize() > 1) {
                     for (int j = 0; j <= 6; j++) {
-                        if (cardPiles2[j].isEmpty()) {
-                            cardPiles2[j].addCard(cardPiles2[i].popCard());
+                        if (cardPiles[j].isEmpty()) {
+                            cardPiles[j].addCard(cardPiles[i].popCard());
                             cardMoved = true;
 
-                            System.out.println("Metode 3. Flyt " + cardPiles2[j].top() + "(kongen) til det tomme felt.");
+                            System.out.println("Metode 3. Flyt " + cardPiles[j].top() + "(kongen) til det tomme felt.");
 
                             firstPrio();
                         }
@@ -143,21 +138,21 @@ public class AlgorithmSolitare {
         boolean cardMoved = false;
         while (!cardMoved) {
             for (int a = 7; a < 10; a++) {
-                if (!cardPiles2[a].isEmpty()) {
-                    for (int i = 0; i <= cardPiles2[11].getSize(); i++) {
-                        cardPiles2[12].addCard(cardPiles2[11].popCard());
-                        if (cardPiles2[12].top().getValue() == 0) {
+                if (!cardPiles[a].isEmpty()) {
+                    for (int i = 0; i <= cardPiles[11].getSize(); i++) {
+                        cardPiles[12].addCard(cardPiles[11].popCard());
+                        if (cardPiles[12].top().getValue() == 0) {
                             for (int j = 7; j <= 10; j++) {
-                                if (cardPiles2[j].canTake(cardPiles2[12].top())) {
-                                    cardPiles2[j].addCard(cardPiles2[12].popCard());
+                                if (cardPiles[j].canTake(cardPiles[12].top())) {
+                                    cardPiles[j].addCard(cardPiles[12].popCard());
                                     cardMoved = true;
 
-                                    for (int k = 0; k <= cardPiles2[12].getSize(); k++) {
-                                        cardPiles2[11].addCard(cardPiles2[12].popCard());
+                                    for (int k = 0; k <= cardPiles[12].getSize(); k++) {
+                                        cardPiles[11].addCard(cardPiles[12].popCard());
                                     }
 
                                     System.out.println("Metode 6. Træk indtil der kommer et es" +
-                                                        " og derefter flyt " + cardPiles2[j].top() + " til suitPile." +
+                                                        " og derefter flyt " + cardPiles[j].top() + " til suitPile." +
                                                         " Tilsidst 'shuffles' alle kort tilbage til dækket.");
 
                                     firstPrio();
@@ -179,11 +174,11 @@ public class AlgorithmSolitare {
         boolean cardMoved = false;
         while (!cardMoved) {
             for (int i = 0; i < 6; i++) {
-                if (cardPiles2[12].top().getValue() == cardPiles2[i].top().getValue() - 1 && cardPiles2[12].top().getColor() != cardPiles2[i].top().getColor()) {
-                    cardPiles2[i].addCard(cardPiles2[12].popCard());
+                if (cardPiles[12].top().getValue() == cardPiles[i].top().getValue() - 1 && cardPiles[12].top().getColor() != cardPiles[i].top().getColor()) {
+                    cardPiles[i].addCard(cardPiles[12].popCard());
                     cardMoved = true;
 
-                    System.out.println("Metode 7. Flyt " + cardPiles2[i].top() + " til tilsvarende bunke.");
+                    System.out.println("Metode 7. Flyt " + cardPiles[i].top() + " til tilsvarende bunke.");
 
                     firstPrio();
                 }
@@ -197,7 +192,7 @@ public class AlgorithmSolitare {
 
     public void eighthPrio() {
 
-        cardPiles2[12].addCard(cardPiles2[11].popCard());
+        cardPiles[12].addCard(cardPiles[11].popCard());
 
         System.out.println("Metode 8. Træk et kort fra dækket.");
 

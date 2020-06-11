@@ -36,7 +36,7 @@ public abstract class CardPile {
         return linkedCards.size();
     }
 
-    // Sometimes overridden
+
 
     public int faceDownAmount(){
         int counter = 0;
@@ -47,6 +47,8 @@ public abstract class CardPile {
         }
         return counter;
     }
+
+    // Sometimes overridden
 
     public void addCard(Card card){
         linkedCards.push(card);

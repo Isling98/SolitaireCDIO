@@ -15,7 +15,7 @@ public class Cards {
         Image image = cards.get(card);
         if (image == null) {
             StringBuilder sb = new StringBuilder();
-            sb.append("C:\\SolitaireCDIO\\src\\main\\resources\\");
+            sb.append("src/main/resources/");
             sb.append(card);
             sb.append(".gif");
 
@@ -30,7 +30,7 @@ public class Cards {
     }
 
     public static Image getFaceDownCard() {
-        return getImage("b");
+        return getImage("2c");
     }
 }
 

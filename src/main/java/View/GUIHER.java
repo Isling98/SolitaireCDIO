@@ -1,11 +1,18 @@
 package View;
 
+import Model.Piles.CardPile;
+import Simulation.SimGame;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
 public class GUIHER extends Application {
+
+
+    //Brug denne simulator for nu
+    SimGame simGame = new SimGame();
+    CardPile[] simPiles = simGame.cardPiles;
 
     private static final int HEIGHT = 600;
     private static final int WIDTH = 800;
@@ -34,7 +41,7 @@ public class GUIHER extends Application {
         }
 
         for(int i=0; i<7; i++){
-            gamePileViews[i] = new GamePileView(i);
+            gamePileViews[i] = new GamePileView(i, simPiles);
             root.add(gamePileViews[i], i+1, 1);
         }
 
