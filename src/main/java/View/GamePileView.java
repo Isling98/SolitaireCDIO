@@ -33,11 +33,5 @@ public class GamePileView extends StackPane{
             imageView.setTranslateY(20*i);
             getChildren().add(imageView);
         }
-
-
-
-
-
-
     }
 }

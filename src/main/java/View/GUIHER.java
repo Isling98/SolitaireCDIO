@@ -18,7 +18,7 @@ public class GUIHER extends Application {
     private static final int WIDTH = 800;
     private DeckPileView deckPileView = new DeckPileView();
     private DiscardView discardView = new DiscardView();
-   // private SuitPileView[] suitPileView = new SuitPileView[4];
+    private SuitPileView[] suitPileView = new SuitPileView[4];
     private GamePileView[] gamePileViews = new GamePileView[7];
 
     public static void main(String[] args) {
@@ -33,9 +33,9 @@ public class GUIHER extends Application {
         root.add(deckPileView,0,0);
         root.add(discardView, 1,0);
 
-        for(int i=1; i<=4; i++) {
-            SuitPileView suitPileView = new SuitPileView();
-            root.add(suitPileView, 3+i, 0);
+        for(int i=0; i<=3; i++) {
+            suitPileView[i] = new SuitPileView();
+            root.add(suitPileView[i], 3+i, 0);
         }
         for(int i=0; i<7; i++){
             gamePileViews[i] = new GamePileView(i, simPiles);

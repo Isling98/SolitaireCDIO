@@ -2,9 +2,12 @@ package Model;
 
 import Model.Piles.CardPile;
 import Simulation.SimGame;
+import View.GUIHER;
+
 import java.util.Scanner;
 
 public class AlgorithmSolitare {
+
 
     CardPile[] cardPiles;
     Scanner scanner = new Scanner(System.in);
