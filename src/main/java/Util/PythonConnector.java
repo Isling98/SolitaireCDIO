@@ -7,8 +7,6 @@ import java.io.*;
 import java.net.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Stream;
-
 
 //Editor i observerpattern da det er her ny info om spillet kommer fra
 

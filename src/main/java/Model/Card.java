@@ -50,17 +50,17 @@ public class Card {
             return "FD";
         }
         else return
-                suitToString(suit)+ " "+
-                valueToString(value);
+                valueToString(value)+
+                suitToString(suit);
     }
 
     public String suitToString (int value){
         String returnMe =" ";
         switch (value){
-            case 0: returnMe = " Spade"; break;
-            case 1: returnMe = " Club"; break;
-            case 2: returnMe = " Hearts"; break;
-            case 3: returnMe = " Diamond"; break;
+            case 0: returnMe = " s"; break;
+            case 1: returnMe = " c"; break;
+            case 2: returnMe = " h"; break;
+            case 3: returnMe = " d"; break;
         }
         return returnMe;
     }
@@ -70,7 +70,7 @@ public class Card {
 
         switch (value) {
             case 0:
-                returnMe = "Ace";
+                returnMe = "a";
                 break;
             case 1:
                 returnMe = "2";
@@ -100,13 +100,13 @@ public class Card {
                 returnMe = "10";
                 break;
             case 10:
-                returnMe = "Jack";
+                returnMe = "j";
                 break;
             case 11:
-                returnMe = "Queen";
+                returnMe = "q";
                 break;
             case 12:
-                returnMe = "King";
+                returnMe = "k";
                 break;
         }
         return returnMe;

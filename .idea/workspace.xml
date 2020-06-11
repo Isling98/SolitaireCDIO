@@ -3,13 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="05b7c33f-953f-4390-8f9b-72cab173444c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Model/AlgorithmSolitare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/AlgorithmSolitare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/GameModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/GameModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Piles/CardPile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Piles/CardPile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Util/PythonConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/PythonConnector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/View/Cards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/Cards.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/View/GUIHER.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/GUIHER.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/View/GamePileView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/GamePileView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/WB.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/WK.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/WN.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/WP.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/WQ.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/WR.gif" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +217,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591865571810</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Ændret GUI til at tage imod sim for nu">
+      <created>1591867245528</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1591867245528</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Ændret i Algo så  den oprettes i Controller">
+      <created>1591867776855</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1591867776855</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +248,9 @@
     <MESSAGE value="suitpile" />
     <MESSAGE value="rezources" />
     <MESSAGE value="FaceDownAmount" />
-    <option name="LAST_COMMIT_MESSAGE" value="FaceDownAmount" />
+    <MESSAGE value="Ændret GUI til at tage imod sim for nu" />
+    <MESSAGE value="Ændret i Algo så  den oprettes i Controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ændret i Algo så  den oprettes i Controller" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591349533480">
@@ -249,27 +269,27 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="766" y="391" width="387" height="261" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591689081287" />
-    <state x="928" y="109" key="CommitChangelistDialog2" timestamp="1591865571069">
+    <state x="928" y="109" key="CommitChangelistDialog2" timestamp="1591867776175">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="928" y="109" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591865571069" />
+    <state x="928" y="109" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591867776175" />
     <state x="484" y="119" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591271808453" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1591867079315">
+    <state width="1877" height="260" key="GridCell.Tab.0.bottom" timestamp="1591869463614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591867079315" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1591867079314">
+    <state width="1877" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591869463614" />
+    <state width="1877" height="260" key="GridCell.Tab.0.center" timestamp="1591869463614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591867079314" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1591867079314">
+    <state width="1877" height="260" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591869463614" />
+    <state width="1877" height="260" key="GridCell.Tab.0.left" timestamp="1591869463614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591867079314" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1591867079315">
+    <state width="1877" height="260" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591869463614" />
+    <state width="1877" height="260" key="GridCell.Tab.0.right" timestamp="1591869463614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591867079315" />
+    <state width="1877" height="260" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591869463614" />
     <state width="1877" height="246" key="GridCell.Tab.1.bottom" timestamp="1591293470821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -302,10 +322,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="97" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591281824898" />
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1591865573769">
+    <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1591867778242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591865573769" />
+    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591867778242" />
     <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591271811167" />
     <state x="786" y="301" key="chooseDestDirectoryDialog" timestamp="1591281676163">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -329,6 +349,15 @@
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591866767650" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Model/Card.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="cardPiles[7]" />

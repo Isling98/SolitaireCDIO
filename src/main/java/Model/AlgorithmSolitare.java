@@ -10,7 +10,7 @@ public class AlgorithmSolitare {
     Scanner scanner = new Scanner(System.in);
 
     public AlgorithmSolitare(CardPile[] cardPiles) {
-        this.cardPiles = cardPiles;
+            this.cardPiles = cardPiles;
     }
 
 
@@ -48,9 +48,7 @@ public class AlgorithmSolitare {
                     if (cardPiles[i].canTake(cardPiles[j].top())) {
                         cardPiles[i].addCard(cardPiles[j].popCard());
                         cardMoved = true;
-
                         System.out.println("Metode 2. Flyt " + cardPiles[i].top() + " til suitPile.");
-
                         firstPrio();
                     }
                 }
@@ -72,9 +70,7 @@ public class AlgorithmSolitare {
                         if (cardPiles[j].isEmpty()) {
                             cardPiles[j].addCard(cardPiles[i].popCard());
                             cardMoved = true;
-
                             System.out.println("Metode 3. Flyt " + cardPiles[j].top() + "(kongen) til det tomme felt.");
-
                             firstPrio();
                         }
                     }
