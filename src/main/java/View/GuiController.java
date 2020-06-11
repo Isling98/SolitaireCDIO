@@ -4,7 +4,12 @@ import Model.Piles.CardPile;
 import Simulation.SimGame;
 import javafx.application.Application;
 import javafx.scene.Scene;
+import javafx.scene.canvas.Canvas;
+import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.layout.GridPane;
+import javafx.scene.paint.Color;
+import javafx.scene.text.Text;
+import javafx.scene.text.TextAlignment;
 import javafx.stage.Stage;
 
 import java.util.Observable;
@@ -52,10 +57,12 @@ public class GuiController extends Application {
             suitPileView[i] = new SuitPileView(cardPiles[6+i].linkedCards);
             root.add(suitPileView[i], 3+i, 0);
         }
+
         for(int i=0; i<7; i++){
             gamePileViews[i] = new GamePileView(i, cardPiles);
             root.add(gamePileViews[i], i+1, 1);
         }
+
         Scene solitaireScene = new Scene(root, WIDTH, HEIGHT);
 
         primaryStage.setResizable(false);
