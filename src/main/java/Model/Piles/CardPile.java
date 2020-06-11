@@ -54,6 +54,9 @@ public abstract class CardPile {
         linkedCards.push(card);
     }
 
+
+
+
     public void addPile(LinkedList<Card> pile){
         linkedCards.addAll(pile);
     }
