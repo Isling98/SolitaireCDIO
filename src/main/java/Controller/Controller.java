@@ -11,10 +11,11 @@ public class Controller {
 
 
     public static void main(String[] args) throws IOException {
-        PythonConnector pythonConnector = new PythonConnector();
+       // PythonConnector pythonConnector = new PythonConnector();
         CardPile[] cardPiles = new SimGame().cardPiles;
        // CardPile[] cardPiles = pythonConnector.getGameModel().getCardPiles();
         AlgorithmSolitare algo = new AlgorithmSolitare(cardPiles);
+        algo.firstPrio();
 
 
 

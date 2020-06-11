@@ -1,23 +1,21 @@
 package Model.Piles;
 
+import Model.Card;
+
 public class DeckPile extends CardPile {
 
 
-    private static final DeckPile SINGLE_Deckpile = new DeckPile();
+    // Denne klasse kan muligvis være tom
 
-
-    public static DeckPile getInstance(){
-        return SINGLE_Deckpile;
-    }
-
+/*
         @Override
-        public void select() {
+        public Card select() {
                      if (!linkedCards.isEmpty()){
                     top().flipCard();
-                    DiscardPile.getInstance().addCard(popCard());
+                    return popCard();
                 }
-            /*
+            *//*
             Der  skal også laves en metode således at hvis deckpile er tom så bliver DiscardPile lavet om til DeckPile
-            */
-        }
+            *//*
+        }*/
 }

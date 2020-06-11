@@ -22,7 +22,6 @@ public class GameModel {
         for (int i = 0; i < 4; i++) {
             cardPiles[i + 7] =  new SuitPile();
         }
-
         cardPiles[11] = new DeckPile();
         cardPiles[12] = new DiscardPile();
     }

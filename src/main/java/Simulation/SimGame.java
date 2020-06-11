@@ -29,8 +29,8 @@ public class SimGame {
             cardPiles[i + 7] =  new SuitPile();
         }
 
-        cardPiles[11] = DeckPile.getInstance();
-        cardPiles[12] = DiscardPile.getInstance();
+        cardPiles[11] = new DeckPile();
+        cardPiles[12] = new DiscardPile();
 
 
         int remainder = startDeck.size();
