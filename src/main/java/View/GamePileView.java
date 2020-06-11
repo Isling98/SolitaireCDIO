@@ -25,15 +25,19 @@ public class GamePileView extends StackPane{
     }
 
     private void createPiles(){
-        int base = 0;
         LinkedList<Card> cards = cardPiles[index].linkedCards;
 
-        for(Card card: cards){
+        for (int i = 0; i < cards.size(); i++) {
+            Card card = cards.get(cards.size()-1-i);
             ImageView imageView = new ImageView(Cards.getImage(card.toString()));
-            imageView.setTranslateY(17*base);
+            imageView.setTranslateY(20*i);
             getChildren().add(imageView);
-            base++;
-
         }
+
+
+
+
+
+
     }
 }
