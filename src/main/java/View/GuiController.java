@@ -7,24 +7,39 @@ import javafx.scene.Scene;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
-public class GUIHER extends Application {
+import java.util.Observable;
+import java.util.Observer;
+import java.util.Timer;
 
+public class GuiController extends Application {
+
+    public void setCardPiles(CardPile[] cardPiles) {
+        this.cardPiles = cardPiles;
+    }
 
     //Brug denne simulator for nu
-    SimGame simGame = new SimGame();
-    CardPile[] simPiles = simGame.cardPiles;
+  CardPile[] cardPiles;
+  SimGame simGame = new SimGame();
 
     private static final int HEIGHT = 600;
     private static final int WIDTH = 800;
-    private DeckPileView deckPileView = new DeckPileView();
-    private DiscardView discardView = new DiscardView();
+    private DeckPileView deckPileView;
+    private DiscardView discardView;
     private SuitPileView[] suitPileView = new SuitPileView[4];
+   // private SuitPileView[] suitPileView = new SuitPileView[4];
     private GamePileView[] gamePileViews = new GamePileView[7];
+
 
     public static void main(String[] args) {
         launch(args);
     }
-
+    @Override
+    public void init() throws Exception {
+    cardPiles = simGame.cardPiles;
+        deckPileView = new DeckPileView(cardPiles[11].linkedCards);
+        discardView = new DiscardView(cardPiles[12].linkedCards);
+    super.init();
+    }
 
     @Override
     public void start(Stage primaryStage) throws Exception{
@@ -33,12 +48,12 @@ public class GUIHER extends Application {
         root.add(deckPileView,0,0);
         root.add(discardView, 1,0);
 
-        for(int i=0; i<=3; i++) {
-            suitPileView[i] = new SuitPileView();
+        for(int i=0; i<4; i++) {
+            suitPileView[i] = new SuitPileView(cardPiles[6+i].linkedCards);
             root.add(suitPileView[i], 3+i, 0);
         }
         for(int i=0; i<7; i++){
-            gamePileViews[i] = new GamePileView(i, simPiles);
+            gamePileViews[i] = new GamePileView(i, cardPiles);
             root.add(gamePileViews[i], i+1, 1);
         }
         Scene solitaireScene = new Scene(root, WIDTH, HEIGHT);
@@ -48,4 +63,5 @@ public class GUIHER extends Application {
         primaryStage.setScene(solitaireScene);
         primaryStage.show();
     }
+
 }

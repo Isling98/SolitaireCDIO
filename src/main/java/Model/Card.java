@@ -13,7 +13,7 @@ public class Card {
     public Card(int value, int suit) {
         this.value = value;
         this.suit = suit;
-        faceup = false;
+        faceup = true;
 
         if (getSuit() == 0 || getSuit() == 1) {
             color = 0;

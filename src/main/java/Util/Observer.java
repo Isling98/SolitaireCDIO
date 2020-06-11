@@ -1,6 +1,9 @@
 package Util;
 
+import Simulation.SimGame;
+
 public abstract class Observer {
-    protected PythonConnector pythonConnector;
+    // Skal ændres når openCV kommer på
+    protected SimGame simGame;
     public abstract void update();
 }

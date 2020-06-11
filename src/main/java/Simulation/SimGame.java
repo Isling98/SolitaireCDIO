@@ -2,12 +2,34 @@ package Simulation;
 
 import Model.*;
 import Model.Piles.*;
+import Util.Observer;
 
 import java.util.*;
 
-public class SimGame {
+public class SimGame  {
 
     public CardPile[] cardPiles = new CardPile[13];
+
+    private List<Observer> observers = new ArrayList<Observer>();
+
+
+    public CardPile[] getCardPiles() {
+        return cardPiles;
+    }
+
+    public void setCardPiles(CardPile[] cardPiles){
+        this.cardPiles = cardPiles;
+        notifyUpdate();
+    }
+
+    public void attach(Observer observer){
+        observers.add(observer);
+    }
+    public void notifyUpdate(){
+        for (Observer observer: observers){
+            observer.update();
+        }
+    }
 
     public SimGame(){
         ArrayList<Card> startDeck = new ArrayList<>();
@@ -39,14 +61,14 @@ public class SimGame {
         }
 
 
-        //Flipping the last card in the game piles
+        /*//Flipping the last card in the game piles
         for (int i = 0; i < 7; i++) {
             if (!cardPiles[i].linkedCards.isEmpty()) {
                 {
                     cardPiles[i].linkedCards.getFirst().flipCard();
                 }
             }
-        }
+        }*/
     }
 
 

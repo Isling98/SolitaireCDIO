@@ -7,15 +7,17 @@ import java.io.*;
 import java.net.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Observable;
 
 //Editor i observerpattern da det er her ny info om spillet kommer fra
 
-public class PythonConnector {
+public class PythonConnector extends Observable {
 
-    private List<Observer> observers = new ArrayList<>();
+
     private GameModel gameModel;
     String fromClient;
     String toClient;
+
 
     public GameModel getGameModel() {
         return gameModel;
@@ -23,18 +25,13 @@ public class PythonConnector {
 
     public void setGameModel(GameModel gameModel) {
         this.gameModel = gameModel;
-        notifyObservers();
+        setChanged();
+        notifyObservers(gameModel);
     }
 
-    public void attach(Observer observer) {
-        observers.add(observer);
-    }
 
-    public void notifyObservers() {
-        for (Observer observer : observers) {
-            observer.update();
-        }
-    }
+
+
 
 
     public PythonConnector() throws IOException {
@@ -55,8 +52,9 @@ public class PythonConnector {
 
             Gson g = new Gson();
             GameModel GameFromClient =g.fromJson(fromClient, GameModel.class);
+            if(!getGameModel().equals(GameFromClient)){
             setGameModel(GameFromClient);
-            System.out.println(GameFromClient.toString());
+            System.out.println(GameFromClient.toString());}
 
             // System.out.println("received: " + fromClient);
             // toClient = fromClient.toUpperCase();

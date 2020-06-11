@@ -29,8 +29,6 @@ public class Cards {
         return image;
     }
 
-    public static Image getFaceDownCard() {
-        return getImage("fd");
-    }
+
 }
 

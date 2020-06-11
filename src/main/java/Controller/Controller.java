@@ -4,19 +4,29 @@ import Model.AlgorithmSolitare;
 import Model.Piles.CardPile;
 import Simulation.SimGame;
 import Util.PythonConnector;
-
-import java.io.IOException;
+import View.GuiController;
 
 public class Controller {
 
 
-    public static void main(String[] args) throws IOException {
-       // PythonConnector pythonConnector = new PythonConnector();
-        CardPile[] cardPiles = new SimGame().cardPiles;
-       // CardPile[] cardPiles = pythonConnector.getGameModel().getCardPiles();
-        AlgorithmSolitare algo = new AlgorithmSolitare(cardPiles);
-        algo.firstPrio();
+    public static void main(String[] args) throws Exception {
+      //PythonConnector pythonConnector = new PythonConnector();
+        // CardPile[] cardPiles = pythonConnector.getGameModel().getCardPiles();
 
+        SimGame observable = new SimGame();
+        // GuiController gui = new GuiController();
+        AlgorithmSolitare algo = new AlgorithmSolitare(observable);
+        observable.attach(algo);
+
+   /*     new Thread(){
+            @Override
+            public void run(){
+                javafx.application.Application.launch();
+            }
+        }.start();*/
+
+
+    observable.setCardPiles(algo.startAlgorithm(observable.getCardPiles()));
 
 
 

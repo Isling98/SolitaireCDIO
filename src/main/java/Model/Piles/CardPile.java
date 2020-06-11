@@ -29,7 +29,9 @@ public abstract class CardPile {
 
             return tempcard;
         }
-        catch (EmptyStackException e) {return null;}
+        catch (EmptyStackException e) {
+            System.out.println(e);
+            return null;}
 
     }
     public int getSize (){
