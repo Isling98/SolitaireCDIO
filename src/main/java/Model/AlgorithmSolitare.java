@@ -77,33 +77,32 @@ public class AlgorithmSolitare {
                 }
             }
             if (!cardMoved){
-                //fourthPrio();
-                sixthPrio();
+                fourthPrio();
             }
         }
     }
 
+//GENTJEKKE DENNE FORDI DET ER LIDT SVÆRT AT FINDE UD AF HVORDAN MAN SAMMENLIGNER ALLE PILES FOR AT FINNDE DEN MED FLEST FACEDOWN
+    public void fourthPrio() {
 
-    /*public void fourthPrio() {
-        int sizeUkendt = 0;
         boolean cardMoved = false;
         while (!cardMoved) {
             for (int i = 0; i <= 6; i++) {
-                if (!cardPiles2[i].isEmpty()) {
-                    for (int j = 0; j <= cardPiles2[i].getSize(); j++) {
-                        if (!cardPiles2[i].linkedCards.get(j).isFaceup()) {
-                            sizeUkendt = cardPiles2[i].getSize(faceup);
-                            if (sizeUkendt > cardPiles2[i + 1].getSize().faceup || sizeUkendt > cardPiles2[i - 1].getSize().faceup) {
-                                for (int k = 0; k < 6; k++) {
-                                    if (cardPiles2[k].getLowestAvailable().getValue() == cardPiles2[i].getLowestAvailable().getValue() - 1 &&
-                                            cardPiles2[k].getLowestAvailable().getColor() != cardPiles2[i].getLowestAvailable().getColor()) {
-                                        cardPiles2[k].addPile(cardPiles2[i]);
-                                        cardMoved = true;
+                if (!cardPiles[i].isEmpty()) {
+                    for (int j = 0; j <= 6; j++) {
+                        if (cardPiles[i].faceDownAmount() > cardPiles[j].faceDownAmount()){
+                            if (cardPiles[i].getLowestAvailable().getValue() == cardPiles[j].getLowestAvailable().getValue() - 1 &&
+                            cardPiles[i].getLowestAvailable().getColor() != cardPiles[j].getLowestAvailable().getColor()){
 
-                                        firstPrio();
-                                    }
-                                }
-                            } else sizeUkendt = 0;
+                                System.out.println("Metode 4. Flyt bunken med " + cardPiles[i].getLowestAvailable() + " til " +
+                                                    "bunken med " + cardPiles[j].top() + ".");
+
+                                cardPiles[j].addPile(cardPiles[i].linkedCards);
+
+                                cardMoved = true;
+
+                                firstPrio();
+                            }
                         }
                     }
                 }
@@ -112,7 +111,7 @@ public class AlgorithmSolitare {
                 sixthPrio();
             }
         }
-    }*/
+    }
 
 
 /* Denne er mere eller mindre sat sammen med priority 2.
