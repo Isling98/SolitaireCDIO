@@ -34,7 +34,7 @@ public class GamePile extends CardPile {
     public LinkedList<Card> popAllFaceUp() {
         LinkedList<Card> tempList = new LinkedList<>();
 
-        for (int i = 0; i <linkedCards.size() ; i++) {
+        for (int i = 0; i < linkedCards.size(); i++) {
             if (linkedCards.get(i).isFaceup()){
                 tempList.addLast(linkedCards.remove(i));
             }

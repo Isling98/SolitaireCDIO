@@ -40,7 +40,7 @@ public abstract class CardPile {
 
     public boolean canItStack(CardPile cardPile){
         try{
-        if (backCard().getValue() == 13 && cardPile == null){
+        if (backCard().getValue() == 12 && cardPile == null){
             return  true;
         }
         else return backCard().getValue() == cardPile.top().getValue() - 1 && backCard().getColor() != cardPile.top().getColor();

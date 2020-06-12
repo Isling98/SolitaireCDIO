@@ -35,6 +35,18 @@ public class AlgorithmSolitare extends Observer {
 
    /*     System.out.println("\nPress ENTER to make next move:");
         scanner.nextLine();*/
+        //Tjekker om suitPiles er fulde og spillet er vundet
+        int counter = 0;
+        for (int i = 9; i < 13; i++) {
+            if (cardPiles[i].getSize() == 13){
+                counter++;
+                if (counter == 4){
+                    System.out.println("Du har vundet bruv :)");
+                    System.exit(0);
+                }
+            }
+        }
+
         //Hvis deckpile er tomt skal discardpilen flyttes over
         if (cardPiles[7].isEmpty() && !cardPiles[8].isEmpty()){
 
@@ -71,6 +83,7 @@ public class AlgorithmSolitare extends Observer {
     GENTJEKKE DENNE FORDI DET ER LIDT SVÆRT AT FINDE UD AF HVORDAN MAN SAMMENLIGNER ALLE PILES FOR AT FINNDE DEN MED FLEST FACEDOWN
     Hvis der er 2 eller flere bunker der kan flyttes til den samme position skal den længeste bunke flyttes.
     Hvis bunken kan flyttes til 2 forskellige positioner, flyttes den til den længeste. ellers den med mindst facedown.*/
+    int tooMuch = 0;
     public CardPile[] flytEnBunke() {
         int highestStreak = 1;
         int selectedPile = 0;
@@ -95,7 +108,7 @@ public class AlgorithmSolitare extends Observer {
         }
 
         // Hvis pilen starer på konge:
-        if (cardPiles[selectedPile].backCard().getValue() == 13 && cardPiles[selectedPile].faceDownAmount() > 0){
+        if (cardPiles[selectedPile].backCard().getValue() == 12 && cardPiles[selectedPile].faceDownAmount() > 0){
             for (int i = 0; i < 7; i++) {
                 if (cardPiles[i].isEmpty()){
                     cardPiles[i].addPile(cardPiles[selectedPile].popAllFaceUp());
@@ -116,8 +129,13 @@ public class AlgorithmSolitare extends Observer {
             }
         }
         if (recieverPile > 0){
-            cardPiles[selectedPile].addPile(cardPiles[recieverPile].popAllFaceUp());
-            System.out.println("flytter kort / bunke");
+            cardPiles[recieverPile].addPile(cardPiles[selectedPile].popAllFaceUp());
+            tooMuch++;
+            if (tooMuch > 20){
+                System.out.println("Too much");
+                System.exit(0);
+            }
+            System.out.println("flytter bunke " + cardPiles[selectedPile].top().toString() + " til " + cardPiles[recieverPile].top().toString());
             return cardPiles;
         }
 
@@ -128,8 +146,8 @@ public class AlgorithmSolitare extends Observer {
     public CardPile[] flytEnkeltKort(){
         for (int i = 0; i < 7 ; i++) {
             if (!cardPiles[i].isEmpty()){
-            for (int j = 0; j < 7 ; j++) {
-                    if (!cardPiles[j].isEmpty() || cardPiles[i].top().getValue() == 13) {
+                for (int j = 0; j < 7 ; j++) {
+                    if (!cardPiles[j].isEmpty() || cardPiles[i].top().getValue() == 12) {
                         if (j != i) {
                             if (cardPiles[i].top().canItStack(cardPiles[j].top()) && cardPiles[i].faceUpAmount() <= cardPiles[j].faceUpAmount()) {
                                 System.out.println("Metode 4: Kortet: " + cardPiles[i].top().toString() + " er flyttet fra bunke " + i + " til bunke " + j);
@@ -155,7 +173,7 @@ public class AlgorithmSolitare extends Observer {
         }
         for (int i = 0; i < 7; i++) {
             if (cardPiles[i].isEmpty()) {
-                if (cardPiles[8].top().getValue() == 13) {
+                if (cardPiles[8].top().getValue() == 12) {
                     cardPiles[i].addCard(cardPiles[8].popCard());
                     System.out.println("Metode 7. Flyt " + cardPiles[i].top() + " til tilsvarende bunke.");
                     return cardPiles;

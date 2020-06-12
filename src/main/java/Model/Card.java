@@ -45,7 +45,7 @@ public class Card {
     }
 
     public boolean canItStack(Card card){
-        if (getValue() == 13 && card == null){
+        if (getValue() == 12 && card == null){
             return true;
         }
         else return (getValue() == card.getValue() - 1 && getColor() != card.getColor());
