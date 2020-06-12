@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 
 
-public class GamePileView extends StackPane{
+public class GamePileView extends StackPane {
 
     private int index;
     private CardPile[] cardPiles;
