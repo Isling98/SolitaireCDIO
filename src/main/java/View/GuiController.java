@@ -3,11 +3,14 @@ package View;
 import Model.Piles.CardPile;
 import Simulation.SimGame;
 import javafx.application.Application;
+import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
+import javafx.scene.control.Label;
 import javafx.scene.layout.GridPane;
 import javafx.scene.paint.Color;
+import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.scene.text.TextAlignment;
 import javafx.stage.Stage;
@@ -62,6 +65,11 @@ public class GuiController extends Application {
             gamePileViews[i] = new GamePileView(i, cardPiles);
             root.add(gamePileViews[i], i+1, 1);
         }
+
+        Label label = new Label("tekst her");
+        label.setFont(new Font("Arial", 16));
+        label.setPadding(new Insets(200,0,0,0));
+        root.add(label,1,10);
 
         Scene solitaireScene = new Scene(root, WIDTH, HEIGHT);
 
