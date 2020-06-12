@@ -45,33 +45,33 @@ public class SimGame  {
                 cardPiles[i].addCard(startDeck.remove(0));
             }
         }
+        cardPiles[7] = new DeckPile();
+        cardPiles[8] = new DiscardPile();
 
-        //SuitPile 7,8,9,10
-        for (int i = 0; i < 4; i++) {
-            cardPiles[i + 7] =  new SuitPile();
+        //SuitPile
+        for (int i = 9; i < 13; i++) {
+            cardPiles[i] =  new SuitPile();
         }
-
-        cardPiles[11] = new DeckPile();
-        cardPiles[12] = new DiscardPile();
 
 
         int remainder = startDeck.size();
         for (int i = 0; i < remainder; i++) {
-            cardPiles[11].addCard(startDeck.remove(0));
+            cardPiles[7].addCard(startDeck.remove(0));
         }
 
 
-        /*//Flipping the last card in the game piles
+        //Flipping the last card in the game piles
         for (int i = 0; i < 7; i++) {
             if (!cardPiles[i].linkedCards.isEmpty()) {
                 {
-                    cardPiles[i].linkedCards.getFirst().flipCard();
+                    cardPiles[i].top().flipCard();
                 }
             }
-        }*/
+        }
     }
 
-    private ArrayList<Card> initDeck(ArrayList<Card> deck){
+
+    private void initDeck(ArrayList<Card> deck){
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 13; j++) {
                 Card card = new Card(j, i);
@@ -80,6 +80,5 @@ public class SimGame  {
         }
         Collections.shuffle(deck);
 
-        return deck;
     }
 }

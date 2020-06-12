@@ -13,7 +13,7 @@ public class Card {
     public Card(int value, int suit) {
         this.value = value;
         this.suit = suit;
-        faceup = true;
+        faceup = false;
 
         if (getSuit() == 0 || getSuit() == 1) {
             color = 0;
@@ -44,6 +44,12 @@ public class Card {
         return faceup;
     }
 
+    public boolean canItStack(Card card){
+        if (getValue() == 13 && card == null){
+            return true;
+        }
+        else return (getValue() == card.getValue() - 1 && getColor() != card.getColor());
+}
     @Override
     public String toString() {
         if (!isFaceup()) {

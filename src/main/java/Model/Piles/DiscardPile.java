@@ -18,4 +18,10 @@ public class DiscardPile extends CardPile {
         }
         linkedCards.getFirst().flipCard();
     }
+
+
+    @Override
+    public String printPile() {
+        return  "DiscardPile: " + super.printPile();
+    }
 }

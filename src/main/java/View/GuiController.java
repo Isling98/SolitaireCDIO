@@ -41,8 +41,8 @@ public class GuiController extends Application {
     @Override
     public void init() throws Exception {
     cardPiles = simGame.cardPiles;
-        deckPileView = new DeckPileView(cardPiles[11].linkedCards);
-        discardView = new DiscardView(cardPiles[12].linkedCards);
+        deckPileView = new DeckPileView(cardPiles[7].linkedCards);
+        discardView = new DiscardView(cardPiles[8].linkedCards);
     super.init();
     }
 
@@ -54,7 +54,7 @@ public class GuiController extends Application {
         root.add(discardView, 1,0);
 
         for(int i=0; i<4; i++) {
-            suitPileView[i] = new SuitPileView(cardPiles[6+i].linkedCards);
+            suitPileView[i] = new SuitPileView(cardPiles[9+i].linkedCards);
             root.add(suitPileView[i], 3+i, 0);
         }
 

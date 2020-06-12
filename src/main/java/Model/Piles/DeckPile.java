@@ -2,8 +2,26 @@ package Model.Piles;
 
 import Model.Card;
 
+import java.util.EmptyStackException;
+
 public class DeckPile extends CardPile {
 
+    // Kan ikke huske hvorfor dette blev indsat
+/*
+    @Override
+    public Card popCard(){
+        try {
+            return linkedCards.pop();
+        }
+        catch (EmptyStackException e) {
+            System.out.println(e);
+            return null;}
+    }*/
+
+    @Override
+    public String printPile() {
+        return  "DeckPile: " + super.printPile();
+    }
 
     // Denne klasse kan muligvis være tom
 
