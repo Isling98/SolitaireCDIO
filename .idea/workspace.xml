@@ -12,41 +12,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1842890329">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="29" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="29" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="811" />
-          <entry key="txt" value="19" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="811" />
-          <entry key="PLAIN_TEXT" value="19" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="SolitaireCDIO" />
   </component>
@@ -695,14 +660,19 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="786" y="301" key="chooseDestDirectoryDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591281676163" />
-    <state x="774" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591696109119">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="581" y="381" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592037689445">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="581" y="381" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1592037689445" />
     <state x="774" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591696109119" />
     <state x="731" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1591349344007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="731" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591349344007" />
+    <state x="336" y="305" key="git4idea.ui.GitUnstashDialog" timestamp="1592037673215">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="336" y="305" key="git4idea.ui.GitUnstashDialog/0.0.1440.900@0.0.1440.900" timestamp="1592037673214" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1591289548024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
