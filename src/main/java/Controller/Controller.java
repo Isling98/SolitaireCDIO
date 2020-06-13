@@ -10,7 +10,7 @@ public class Controller {
 
 
     public static void main(String[] args) throws Exception {
-      //PythonConnector pythonConnector = new PythonConnector();
+        //PythonConnector pythonConnector = new PythonConnector();
         // CardPile[] cardPiles = pythonConnector.getGameModel().getCardPiles();
 
         SimGame observable = new SimGame();

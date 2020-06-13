@@ -3,40 +3,134 @@
   <component name="ChangeListManager">
     <list default="true" id="05b7c33f-953f-4390-8f9b-72cab173444c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/View/GuiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/GuiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/AlgorithmSolitare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/AlgorithmSolitare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Piles/CardPile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Piles/CardPile.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="SolitaireCDIO" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="-618668271">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="23" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1936" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/GameModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/View/GuiController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
-              <folding>
-                <element signature="e#567#568#0" expanded="true" />
-                <element signature="e#609#610#0" expanded="true" />
-                <element signature="e#1104#1105#0" expanded="true" />
-                <element signature="e#1132#1133#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Controller/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Controller/Controller.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/Piles/CardPile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="314">
+              <caret line="107" column="43" selection-start-line="107" selection-start-column="43" selection-end-line="107" selection-end-column="43" />
+              <folding>
+                <element signature="e#1970#1971#0" expanded="true" />
+                <element signature="e#2010#2011#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/AlgorithmSolitare.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="463">
+              <caret line="134" selection-start-line="134" selection-end-line="134" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/View/Cards.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/Card.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="628">
+              <caret line="67" column="34" selection-start-line="65" selection-start-column="33" selection-end-line="67" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Simulation/SimGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/Piles/GamePile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="439">
+              <caret line="40" column="49" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/Piles/SuitPile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -46,33 +140,27 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>static void main</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/View/Cards.java" />
-        <option value="$PROJECT_DIR$/src/main/java/View/SuitPileView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Simulation/SimListener.java" />
+        <option value="$PROJECT_DIR$/src/Game/Model/Card.java" />
+        <option value="$PROJECT_DIR$/src/Game/Model/GamePile.java" />
+        <option value="$PROJECT_DIR$/src/Game/Model/SuitPile.java" />
+        <option value="$PROJECT_DIR$/src/Game/Model/DiscardPile.java" />
+        <option value="$PROJECT_DIR$/src/Game/Model/DeckPile.java" />
+        <option value="$PROJECT_DIR$/src/Game/Model/CardPile.java" />
+        <option value="$PROJECT_DIR$/src/Game/Controller/SolitareMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/Model/AlgorithmSolitare.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Simulation/SimGame.java" />
-        <option value="$PROJECT_DIR$/src/main/java/View/GamePileView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/View/DeckPileView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/View/GUIHER.java" />
-        <option value="$PROJECT_DIR$/src/main/java/View/GuiController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Piles/GamePile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Piles/CardPile.java" />
       </list>
     </option>
   </component>
@@ -82,21 +170,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="874" />
-    <option name="y" value="109" />
-    <option name="width" value="1612" />
-    <option name="height" value="876" />
-  </component>
-  <component name="ProjectId" id="1cqzkiZR6lIdYL3zipWqhikths5" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,7 +212,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SolitaireCDIO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SolitaireCDIO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SolitaireCDIO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SolitaireCDIO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="Piles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SolitaireCDIO" type="b2602c69:ProjectViewProjectNode" />
@@ -144,46 +245,28 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SolitaireCDIO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SolitaireCDIO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="View" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591956101678" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="restartRequiresConfirmation" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592037516601" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="Simulation" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\SolitaireCDIO\src\main\resources" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
     <UpdatedFiles>
@@ -199,6 +282,33 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gitignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/misc.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/SolitaireCDIO.iml</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/compiler.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_8.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_0_M1.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0_M1.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0_M1.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_0_M1.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0_M1.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0_M1.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/pom.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Controller/Controller.java</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Model/AlgorithmSolitare.java</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Model/Card.java</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Model/GameModel.java</PATH>
@@ -208,14 +318,67 @@
           <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Model/Piles/GamePile.java</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Model/Piles/SuitPile.java</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Simulation/SimGame.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Util/Observer.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Util/PythonConnector.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/View/Cards.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/View/DeckPileView.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/View/DiscardView.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/View/GamePileView.java</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/View/GuiController.java</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/View/SuitPileView.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/2c.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/2d.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/2h.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/2s.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/3c.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/3d.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/3h.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/3s.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/4c.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/4d.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/4h.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/4s.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/5c.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/5d.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/5h.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/5s.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/6c.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/6d.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/6h.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/6s.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/7c.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/7d.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/7h.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/7s.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/8c.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/8d.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/8h.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/8s.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/9c.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/9d.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/9h.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/9s.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/ac.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/ad.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/ah.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/as.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/fd.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/jc.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/jd.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/jh.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/js.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/kc.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/kd.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/kh.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/ks.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/qc.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/qd.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/qh.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/qs.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/tc.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/td.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/th.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/ts.gif</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -223,6 +386,21 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/SolitaireCDIO/Algorithm/SletMig.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/SolitaireCDIO/GUI/SletMig2.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/SolitaireCDIO/Game/Model/Card.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/SolitaireCDIO/Game/Model/CardPile.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/SolitaireCDIO/Game/Model/GamePile.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Algorithm/SletMig.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/GUI/SletMig2.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Game/.DS_Store</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Game/Controller/SolitareMain.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Game/Model/Card.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Game/Model/CardPile.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Game/Model/DeckPile.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Game/Model/DiscardPile.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Game/Model/GamePile.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Game/Model/SuitPile.java</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -316,39 +494,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Controller">
+  <component name="RunManager" selected="Application.GuiController">
     <configuration name="Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Controller.Controller" />
       <module name="SolitaireCDIO" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GUIHER" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="View.GUIHER" />
-      <module name="SolitaireCDIO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="View.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GameController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Simulation.GameController" />
-      <module name="SolitaireCDIO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Simulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -369,32 +521,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolitareMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Game.Controller.SolitareMain" />
+      <module name="SolitaireCDIO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Game.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.GameController" />
-      <item itemvalue="Application.GUIHER" />
+      <item itemvalue="Application.SolitareMain" />
       <item itemvalue="Application.Controller" />
       <item itemvalue="Application.GuiController" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Controller" />
         <item itemvalue="Application.GuiController" />
-        <item itemvalue="Application.GUIHER" />
-        <item itemvalue="Application.GameController" />
+        <item itemvalue="Application.Controller" />
+        <item itemvalue="Application.SolitareMain" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -409,151 +560,54 @@
       <workItem from="1585722761328" duration="1718000" />
       <workItem from="1585726151536" duration="38000" />
       <workItem from="1585726192630" duration="1738000" />
-      <workItem from="1585727966242" duration="4354000" />
-      <workItem from="1591345055880" duration="6273000" />
-      <workItem from="1591550922987" duration="395000" />
-      <workItem from="1591687945443" duration="6440000" />
-      <workItem from="1591697962080" duration="2736000" />
-      <workItem from="1591778580471" duration="13429000" />
-      <workItem from="1591870230187" duration="12576000" />
-      <workItem from="1591907173825" duration="1310000" />
-      <workItem from="1591937976599" duration="4577000" />
+      <workItem from="1585727966242" duration="4809000" />
+      <workItem from="1588056766576" duration="80000" />
     </task>
-    <task id="LOCAL-00001" summary="Opsætning af packages">
-      <created>1591271552535</created>
+    <task id="LOCAL-00001" summary="Igang med at sætte spil og arkitektur op. Kort klassen er lavet.">
+      <created>1585724104880</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1591271552535</updated>
+      <updated>1585724104883</updated>
     </task>
-    <task id="LOCAL-00002" summary="Opsætning af packages">
-      <created>1591271809172</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1591271809172</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Sim opsat v.1">
-      <created>1591286585664</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1591286585664</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Prøver at lave en gamemodel">
-      <created>1591348714760</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1591348714760</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Lavet simulationsopstilling af spil, som ligger i linkedlist&lt;card&gt;">
-      <created>1591688587710</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1591688587710</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Setup returnerer pile">
-      <created>1591689542814</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1591689542814</updated>
-    </task>
-    <task id="LOCAL-00007" summary="suitpile">
-      <created>1591781727729</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1591781727729</updated>
-    </task>
-    <task id="LOCAL-00008" summary="rezources">
-      <created>1591786118481</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1591786118481</updated>
-    </task>
-    <task id="LOCAL-00009" summary="FaceDownAmount">
-      <created>1591865571810</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1591865571810</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Ændret GUI til at tage imod sim for nu">
-      <created>1591867245528</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1591867245528</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Ændret i Algo så  den oprettes i Controller">
-      <created>1591867776855</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1591867776855</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Ændret navne i toString i cards så det passer med ressourcer til GUI">
-      <created>1591869491178</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1591869491178</updated>
-    </task>
-    <task id="LOCAL-00013" summary="ændret 10 til t og b til fd">
-      <created>1591869984355</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1591869984355</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Suitpile kan tilgås">
-      <created>1591874151187</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1591874151187</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18463000" />
+    <option name="totallyTimeSpent" value="9805000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20486486" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4951989" visible="true" weight="0.26495728" />
+      <window_info id="Structure" order="1" sideWeight="0.5048011" side_tool="true" visible="true" weight="0.26495728" />
+      <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
+      <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3297619" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.498779" visible="true" weight="0.25612244" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4993895" weight="0.32941177" />
+      <window_info anchor="bottom" id="SVN Repositories" order="7" sideWeight="0.498779" weight="0.32941177" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3297619" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.501221" side_tool="true" visible="true" weight="0.25612244" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4981685" weight="0.32959184" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4993895" weight="0.32959184" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
@@ -563,272 +617,117 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Opsætning af packages" />
-    <MESSAGE value="Sim opsat v.1" />
-    <MESSAGE value="Prøver at lave en gamemodel" />
-    <MESSAGE value="Lavet simulationsopstilling af spil, som ligger i linkedlist&lt;card&gt;" />
-    <MESSAGE value="Setup returnerer pile" />
-    <MESSAGE value="suitpile" />
-    <MESSAGE value="rezources" />
-    <MESSAGE value="FaceDownAmount" />
-    <MESSAGE value="Ændret GUI til at tage imod sim for nu" />
-    <MESSAGE value="Ændret i Algo så  den oprettes i Controller" />
-    <MESSAGE value="Ændret navne i toString i cards så det passer med ressourcer til GUI" />
-    <MESSAGE value="ændret 10 til t og b til fd" />
-    <MESSAGE value="Suitpile kan tilgås" />
-    <option name="LAST_COMMIT_MESSAGE" value="Suitpile kan tilgås" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591349533480">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591349533480" />
-    <state x="739" y="227" key="#com.intellij.ide.util.MemberChooser" timestamp="1591280179875">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="739" y="227" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591280179875" />
-    <state x="595" y="213" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1591281461631">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="595" y="213" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591281461631" />
-    <state x="766" y="391" width="387" height="261" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1591689081287">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="766" y="391" width="387" height="261" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591689081287" />
-    <state x="928" y="109" key="CommitChangelistDialog2" timestamp="1591869983635">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="928" y="109" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591869983635" />
-    <state x="484" y="119" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591271808453" />
-    <state width="1877" height="260" key="GridCell.Tab.0.bottom" timestamp="1591870191864">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591870191864" />
-    <state width="1877" height="260" key="GridCell.Tab.0.center" timestamp="1591870191864">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591870191864" />
-    <state width="1877" height="260" key="GridCell.Tab.0.left" timestamp="1591870191864">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591870191864" />
-    <state width="1877" height="260" key="GridCell.Tab.0.right" timestamp="1591870191864">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591870191864" />
-    <state width="1877" height="246" key="GridCell.Tab.1.bottom" timestamp="1591293470821">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="246" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591293470821" />
-    <state width="1877" height="246" key="GridCell.Tab.1.center" timestamp="1591293470821">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="246" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591293470821" />
-    <state width="1877" height="246" key="GridCell.Tab.1.left" timestamp="1591293470821">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="246" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591293470821" />
-    <state width="1877" height="246" key="GridCell.Tab.1.right" timestamp="1591293470821">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="246" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591293470821" />
-    <state x="490" y="178" key="Maven.ArtifactSearchDialog" timestamp="1591281971223">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="490" y="178" key="Maven.ArtifactSearchDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591281971223" />
-    <state x="336" y="86" key="MergeDialog" timestamp="1591696159030">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="336" y="86" key="MergeDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591696159030" />
-    <state x="674" y="238" width="875" height="563" key="MultipleFileMergeDialog" timestamp="1591696161569">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="674" y="238" width="875" height="563" key="MultipleFileMergeDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591696161569" />
-    <state x="440" y="97" key="SettingsEditor" timestamp="1591281824898">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="440" y="97" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591281824898" />
-    <state x="474" y="173" key="VCS.ChangeListViewerDialog" timestamp="1592037725303">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="474" y="173" key="VCS.ChangeListViewerDialog/0.0.1440.900@0.0.1440.900" timestamp="1592037725303" />
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1591869985734">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591869985734" />
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591271811167" />
-    <state x="786" y="301" key="chooseDestDirectoryDialog" timestamp="1591281676163">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="786" y="301" key="chooseDestDirectoryDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591281676163" />
-    <state x="581" y="381" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592037720873">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="581" y="381" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1592037720873" />
-    <state x="774" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591696109119" />
-    <state x="731" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1591349344007">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="731" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591349344007" />
-    <state x="336" y="305" key="git4idea.ui.GitUnstashDialog" timestamp="1592037673215">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="336" y="305" key="git4idea.ui.GitUnstashDialog/0.0.1440.900@0.0.1440.900" timestamp="1592037673214" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1591289548024">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591289548024" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591866767650">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591866767650" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Model/Card.java</url>
-          <line>62</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="cardPiles[7]" />
-        <watch expression="cardPiles" language="JAVA" />
-      </configuration>
-    </watches-manager>
-  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml" />
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml" />
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Model/Card.java" />
+    <entry file="file://$PROJECT_DIR$/src/Game/Model/CardPile.java" />
+    <entry file="file://$PROJECT_DIR$/src/Game/Model/SuitPile.java" />
+    <entry file="file://$PROJECT_DIR$/src/Game/Model/DeckPile.java" />
+    <entry file="file://$PROJECT_DIR$/src/Game/Model/GamePile.java" />
+    <entry file="file://$PROJECT_DIR$/src/Game/Model/DiscardPile.java" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Controller/SolitareMain.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Util/PythonConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Model/Piles/DeckPile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Piles/DiscardPile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Piles/GamePile.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Piles/SuitPile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
+        <state relative-caret-position="60">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Piles/CardPile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/View/Cards.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Util/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/scene/layout/StackPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="131" column="13" selection-start-line="131" selection-start-column="13" selection-end-line="131" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/scene/layout/HBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="228" column="11" selection-start-line="228" selection-start-column="11" selection-end-line="228" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Model/GameModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/View/SuitPileView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Simulation/SimListener.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/View/GUIHER.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/View/GamePileView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Model/AlgorithmSolitare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4225">
-          <caret line="180" column="27" selection-start-line="180" selection-start-column="27" selection-end-line="180" selection-end-column="27" />
-          <folding>
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/View/DiscardView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/View/DeckPileView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Simulation/SimGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="330">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/View/GuiController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
-          <folding>
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1132#1133#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="150">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/Cards.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="67" column="34" selection-start-line="65" selection-start-column="33" selection-end-line="67" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Simulation/SimGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/AlgorithmSolitare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Piles/GamePile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="40" column="49" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Piles/CardPile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="107" column="43" selection-start-line="107" selection-start-column="43" selection-end-line="107" selection-end-column="43" />
+          <folding>
+            <element signature="e#1970#1971#0" expanded="true" />
+            <element signature="e#2010#2011#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
