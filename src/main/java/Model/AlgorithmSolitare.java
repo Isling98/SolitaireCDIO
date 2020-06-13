@@ -61,18 +61,15 @@ public class AlgorithmSolitare extends Observer {
     // Tjekker hvis kort fra Gamepile og deckpile kan sættes op i suitpile
     public  CardPile[] flytTilSuit()  {
         for (int i = 9; i < 13; i++) {
-            for (int j = 0; j < 7; j++) {
+            for (int j = 0; j < 8; j++) {
                 if (cardPiles[i].canTake(cardPiles[j].top())) {
                     cardPiles[i].addCard(cardPiles[j].popCard());
                     System.out.println("Metode 2. Flyt " + cardPiles[i].top() + " til suitPile.");
                     return cardPiles;
                 }
             }
-            if (cardPiles[i].canTake(cardPiles[7].top())){
-                cardPiles[i].addCard(cardPiles[7].popCard());
-            }
         }
-        return flytEnBunke();
+        return movePile();
     }
 
 
@@ -139,6 +136,19 @@ public class AlgorithmSolitare extends Observer {
             return cardPiles;
         }
 
+        return flytEnkeltKort();
+    }
+
+    public CardPile[] movePile() {
+        for(int i = 0; i < 7; i++) {
+            Card backCard = cardPiles[i].backCard();
+            for (int j = 0; j < 7; j++) {
+                if (cardPiles[j].top().canItStack(backCard)) {
+                    cardPiles[j].addPile(cardPiles[i].popAllFaceUp());
+                    return cardPiles;
+                }
+            }
+        }
         return flytEnkeltKort();
     }
 

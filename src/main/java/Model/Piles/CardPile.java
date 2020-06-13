@@ -50,8 +50,6 @@ public abstract class CardPile {
 
     }
 
-
-
     public int faceDownAmount(){
         int counter = 0;
         for (Card linkedCard : linkedCards) {
