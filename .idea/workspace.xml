@@ -651,6 +651,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="97" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591281824898" />
+    <state x="474" y="173" key="VCS.ChangeListViewerDialog" timestamp="1592037725303">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="474" y="173" key="VCS.ChangeListViewerDialog/0.0.1440.900@0.0.1440.900" timestamp="1592037725303" />
     <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1591869985734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -660,10 +664,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="786" y="301" key="chooseDestDirectoryDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591281676163" />
-    <state x="581" y="381" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592037689445">
+    <state x="581" y="381" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592037720873">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="581" y="381" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1592037689445" />
+    <state x="581" y="381" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1592037720873" />
     <state x="774" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591696109119" />
     <state x="731" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1591349344007">
       <screen x="0" y="0" width="1920" height="1040" />
