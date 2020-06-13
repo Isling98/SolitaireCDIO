@@ -51,7 +51,7 @@ public class AlgorithmSolitare extends Observer {
         if (cardPiles[7].isEmpty() && !cardPiles[8].isEmpty()){
 
             for (int i = 0; i < cardPiles[8].getSize(); i++) {
-                cardPiles[7].addCard(cardPiles[8].popCard());
+                cardPiles[7].addCard(cardPiles[8].pollLastCard());
             }
         }
 
@@ -61,15 +61,12 @@ public class AlgorithmSolitare extends Observer {
     // Tjekker hvis kort fra Gamepile og deckpile kan sættes op i suitpile
     public  CardPile[] flytTilSuit()  {
         for (int i = 9; i < 13; i++) {
-            for (int j = 0; j < 7; j++) {
+            for (int j = 0; j < 8; j++) {
                 if (cardPiles[i].canTake(cardPiles[j].top())) {
                     cardPiles[i].addCard(cardPiles[j].popCard());
                     System.out.println("Metode 2. Flyt " + cardPiles[i].top() + " til suitPile.");
                     return cardPiles;
                 }
-            }
-            if (cardPiles[i].canTake(cardPiles[7].top())){
-                cardPiles[i].addCard(cardPiles[7].popCard());
             }
         }
         return flytEnBunke();
@@ -134,6 +131,8 @@ public class AlgorithmSolitare extends Observer {
             if (tooMuch > 20){
                 System.out.println("Too much");
                 System.exit(0);
+
+
             }
             System.out.println("flytter bunke " + cardPiles[selectedPile].top().toString() + " til " + cardPiles[recieverPile].top().toString());
             return cardPiles;
@@ -207,7 +206,6 @@ public class AlgorithmSolitare extends Observer {
     @Override
     public void update() {
         this.setCardPiles(simGame.getCardPiles());
-        System.out.println("Noget er sket");
         simGame.setCardPiles(firstPrio());
     }
 

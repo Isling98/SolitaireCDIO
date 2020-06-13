@@ -34,6 +34,25 @@ public abstract class CardPile {
             return null;}
 
     }
+
+
+
+    public Card pollLastCard(){
+        try {
+
+            Card tempcard = linkedCards.pollLast();
+            if (linkedCards.size()> 0){
+                linkedCards.getFirst().flipCard();
+            }
+
+            return tempcard;
+        }
+        catch (Exception e) {
+            System.out.println(e);
+            return null;}
+
+
+    }
     public int getSize (){
         return linkedCards.size();
     }
