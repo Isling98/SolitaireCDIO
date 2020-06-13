@@ -32,12 +32,12 @@ public class GamePile extends CardPile {
 
     @Override
     public LinkedList<Card> popAllFaceUp() {
-        for (int i = 0; i < linkedCards.size(); i++) {
-            if (!linkedCards.get(i).isFaceup()){
-                return (LinkedList<Card>) linkedCards.subList(0, i);
-            }
+        LinkedList<Card> tempList = new LinkedList<>();
+        while (linkedCards.size() > 0 && this.top().isFaceup()) {
+            tempList.addLast(linkedCards.pop());
         }
-        return linkedCards;
+        this.flipTop();
+        return tempList;
     }
 
     @Override

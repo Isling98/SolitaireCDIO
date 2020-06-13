@@ -16,14 +16,15 @@ public class SuitPile extends CardPile {
 
         if (card == null){
             return false;
-        }
-        if (isEmpty()){
-            return card.getValue() == 0;
-        }
-        // Checks if the card is same suit and one value above the current top.
-        else {
-            return card.getSuit() == top().getSuit() && card.getValue() -1 ==  top().getValue();
-        }
+        } else if (card.isFaceup()) {
+            if (isEmpty()) {
+                return card.getValue() == 0;
+            }
+            // Checks if the card is same suit and one value above the current top.
+            else {
+                return card.getSuit() == top().getSuit() && card.getValue() - 1 == top().getValue();
+            }
+        } else return false;
     }
 
     @Override

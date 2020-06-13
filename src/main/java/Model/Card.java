@@ -44,12 +44,12 @@ public class Card {
         return faceup;
     }
 
-    public boolean canItStack(Card card){
-        if (getValue() == 12 && card == null){
-            return true;
-        }
-        else return (getValue() == card.getValue() - 1 && getColor() != card.getColor());
-}
+    public boolean canItStack(Card card) {
+        if (card == null) return false;
+        return ((getValue() == card.getValue() - 1 && getColor() != card.getColor()));
+    }
+
+
     @Override
     public String toString() {
         if (!isFaceup()) {

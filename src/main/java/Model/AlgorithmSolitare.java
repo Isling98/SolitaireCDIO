@@ -33,8 +33,8 @@ public class AlgorithmSolitare extends Observer {
     public  CardPile[] firstPrio()   {
         printGame();
 
-   /*     System.out.println("\nPress ENTER to make next move:");
-        scanner.nextLine();*/
+       // System.out.println("\nPress ENTER to make next move:");
+       // scanner.nextLine();
         //Tjekker om suitPiles er fulde og spillet er vundet
         int counter = 0;
         for (int i = 9; i < 13; i++) {
@@ -48,25 +48,28 @@ public class AlgorithmSolitare extends Observer {
         }
 
         //Hvis deckpile er tomt skal discardpilen flyttes over
-        if (cardPiles[7].isEmpty() && !cardPiles[8].isEmpty()){
-
-            for (int i = 0; i < cardPiles[8].getSize(); i++) {
+        if (cardPiles[7].isEmpty() && cardPiles[8].getSize() >1){
+            while(!cardPiles[8].isEmpty()){
                 cardPiles[7].addCard(cardPiles[8].pollLastCard());
             }
         }
-
         return flytTilSuit();
     }
 
     // Tjekker hvis kort fra Gamepile og deckpile kan sættes op i suitpile
     public  CardPile[] flytTilSuit()  {
         for (int i = 9; i < 13; i++) {
-            for (int j = 0; j < 8; j++) {
+            for (int j = 0; j < 7; j++) {
                 if (cardPiles[i].canTake(cardPiles[j].top())) {
                     cardPiles[i].addCard(cardPiles[j].popCard());
                     System.out.println("Metode 2. Flyt " + cardPiles[i].top() + " til suitPile.");
                     return cardPiles;
                 }
+            }
+            if (cardPiles[i].canTake(cardPiles[8].top())) {
+                cardPiles[i].addCard(cardPiles[8].popCard());
+                System.out.println("Metode 2. Flyt " + cardPiles[i].top() + " til suitPile.");
+                return cardPiles;
             }
         }
         return movePile();
@@ -144,12 +147,16 @@ public class AlgorithmSolitare extends Observer {
     public CardPile[] movePile() {
         for(int i = 0; i < 7; i++) {
             Card backCard = cardPiles[i].backCard();
-            for (int j = 0; j < 7; j++) {
-                if (cardPiles[j].top().canItStack(backCard)) {
-                    cardPiles[j].addPile(cardPiles[i].popAllFaceUp());
-                    return cardPiles;
+                for (int j = 0; j < 7; j++) {
+                    if (i == j || backCard == null) continue;
+                    if (backCard.canItStack(cardPiles[j].top()) || (backCard.getValue() == 12 && cardPiles[j].isEmpty() && cardPiles[i].faceDownAmount() > 0)) {
+                        cardPiles[j].addPile(cardPiles[i].popAllFaceUp());
+                        System.out.println("moved pile " + i + " to " + j);
+                        return cardPiles;
+                    }
+
                 }
-            }
+
         }
         return flytEnkeltKort();
     }
@@ -204,9 +211,10 @@ public class AlgorithmSolitare extends Observer {
     }
 
     int formeget = 0;
+
     public  CardPile[] eighthPrio()  {
         formeget ++;
-        if (formeget > 50){
+        if (formeget > 300){
             System.out.println("For meget");
             System.exit(0);
         }
@@ -218,6 +226,7 @@ public class AlgorithmSolitare extends Observer {
 
     @Override
     public void update() {
+        System.out.println();
         this.setCardPiles(simGame.getCardPiles());
         simGame.setCardPiles(firstPrio());
     }

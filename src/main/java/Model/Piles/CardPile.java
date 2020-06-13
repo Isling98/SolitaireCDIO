@@ -23,7 +23,7 @@ public abstract class CardPile {
         try {
 
             Card tempcard = linkedCards.pop();
-            if (linkedCards.size()> 0){
+            if (linkedCards.size() > 0){
                 linkedCards.getFirst().flipCard();
             }
 
@@ -33,6 +33,12 @@ public abstract class CardPile {
             System.out.println(e);
             return null;}
 
+    }
+
+    public void flipTop() {
+        if (linkedCards.size() > 0) {
+            this.top().flipCard();
+        }
     }
 
 
@@ -104,7 +110,10 @@ public abstract class CardPile {
 
 
     public void addPile(LinkedList<Card> pile){
-        linkedCards.addAll(pile);
+        for(int i = pile.size() - 1; i >= 0; i--) {
+            linkedCards.add(0, pile.get(i));
+        }
+
     }
 
     public void select (){ ;
