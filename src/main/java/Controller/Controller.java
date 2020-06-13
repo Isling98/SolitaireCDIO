@@ -5,6 +5,7 @@ import Model.Piles.CardPile;
 import Simulation.SimGame;
 import Util.PythonConnector;
 import View.GuiController;
+import javafx.application.Platform;
 
 public class Controller {
 
@@ -17,22 +18,16 @@ public class Controller {
         // GuiController gui = new GuiController();
         AlgorithmSolitare algo = new AlgorithmSolitare(observable);
         observable.attach(algo);
-
    /*     new Thread(){
             @Override
             public void run(){
                 javafx.application.Application.launch();
             }
         }.start();*/
-
-
-    observable.setCardPiles(algo.startAlgorithm(observable.getCardPiles()));
-
+        observable.setCardPiles(algo.startAlgorithm(observable.getCardPiles()));
 
 
     }
 
 
-
-
-}
+    }

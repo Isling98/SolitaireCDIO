@@ -15,4 +15,10 @@ public class DeckPileView extends HBox {
         ImageView imageView = new ImageView(Cards.getImage(cardPile.getFirst().toString()));
         getChildren().add(imageView);
     }
+
+
+    public void updateView(){
+
+
+    }
 }

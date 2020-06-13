@@ -10,6 +10,11 @@ import java.util.Scanner;
 public class AlgorithmSolitare extends Observer {
 
 
+    int formeget = 0;
+
+
+    int træk = 0;
+
     public AlgorithmSolitare(SimGame simGame){
         this.simGame = simGame;
         this.simGame.attach(this);
@@ -33,8 +38,8 @@ public class AlgorithmSolitare extends Observer {
     public  CardPile[] firstPrio()   {
         printGame();
 
-       // System.out.println("\nPress ENTER to make next move:");
-       // scanner.nextLine();
+        System.out.println("\nPress ENTER to make next move:");
+        scanner.nextLine();
         //Tjekker om suitPiles er fulde og spillet er vundet
         int counter = 0;
         for (int i = 9; i < 13; i++) {
@@ -42,7 +47,7 @@ public class AlgorithmSolitare extends Observer {
                 counter++;
                 if (counter == 4){
                     System.out.println("Du har vundet bruv :)");
-                    System.exit(0);
+                    System.out.println("Antal træk: " + træk);
                 }
             }
         }
@@ -63,12 +68,14 @@ public class AlgorithmSolitare extends Observer {
                 if (cardPiles[i].canTake(cardPiles[j].top())) {
                     cardPiles[i].addCard(cardPiles[j].popCard());
                     System.out.println("Metode 2. Flyt " + cardPiles[i].top() + " til suitPile.");
+                    formeget = 0;
                     return cardPiles;
                 }
             }
             if (cardPiles[i].canTake(cardPiles[8].top())) {
                 cardPiles[i].addCard(cardPiles[8].popCard());
                 System.out.println("Metode 2. Flyt " + cardPiles[i].top() + " til suitPile.");
+                formeget = 0;
                 return cardPiles;
             }
         }
@@ -152,6 +159,7 @@ public class AlgorithmSolitare extends Observer {
                     if (backCard.canItStack(cardPiles[j].top()) || (backCard.getValue() == 12 && cardPiles[j].isEmpty() && cardPiles[i].faceDownAmount() > 0)) {
                         cardPiles[j].addPile(cardPiles[i].popAllFaceUp());
                         System.out.println("moved pile " + i + " to " + j);
+                        formeget = 0;
                         return cardPiles;
                     }
 
@@ -171,6 +179,7 @@ public class AlgorithmSolitare extends Observer {
                             if (cardPiles[i].top().canItStack(cardPiles[j].top()) && cardPiles[i].faceUpAmount() <= cardPiles[j].faceUpAmount()) {
                                 System.out.println("Metode 4: Kortet: " + cardPiles[i].top().toString() + " er flyttet fra bunke " + i + " til bunke " + j);
                                 cardPiles[j].addCard(cardPiles[i].popCard());
+                                formeget = 0;
                                 return cardPiles;
                             }
                         }
@@ -195,6 +204,7 @@ public class AlgorithmSolitare extends Observer {
                 if (cardPiles[8].top().getValue() == 12) {
                     cardPiles[i].addCard(cardPiles[8].popCard());
                     System.out.println("Metode 7. Flyt " + cardPiles[i].top() + " til tilsvarende bunke.");
+                    formeget = 0;
                     return cardPiles;
                 }
             }
@@ -203,6 +213,7 @@ public class AlgorithmSolitare extends Observer {
                         && cardPiles[8].top().getColor() != cardPiles[i].top().getColor()) {
                     cardPiles[i].addCard(cardPiles[8].popCard());
                     System.out.println("Metode 7. Flyt " + cardPiles[i].top() + " til tilsvarende bunke.");
+                    formeget = 0;
                     return cardPiles;
                 }
             }
@@ -210,12 +221,13 @@ public class AlgorithmSolitare extends Observer {
         return eighthPrio();
     }
 
-    int formeget = 0;
+
 
     public  CardPile[] eighthPrio()  {
         formeget ++;
-        if (formeget > 300){
-            System.out.println("For meget");
+        if (formeget > cardPiles[7].getSize()+ cardPiles[8].getSize()){
+            System.out.println("Tabt");
+            System.out.println("Antal træk: " + træk);
             System.exit(0);
         }
         cardPiles[8].addCard(cardPiles[7].popCard());
@@ -227,6 +239,8 @@ public class AlgorithmSolitare extends Observer {
     @Override
     public void update() {
         System.out.println();
+        System.out.println("YAKKA");
+        træk++;
         this.setCardPiles(simGame.getCardPiles());
         simGame.setCardPiles(firstPrio());
     }
@@ -234,7 +248,6 @@ public class AlgorithmSolitare extends Observer {
 
     public void printGame(){
         for (CardPile cardPile : cardPiles) {
-
             System.out.println(cardPile.printPile());
         }
     }

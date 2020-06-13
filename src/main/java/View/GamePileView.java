@@ -3,6 +3,7 @@ package View;
 import Model.Card;
 import Model.GameModel;
 import Model.Piles.CardPile;
+import Model.Piles.GamePile;
 import javafx.geometry.Insets;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.StackPane;
@@ -13,24 +14,20 @@ import java.util.LinkedList;
 
 public class GamePileView extends StackPane {
 
-    private int index;
-    private CardPile[] cardPiles;
+    private CardPile gamePile;
 
-    public GamePileView(int index, CardPile[] cardPiles) {
-        this.index = index;
-        this.cardPiles = cardPiles;
+    public GamePileView(CardPile cardPile) {
+        gamePile = cardPile;
         setPadding(new Insets(5));
-
-        createPiles();
+        createPiles(cardPile);
     }
 
-    private void createPiles(){
-        LinkedList<Card> cards = cardPiles[index].linkedCards;
+    public void createPiles(CardPile cardPile){
 
-        for (int i = 0; i < cards.size(); i++) {
-            Card card = cards.get(cards.size()-1-i);
+        for (int i = cardPile.getSize()-1; i >= 0; i--) {
+            Card card = cardPile.linkedCards.get(i);
             ImageView imageView = new ImageView(Cards.getImage(card.toString()));
-            imageView.setTranslateY(20*i);
+            imageView.setTranslateY(20*(cardPile.getSize()-i));
             getChildren().add(imageView);
         }
     }
