@@ -93,27 +93,12 @@ public class GuiController extends Application  {
 
         primaryStage.addEventFilter(MouseEvent.MOUSE_CLICKED, eventHandler);
 
-
-
         Scene solitaireScene = new Scene(root, WIDTH, HEIGHT);
-
 
         primaryStage.setResizable(false);
         primaryStage.setTitle("7-kabale");
         primaryStage.setScene(solitaireScene);
-
-
         primaryStage.show();
-
-
-
-
-
-
-
-
-
-
     }
 
 
@@ -132,11 +117,7 @@ public class GuiController extends Application  {
         }
 
         discardView.updateView(gameModel.getCardPiles()[8]);
-
         deckPileView.updateView(gameModel.getCardPiles()[7]);
-
-
-
 
     }
 }

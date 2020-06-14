@@ -28,11 +28,13 @@ public class DiscardView extends HBox {
     }
 
     public void updateView(CardPile cardPile){
+        getChildren().clear();
         if (cardPile.isEmpty()){
             image.setVisible(false);
+            getChildren().add(image);
         }
         else {
-        getChildren().clear();
+
         Card card = cardPile.linkedCards.getFirst();
         ImageView imageView = new ImageView(Cards.getImage(card.toString()));
         getChildren().add(imageView);
