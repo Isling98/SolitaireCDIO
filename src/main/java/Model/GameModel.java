@@ -1,12 +1,24 @@
 package Model;
 
 import Model.Piles.*;
+import Util.Observer;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 public class GameModel {
 
+
+    private List<Observer> observers = new ArrayList<Observer>();
+
+    public void attach(Observer observer){
+        observers.add(observer);
+    }
+    public void notifyUpdate(){
+        for (Observer observer: observers){
+            observer.update(); }
+    }
     private CardPile[] cardPiles = new CardPile[13];
 
 

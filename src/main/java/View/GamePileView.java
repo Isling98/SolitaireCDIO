@@ -23,7 +23,7 @@ public class GamePileView extends StackPane {
     }
 
     public void createPiles(CardPile cardPile){
-
+        getChildren().clear();
         for (int i = cardPile.getSize()-1; i >= 0; i--) {
             Card card = cardPile.linkedCards.get(i);
             ImageView imageView = new ImageView(Cards.getImage(card.toString()));

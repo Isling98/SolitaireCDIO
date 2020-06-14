@@ -4,23 +4,22 @@ import Model.GameModel;
 import Simulation.SimGame;
 import Util.Observer;
 
-public class ObserverData extends Observer {
+public class ObserverData extends Observer   {
 
-    GuiController gucci;
 
-    public ObserverData (GuiController guiController, SimGame simGame){
-        this.simGame = simGame;
-        this.simGame.attach(this);
-        gucci = guiController;
+    GameModel gameModel;
+    public ObserverData (GameModel gameModel){
+        this.gameModel = gameModel;
+        this.gameModel.attach(this);
     }
 
-    SimGame model = new SimGame();
+    GameModel model = new GameModel();
 
-    public void setModel(SimGame model) {
+    public void setModel(GameModel model) {
         this.model = model;
     }
 
-    public SimGame getModel() {
+    public GameModel getModel() {
         return model;
     }
 
@@ -28,7 +27,7 @@ public class ObserverData extends Observer {
 
     @Override
     public void update() {
-        setModel(simGame);
-        gucci.updateView();
+        setModel(gameModel);
     }
+
 }

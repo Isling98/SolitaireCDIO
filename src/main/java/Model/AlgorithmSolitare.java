@@ -7,7 +7,7 @@ import Util.Observer;
 
 import java.util.Scanner;
 
-public class AlgorithmSolitare extends Observer {
+public class AlgorithmSolitare  {
 
 
     int formeget = 0;
@@ -15,14 +15,9 @@ public class AlgorithmSolitare extends Observer {
 
     int træk = 0;
 
-    public AlgorithmSolitare(SimGame simGame){
-        this.simGame = simGame;
-        this.simGame.attach(this);
-    }
 
 
     CardPile[] cardPiles;
-    Scanner scanner = new Scanner(System.in);
 
     public void setCardPiles(CardPile[] cardPiles) {
         this.cardPiles = cardPiles;
@@ -38,8 +33,6 @@ public class AlgorithmSolitare extends Observer {
     public  CardPile[] firstPrio()   {
         printGame();
 
-        System.out.println("\nPress ENTER to make next move:");
-        scanner.nextLine();
         //Tjekker om suitPiles er fulde og spillet er vundet
         int counter = 0;
         for (int i = 9; i < 13; i++) {
@@ -137,13 +130,6 @@ public class AlgorithmSolitare extends Observer {
         }
         if (recieverPile > 0){
             cardPiles[recieverPile].addPile(cardPiles[selectedPile].popAllFaceUp());
-            tooMuch++;
-            if (tooMuch > 20){
-                System.out.println("Too much");
-                System.exit(0);
-
-
-            }
             System.out.println("flytter bunke " + cardPiles[selectedPile].top().toString() + " til " + cardPiles[recieverPile].top().toString());
             return cardPiles;
         }
@@ -223,27 +209,21 @@ public class AlgorithmSolitare extends Observer {
 
 
 
-    public  CardPile[] eighthPrio()  {
-        formeget ++;
-        if (formeget > cardPiles[7].getSize()+ cardPiles[8].getSize()){
+    public  CardPile[] eighthPrio() {
+        formeget++;
+        if (formeget > cardPiles[7].getSize() + cardPiles[8].getSize()) {
             System.out.println("Tabt");
             System.out.println("Antal træk: " + træk);
-            System.exit(0);
+            return null;
         }
-        cardPiles[8].addCard(cardPiles[7].popCard());
-        System.out.println("Metode 8. Træk et kort fra dækket.");
-        return  cardPiles;
+        if (!cardPiles[7].isEmpty()) {
+            cardPiles[8].addCard(cardPiles[7].popCard());
+            System.out.println("Metode 8. Træk et kort fra dækket.");
+
+        }
+        return cardPiles;
     }
 
-
-    @Override
-    public void update() {
-        System.out.println();
-        System.out.println("YAKKA");
-        træk++;
-        this.setCardPiles(simGame.getCardPiles());
-        simGame.setCardPiles(firstPrio());
-    }
 
 
     public void printGame(){

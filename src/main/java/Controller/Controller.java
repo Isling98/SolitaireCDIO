@@ -16,14 +16,14 @@ public class Controller {
 
         SimGame observable = new SimGame();
         // GuiController gui = new GuiController();
-        AlgorithmSolitare algo = new AlgorithmSolitare(observable);
-        observable.attach(algo);
+        AlgorithmSolitare algo = new AlgorithmSolitare();
    /*     new Thread(){
             @Override
             public void run(){
                 javafx.application.Application.launch();
             }
         }.start();*/
+
         observable.setCardPiles(algo.startAlgorithm(observable.getCardPiles()));
 
 

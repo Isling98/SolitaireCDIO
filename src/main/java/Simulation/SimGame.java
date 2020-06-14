@@ -9,26 +9,20 @@ import java.util.*;
 public class SimGame  {
 
     public CardPile[] cardPiles = new CardPile[13];
-
     private List<Observer> observers = new ArrayList<Observer>();
-
-
     public CardPile[] getCardPiles() {
         return cardPiles;
     }
-
     public void setCardPiles(CardPile[] cardPiles){
         this.cardPiles = cardPiles;
-        notifyUpdate();
+   //     notifyUpdate();
     }
-
     public void attach(Observer observer){
         observers.add(observer);
     }
-    public void notifyUpdate(){
+      public void notifyUpdate(){
         for (Observer observer: observers){
-            observer.update();
-        }
+            observer.update(); }
     }
 
     public SimGame(){
