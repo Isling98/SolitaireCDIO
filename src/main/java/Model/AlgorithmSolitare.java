@@ -1,232 +1,170 @@
 package Model;
 
 import Model.Piles.CardPile;
-import Simulation.SimGame;
-import Util.Observer;
-
-
-import java.util.Scanner;
 
 public class AlgorithmSolitare  {
+    int newCardCounter = 0;
+    int moveTracker = 0;
+    String msg = "";
 
 
-    int formeget = 0;
-
-
-    int træk = 0;
-
-
-
+    GameModel model = new GameModel();
     CardPile[] cardPiles;
 
-    public void setCardPiles(CardPile[] cardPiles) {
+    public GameModel nextMove(CardPile[] cardPiles){
+
         this.cardPiles = cardPiles;
+       // printGame();
+        moveTracker ++;
+        if (checkGameWon()){
+            model.setCardPiles(cardPiles);
+        }
+        else if (deckpileEmpty() != null){
+            model.setCardPiles(cardPiles);
+        }
+        else if(moveToSuitPile() != null){
+            model.setCardPiles(cardPiles);
+        }
+        else if (movePile() != null){
+           model.setCardPiles(cardPiles);
+        }
+        else if (discardToGame() != null){
+            model.setCardPiles(cardPiles);
+        }
+        else if(checkGameOver()){
+            model.setCardPiles(cardPiles);
+        }
+        else {
+            model.setCardPiles(newCardFromDeck());
+        }
+        model.setMsg(msg);
+        return model;
+
     }
 
-    public  CardPile[] startAlgorithm(CardPile[] cardPiles){
-        this.cardPiles = cardPiles;
-        return firstPrio();
-    }
-
-    // Tjekker at der er kort i deckpile ellers sætter den kort fra discard over
-    // Hvad hvis der ikke er flere kort tilbage?
-    public  CardPile[] firstPrio()   {
-        printGame();
-
-        //Tjekker om suitPiles er fulde og spillet er vundet
+    private boolean checkGameWon(){
         int counter = 0;
         for (int i = 9; i < 13; i++) {
             if (cardPiles[i].getSize() == 13){
                 counter++;
                 if (counter == 4){
-                    System.out.println("Du har vundet bruv :)");
-                    System.out.println("Antal træk: " + træk);
+                    msg = "You won the game in: " + moveTracker + " moves.";
+                    return true;
+
                 }
             }
         }
+        return false;
+    }
 
+    private CardPile[] deckpileEmpty()   {
+
+        //Tjekker om suitPiles er fulde og spillet er vundet
         //Hvis deckpile er tomt skal discardpilen flyttes over
         if (cardPiles[7].isEmpty() && cardPiles[8].getSize() >1){
             while(!cardPiles[8].isEmpty()){
                 cardPiles[7].addCard(cardPiles[8].pollLastCard());
             }
+            msg = "Flip and move discardpile to deckpile";
+            System.out.println("deckPileEmpty()");
+            return cardPiles;
         }
-        return flytTilSuit();
+        return null;
     }
 
-    // Tjekker hvis kort fra Gamepile og deckpile kan sættes op i suitpile
-    public  CardPile[] flytTilSuit()  {
+    private   CardPile[] moveToSuitPile()  {
         for (int i = 9; i < 13; i++) {
             for (int j = 0; j < 7; j++) {
                 if (cardPiles[i].canTake(cardPiles[j].top())) {
                     cardPiles[i].addCard(cardPiles[j].popCard());
-                    System.out.println("Metode 2. Flyt " + cardPiles[i].top() + " til suitPile.");
-                    formeget = 0;
+                    System.out.println("moveToSuitPile()");
+                    msg = "Move " + cardPiles[i].top() + " to suitpile " + (i-8);
+                 // System.out.println("Metode 2. Flyt " + cardPiles[i].top() + " til suitPile.");
+                    newCardCounter = 0;
                     return cardPiles;
                 }
             }
             if (cardPiles[i].canTake(cardPiles[8].top())) {
                 cardPiles[i].addCard(cardPiles[8].popCard());
-                System.out.println("Metode 2. Flyt " + cardPiles[i].top() + " til suitPile.");
-                formeget = 0;
+                System.out.println("moveToSuitPile()");
+                msg = "Move " + cardPiles[i].top() + " to suitpile " + (i-8);
+                newCardCounter = 0;
                 return cardPiles;
             }
         }
-        return movePile();
+        return null;
     }
 
-
-    // Flytter en pile til en anden pile
-    /*  Tjek alle bunker
-     Find bunke med flest faceup kort
-    Flyt til enten tom plads (Hvis konge) eller oven på anden pile
-    GENTJEKKE DENNE FORDI DET ER LIDT SVÆRT AT FINDE UD AF HVORDAN MAN SAMMENLIGNER ALLE PILES FOR AT FINNDE DEN MED FLEST FACEDOWN
-    Hvis der er 2 eller flere bunker der kan flyttes til den samme position skal den længeste bunke flyttes.
-    Hvis bunken kan flyttes til 2 forskellige positioner, flyttes den til den længeste. ellers den med mindst facedown.*/
-    int tooMuch = 0;
-    public CardPile[] flytEnBunke() {
-        int highestStreak = 1;
-        int selectedPile = 0;
-
-        // Finder den pile med flest faceup kort
-        for (int i = 0; i < 7; i++) {
-            if (!cardPiles[i].isEmpty()){
-                if (cardPiles[i].faceUpAmount() > highestStreak){
-                    for (int j = 0; j < 7; j++) {
-                         if (cardPiles[j] != null && cardPiles[i] != null) {
-                             if (cardPiles[i].canItStack(cardPiles[j])) {
-                                 selectedPile = i;
-                                 highestStreak = cardPiles[i].faceUpAmount();
-                             }
-                         }
-                    }
-                }
-            }
-        }
-        if (highestStreak < 2 ){
-            return flytEnkeltKort();
-        }
-
-        // Hvis pilen starer på konge:
-        if (cardPiles[selectedPile].backCard().getValue() == 12 && cardPiles[selectedPile].faceDownAmount() > 0){
-            for (int i = 0; i < 7; i++) {
-                if (cardPiles[i].isEmpty()){
-                    cardPiles[i].addPile(cardPiles[selectedPile].popAllFaceUp());
-                    System.out.println("Flytter konge / kongebunke");
-                    return cardPiles;
-                }
-            }
-        }
-
-        int receiverStreak = 0;
-        int recieverPile = 0;
-        for (int i = 0; i < 7; i++) {
-            if (!cardPiles[i].isEmpty()) {
-                if (cardPiles[selectedPile].canItStack(cardPiles[i]) && cardPiles[i].faceUpAmount() > receiverStreak) {
-                    recieverPile = i;
-                    receiverStreak = cardPiles[i].faceUpAmount();
-                }
-            }
-        }
-        if (recieverPile > 0){
-            cardPiles[recieverPile].addPile(cardPiles[selectedPile].popAllFaceUp());
-            System.out.println("flytter bunke " + cardPiles[selectedPile].top().toString() + " til " + cardPiles[recieverPile].top().toString());
-            return cardPiles;
-        }
-
-        return flytEnkeltKort();
-    }
-
-    public CardPile[] movePile() {
+    private CardPile[] movePile() {
         for(int i = 0; i < 7; i++) {
             Card backCard = cardPiles[i].backCard();
                 for (int j = 0; j < 7; j++) {
                     if (i == j || backCard == null) continue;
                     if (backCard.canItStack(cardPiles[j].top()) || (backCard.getValue() == 12 && cardPiles[j].isEmpty() && cardPiles[i].faceDownAmount() > 0)) {
                         cardPiles[j].addPile(cardPiles[i].popAllFaceUp());
-                        System.out.println("moved pile " + i + " to " + j);
-                        formeget = 0;
+                        msg = "move pile " + i + " to pile " + j;
+                        System.out.println("movePile()");
+                        newCardCounter = 0;
                         return cardPiles;
                     }
-
                 }
-
         }
-        return flytEnkeltKort();
+        return null;
     }
 
-
-    public CardPile[] flytEnkeltKort(){
-        for (int i = 0; i < 7 ; i++) {
-            if (!cardPiles[i].isEmpty()){
-                for (int j = 0; j < 7 ; j++) {
-                    if (!cardPiles[j].isEmpty() || cardPiles[i].top().getValue() == 12) {
-                        if (j != i) {
-                            if (cardPiles[i].top().canItStack(cardPiles[j].top()) && cardPiles[i].faceUpAmount() <= cardPiles[j].faceUpAmount()) {
-                                System.out.println("Metode 4: Kortet: " + cardPiles[i].top().toString() + " er flyttet fra bunke " + i + " til bunke " + j);
-                                cardPiles[j].addCard(cardPiles[i].popCard());
-                                formeget = 0;
-                                return cardPiles;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        return discardTilGame();
-    }
-
-
-
-
-    // Tjekker hvis kort fra deckpile/discard kan komme på gamepile plads
-    // Mulighed for at finde den bedste list at tilføje et kort til.
-    public  CardPile[] discardTilGame() {
+    private  CardPile[] discardToGame() {
         if (cardPiles[8].isEmpty()){
-            return eighthPrio();
+            return null;
         }
         for (int i = 0; i < 7; i++) {
             if (cardPiles[i].isEmpty()) {
                 if (cardPiles[8].top().getValue() == 12) {
                     cardPiles[i].addCard(cardPiles[8].popCard());
-                    System.out.println("Metode 7. Flyt " + cardPiles[i].top() + " til tilsvarende bunke.");
-                    formeget = 0;
+                    System.out.println("discardToGame()");
+                    msg = "Move "  + cardPiles[i].top() + " to pile " + i;
+                    newCardCounter = 0;
                     return cardPiles;
                 }
             }
             if (!cardPiles[i].isEmpty()){
                 if (cardPiles[8].top().getValue() == cardPiles[i].top().getValue() - 1
                         && cardPiles[8].top().getColor() != cardPiles[i].top().getColor()) {
-                    cardPiles[i].addCard(cardPiles[8].popCard());
-                    System.out.println("Metode 7. Flyt " + cardPiles[i].top() + " til tilsvarende bunke.");
-                    formeget = 0;
+                        cardPiles[i].addCard(cardPiles[8].popCard());
+                        msg = "Move "  + cardPiles[i].top() + " to pile " + i;
+                        System.out.println("discardToGame()");
+
+                    newCardCounter = 0;
                     return cardPiles;
                 }
             }
         }
-        return eighthPrio();
+        return null;
     }
 
-
-
-    public  CardPile[] eighthPrio() {
-        formeget++;
-        if (formeget > cardPiles[7].getSize() + cardPiles[8].getSize()) {
-            System.out.println("Tabt");
-            System.out.println("Antal træk: " + træk);
-            return null;
+    private boolean checkGameOver(){
+        newCardCounter++;
+        if (newCardCounter > cardPiles[7].getSize() + cardPiles[8].getSize()) {
+            System.out.println("checkGameOver()");
+            msg = "Game Over";
+          //  System.out.println("Antal træk: " + moveTracker);
+         //   System.exit(0);
+            return true;
         }
+
+        return false;
+    }
+
+    private  CardPile[] newCardFromDeck() {
         if (!cardPiles[7].isEmpty()) {
             cardPiles[8].addCard(cardPiles[7].popCard());
-            System.out.println("Metode 8. Træk et kort fra dækket.");
+            System.out.println("newCardFromDeck()");
+            msg = "Draw new card from the deckpile";
 
         }
         return cardPiles;
     }
 
-
-
-    public void printGame(){
+    private void printGame(){
         for (CardPile cardPile : cardPiles) {
             System.out.println(cardPile.printPile());
         }

@@ -31,9 +31,6 @@ public class PythonConnector extends Observable {
 
 
 
-
-
-
     public PythonConnector() throws IOException {
         ServerSocket server = new ServerSocket(8080);
         System.out.println("wait for connection on port 8080");

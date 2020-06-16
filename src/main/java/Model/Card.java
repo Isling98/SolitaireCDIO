@@ -22,6 +22,10 @@ public class Card {
         }
     }
 
+    public Card(){
+
+    }
+
     public void flipCard() {
         if (!faceup) {
             faceup = true;
