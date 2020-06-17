@@ -2,7 +2,7 @@ package Model.Piles;
 
 import Model.Card;
 
-import java.util.EmptyStackException;
+import java.io.IOException;
 import java.util.LinkedList;
 
 public abstract class CardPile {
@@ -24,7 +24,7 @@ public abstract class CardPile {
 
             Card tempcard = linkedCards.pop();
             if (linkedCards.size() > 0){
-                linkedCards.getFirst().flipCard();
+                linkedCards.getFirst().getAndFlip();
             }
 
             return tempcard;
@@ -35,9 +35,14 @@ public abstract class CardPile {
 
     }
 
-    public void flipTop() {
+    public void getAndFlip() throws IOException {
         if (linkedCards.size() > 0) {
-            this.top().flipCard();
+            this.top().getAndFlip();
+        }
+    }
+    public void onlyFlip()  {
+        if (linkedCards.size() > 0) {
+            this.top().flip();
         }
     }
 
@@ -48,7 +53,7 @@ public abstract class CardPile {
 
             Card tempcard = linkedCards.pollLast();
             if (linkedCards.size()> 0){
-                linkedCards.getFirst().flipCard();
+                linkedCards.getFirst().getAndFlip();
             }
 
             return tempcard;
@@ -98,12 +103,12 @@ public abstract class CardPile {
 
     // Sometimes overridden
 
-    public void addCard(Card card){
+    public void addCard(Card card) throws IOException {
         linkedCards.push(card);
     }
 
 
-    public LinkedList<Card> popAllFaceUp(){
+    public LinkedList<Card> popAllFaceUp() throws IOException {
         return null;
     }
 

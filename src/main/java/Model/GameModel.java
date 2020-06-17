@@ -1,12 +1,6 @@
 package Model;
 
 import Model.Piles.*;
-import Util.Observer;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
 
 public class GameModel {
 

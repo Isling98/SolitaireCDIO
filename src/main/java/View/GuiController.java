@@ -26,6 +26,15 @@ public class GuiController extends Application  {
 
     //Brug denne simulator for nu
 
+    public static PythonConnector pc;
+    static {
+        try {
+            pc = new PythonConnector();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     GameModel gameModel = new GameModel();
    // ObserverData observerData = new ObserverData(gameModel);
     AlgorithmSolitare algo = new AlgorithmSolitare();
@@ -38,6 +47,8 @@ public class GuiController extends Application  {
     private GamePileView[] gamePileViews = new GamePileView[7];
     GridPane root;
 
+    public GuiController() throws IOException {
+    }
 
 
     public static void main(String[] args) {
@@ -53,6 +64,7 @@ public class GuiController extends Application  {
         gameModel.setCardPiles(new SimGame().getCardPiles());
         deckPileView = new DeckPileView(gameModel.getCardPiles()[7].linkedCards);
         discardView = new DiscardView(gameModel.getCardPiles()[8].linkedCards);
+
 
         for (int i = 0; i < 4; i++) {
             suitPileView[i] = new SuitPileView(gameModel.getCardPiles()[9 + i].linkedCards);
@@ -71,7 +83,11 @@ public class GuiController extends Application  {
         EventHandler<MouseEvent> eventHandler = new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent e) {
-               makeMove(root);
+                try {
+                    makeMove(root);
+                } catch (IOException ioException) {
+                    ioException.printStackTrace();
+                }
             }
         };
 
@@ -89,7 +105,7 @@ public class GuiController extends Application  {
     }
 
 
-    public void makeMove(GridPane root)   {
+    public void makeMove(GridPane root) throws IOException {
             gameModel = algo.nextMove(gameModel.getCardPiles());
             update();
 

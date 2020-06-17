@@ -2,21 +2,23 @@ package Model.Piles;
 
 import Model.Card;
 
+import java.io.IOException;
+
 public class DiscardPile extends CardPile {
 
     @Override
-    public void addCard(Card card) {
+    public void addCard(Card card) throws IOException {
         if (!card.isFaceup()){
-            card.flipCard();
+            card.getAndFlip();
         }
         super.addCard(card);
     }
 
-    public void showTop(){
+    public void showTop() throws IOException {
         if (linkedCards.isEmpty()){
             return ;
         }
-        linkedCards.getFirst().flipCard();
+        linkedCards.getFirst().getAndFlip();
     }
 
 

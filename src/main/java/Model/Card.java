@@ -1,5 +1,9 @@
 package Model;
 
+import View.GuiController;
+
+import java.io.IOException;
+
 public class Card {
 
 
@@ -23,10 +27,23 @@ public class Card {
     }
 
     public Card(){
+        value = 0;
+        suit =0 ;
 
     }
 
-    public void flipCard() {
+    public void setCard(Card card){
+        this.value = card.getValue();
+        this.suit = card.getSuit();
+    }
+
+    public void getAndFlip() throws IOException {
+        if (!faceup) {
+            this.setCard(GuiController.pc.getSingleCard());
+            faceup = true;
+        }
+    }
+    public void flip()  {
         if (!faceup) {
             faceup = true;
         }

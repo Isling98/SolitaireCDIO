@@ -2,6 +2,8 @@ package Model;
 
 import Model.Piles.CardPile;
 
+import java.io.IOException;
+
 public class AlgorithmSolitare  {
     int newCardCounter = 0;
     int moveTracker = 0;
@@ -11,15 +13,13 @@ public class AlgorithmSolitare  {
     GameModel model = new GameModel();
     CardPile[] cardPiles;
 
-    public GameModel nextMove(CardPile[] cardPiles){
+    public GameModel nextMove(CardPile[] cardPiles) throws IOException {
 
         this.cardPiles = cardPiles;
-       // printGame();
+        printGame();
         moveTracker ++;
-        if (checkGameWon()){
-            model.setCardPiles(cardPiles);
-        }
-        else if (deckpileEmpty() != null){
+
+        if (deckpileEmpty() != null){
             model.setCardPiles(cardPiles);
         }
         else if(moveToSuitPile() != null){
@@ -37,18 +37,25 @@ public class AlgorithmSolitare  {
         else {
             model.setCardPiles(newCardFromDeck());
         }
+
+        if (checkGameWon()){
+            model.setCardPiles(cardPiles);
+        }
         model.setMsg(msg);
         return model;
 
     }
 
     private boolean checkGameWon(){
+
+        //Tjekker om suitPiles er fulde og spillet er vundet
+
         int counter = 0;
         for (int i = 9; i < 13; i++) {
             if (cardPiles[i].getSize() == 13){
                 counter++;
                 if (counter == 4){
-                    msg = "You won the game in: " + moveTracker + " moves.";
+                    msg += "\nYou won the game in: " + moveTracker + " moves.";
                     return true;
 
                 }
@@ -57,9 +64,7 @@ public class AlgorithmSolitare  {
         return false;
     }
 
-    private CardPile[] deckpileEmpty()   {
-
-        //Tjekker om suitPiles er fulde og spillet er vundet
+    private CardPile[] deckpileEmpty() throws IOException {
         //Hvis deckpile er tomt skal discardpilen flyttes over
         if (cardPiles[7].isEmpty() && cardPiles[8].getSize() >1){
             while(!cardPiles[8].isEmpty()){
@@ -72,7 +77,7 @@ public class AlgorithmSolitare  {
         return null;
     }
 
-    private   CardPile[] moveToSuitPile()  {
+    private   CardPile[] moveToSuitPile() throws IOException {
         for (int i = 9; i < 13; i++) {
             for (int j = 0; j < 7; j++) {
                 if (cardPiles[i].canTake(cardPiles[j].top())) {
@@ -95,11 +100,11 @@ public class AlgorithmSolitare  {
         return null;
     }
 
-    private CardPile[] movePile() {
+    private CardPile[] movePile() throws IOException {
         for(int i = 0; i < 7; i++) {
             Card backCard = cardPiles[i].backCard();
                 for (int j = 0; j < 7; j++) {
-                    if (i == j || backCard == null) continue;
+                    if (i == j || backCard == null){ continue;}
                     if (backCard.canItStack(cardPiles[j].top()) || (backCard.getValue() == 12 && cardPiles[j].isEmpty() && cardPiles[i].faceDownAmount() > 0)) {
                         cardPiles[j].addPile(cardPiles[i].popAllFaceUp());
                         msg = "move pile " + i + " to pile " + j;
@@ -112,7 +117,7 @@ public class AlgorithmSolitare  {
         return null;
     }
 
-    private  CardPile[] discardToGame() {
+    private  CardPile[] discardToGame() throws IOException {
         if (cardPiles[8].isEmpty()){
             return null;
         }
@@ -154,7 +159,7 @@ public class AlgorithmSolitare  {
         return false;
     }
 
-    private  CardPile[] newCardFromDeck() {
+    private  CardPile[] newCardFromDeck() throws IOException {
         if (!cardPiles[7].isEmpty()) {
             cardPiles[8].addCard(cardPiles[7].popCard());
             System.out.println("newCardFromDeck()");

@@ -1,8 +1,8 @@
 package Model.Piles;
 
 import Model.Card;
-import Model.Piles.CardPile;
 
+import java.io.IOException;
 import java.util.LinkedList;
 
 public class GamePile extends CardPile {
@@ -31,12 +31,12 @@ public class GamePile extends CardPile {
     }
 
     @Override
-    public LinkedList<Card> popAllFaceUp() {
+    public LinkedList<Card> popAllFaceUp() throws IOException {
         LinkedList<Card> tempList = new LinkedList<>();
         while (linkedCards.size() > 0 && this.top().isFaceup()) {
             tempList.addLast(linkedCards.pop());
         }
-        this.flipTop();
+        this.getAndFlip();
         return tempList;
     }
 

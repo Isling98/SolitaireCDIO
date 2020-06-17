@@ -2,30 +2,23 @@ package Simulation;
 
 import Model.*;
 import Model.Piles.*;
-import Util.Observer;
+import View.GuiController;
 
+import java.io.IOException;
 import java.util.*;
 
 public class SimGame  {
 
     public CardPile[] cardPiles = new CardPile[13];
-    private List<Observer> observers = new ArrayList<Observer>();
     public CardPile[] getCardPiles() {
         return cardPiles;
     }
     public void setCardPiles(CardPile[] cardPiles){
         this.cardPiles = cardPiles;
-   //     notifyUpdate();
-    }
-    public void attach(Observer observer){
-        observers.add(observer);
-    }
-      public void notifyUpdate(){
-        for (Observer observer: observers){
-            observer.update(); }
     }
 
-    public SimGame(){
+
+    public SimGame() throws IOException {
         ArrayList<Card> startDeck = new ArrayList<>();
         //Inserting all cards and shuffeling
         initDeck(startDeck);
@@ -53,12 +46,19 @@ public class SimGame  {
             cardPiles[7].addCard(startDeck.remove(0));
         }
 
+        // Method to retreive one card
+       /* Card card = GuiController.pc.getSingleCard();
+        cardPiles[0].top().setCard(card.getValue(),card.getSuit());
+        cardPiles[0].top().flipCard();*/
 
         //Flipping the last card in the game piles
+        Card[] startCards = GuiController.pc.getStartDeck();
         for (int i = 0; i < 7; i++) {
             if (!cardPiles[i].linkedCards.isEmpty()) {
                 {
-                    cardPiles[i].top().flipCard();
+                    Card tempCard = startCards[i];
+                    cardPiles[i].top().setCard(tempCard);
+                    cardPiles[i].onlyFlip();
                 }
             }
         }
@@ -68,7 +68,7 @@ public class SimGame  {
     private void initDeck(ArrayList<Card> deck){
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 13; j++) {
-                Card card = new Card(j, i);
+                Card card = new Card();
                 deck.add(card);
             }
         }
