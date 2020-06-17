@@ -78,6 +78,7 @@ public class GuiController extends Application  {
         msg.setFont(Font.font("Veranda", 25));
         msg.setTranslateY(300);
         msg.setWrapText(true);
+        msg.setStyle();
         root.add(msg,8,6);
         primaryStage.addEventFilter(MouseEvent.MOUSE_CLICKED, eventHandler);
         Scene solitaireScene = new Scene(root, WIDTH, HEIGHT);
