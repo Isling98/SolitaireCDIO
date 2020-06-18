@@ -24,6 +24,12 @@ public class GamePileView extends StackPane {
 
     public void createPiles(CardPile cardPile){
         getChildren().clear();
+
+        // blot indsat disse kort og sat dem invisable så bunkerne ikke rykker sig når de er tomme.
+        ImageView placeholder = new ImageView(Cards.getImage("fd"));
+        placeholder.setVisible(false);
+        getChildren().add(placeholder);
+
         for (int i = cardPile.getSize()-1; i >= 0; i--) {
             Card card = cardPile.linkedCards.get(i);
             ImageView imageView = new ImageView(Cards.getImage(card.toString()));

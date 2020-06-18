@@ -13,7 +13,7 @@ public class DiscardView extends HBox {
     ImageView image;
     public DiscardView(LinkedList<Card> cardPile) {
 
-        setPadding(new Insets(10));
+        setPadding(new Insets(10,0,10,0));
 
         String imgString = "";
         if (cardPile.isEmpty()) {

@@ -14,7 +14,7 @@ public class SuitPileView extends StackPane {
 
 
     public SuitPileView(LinkedList<Card> suitPile) {
-        setPadding(new Insets(5));
+        setPadding(new Insets(5,0,5,0));
         setStyle("-fx-border-color: lightgreen;" + "-fx-border-width: 3;" + "-fx-border-radius: 10.0");
             image = new ImageView();
             image.setVisible(false);
