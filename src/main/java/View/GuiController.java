@@ -65,6 +65,8 @@ public class GuiController extends Application  {
         }
         root.add(deckPileView, 0, 0);
         root.add(discardView, 1, 0);
+        // for det ikke rykker sig
+        
 
 
 
