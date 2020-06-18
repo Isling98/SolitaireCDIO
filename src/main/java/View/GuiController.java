@@ -3,22 +3,21 @@ package View;
 import Model.AlgorithmSolitare;
 import Model.GameModel;
 import Simulation.SimGame;
-import Util.PythonConnector;
 import javafx.application.Application;
 import javafx.event.EventHandler;
-import javafx.geometry.HPos;
+import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.GridPane;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.StackPane;
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Box;
+import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Font;
-import javafx.scene.text.Text;
 import javafx.stage.Stage;
-import jdk.nashorn.internal.ir.LiteralNode;
 
-import java.io.IOException;
-import java.util.Iterator;
 
 
 public class GuiController extends Application  {
@@ -30,13 +29,14 @@ public class GuiController extends Application  {
    // ObserverData observerData = new ObserverData(gameModel);
     AlgorithmSolitare algo = new AlgorithmSolitare();
     Label msg = new Label();
+    private StackPane stackPane = new StackPane();
     private static final int HEIGHT = 600;
     private static final int WIDTH = 1000;
     private DeckPileView deckPileView;
     private DiscardView discardView;
     private SuitPileView[] suitPileView = new SuitPileView[4];
     private GamePileView[] gamePileViews = new GamePileView[7];
-    GridPane root;
+    private GridPane root;
 
 
 
@@ -76,9 +76,17 @@ public class GuiController extends Application  {
         };
 
         msg.setFont(Font.font("Veranda", 25));
-        msg.setTranslateY(300);
         msg.setWrapText(true);
-        root.add(msg,8,6);
+
+        Rectangle rectangle = new Rectangle(340,80, Color.ALICEBLUE);
+        rectangle.setStroke(Color.BLACK);
+
+        stackPane.setTranslateY(300);
+        stackPane.setPadding(new Insets(5));
+        stackPane.getChildren().add(rectangle);
+        stackPane.getChildren().add(msg);
+
+        root.add(stackPane,8,6);
         primaryStage.addEventFilter(MouseEvent.MOUSE_CLICKED, eventHandler);
         Scene solitaireScene = new Scene(root, WIDTH, HEIGHT);
 
