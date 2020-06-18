@@ -66,7 +66,7 @@ public class GuiController extends Application  {
         root.add(deckPileView, 0, 0);
         root.add(discardView, 1, 0);
         // for det ikke rykker sig
-        
+
 
 
 
@@ -80,8 +80,10 @@ public class GuiController extends Application  {
         msg.setFont(Font.font("Veranda", 25));
         msg.setWrapText(true);
 
-        Rectangle rectangle = new Rectangle(340,80, Color.ALICEBLUE);
+        Rectangle rectangle = new Rectangle(330,80, Color.LIGHTGREEN);
         rectangle.setStroke(Color.BLACK);
+        rectangle.setArcHeight(20);
+        rectangle.setArcWidth(20);
 
         stackPane.setTranslateY(300);
         stackPane.setPadding(new Insets(5));
