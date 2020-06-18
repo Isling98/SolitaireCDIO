@@ -4,11 +4,12 @@ import View.GuiController;
 
 import java.io.IOException;
 
+
 public class Card {
 
-
-    // 0 = es, 1 = 1, 2 = 2... 11 = knægt 12 = dronning 13 = konge
+    // 0 = es, 1 = 2, 2 = 3... 10 = knægt 11 = dronning 12 = konge
     private int value;
+    // 0 = spades 1 = clubs = 2 = hearts 3 = diamonds
     private int suit;
 
     private int color; // 0 = sort , 1 = rød
@@ -35,6 +36,12 @@ public class Card {
     public void setCard(Card card){
         this.value = card.getValue();
         this.suit = card.getSuit();
+
+        if (getSuit() == 0 || getSuit() == 1) {
+            color = 0;
+        } else if (getSuit() == 2 || getSuit() == 3) {
+            color = 1;
+        }
     }
 
     public void getAndFlip() throws IOException {
@@ -67,6 +74,8 @@ public class Card {
 
     public boolean canItStack(Card card) {
         if (card == null) return false;
+        int val = getValue();
+        int col = getColor();
         return ((getValue() == card.getValue() - 1 && getColor() != card.getColor()));
     }
 

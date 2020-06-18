@@ -14,15 +14,10 @@ public class AlgorithmSolitare  {
     CardPile[] cardPiles;
 
     public GameModel nextMove(CardPile[] cardPiles) throws IOException {
-
         this.cardPiles = cardPiles;
-        printGame();
         moveTracker ++;
 
-        if (deckpileEmpty() != null){
-            model.setCardPiles(cardPiles);
-        }
-        else if(moveToSuitPile() != null){
+        if(moveToSuitPile() != null){ //
             model.setCardPiles(cardPiles);
         }
         else if (movePile() != null){
@@ -31,19 +26,22 @@ public class AlgorithmSolitare  {
         else if (discardToGame() != null){
             model.setCardPiles(cardPiles);
         }
-        else if(checkGameOver()){
+        else if (deckpileEmpty() != null){ //
+            model.setCardPiles(cardPiles);
+        }
+        else if(checkGameOver()){ //
             model.setCardPiles(cardPiles);
         }
         else {
-            model.setCardPiles(newCardFromDeck());
+            model.setCardPiles(newCardFromDeck()); //
         }
 
         if (checkGameWon()){
             model.setCardPiles(cardPiles);
         }
         model.setMsg(msg);
+    //    printGame();
         return model;
-
     }
 
     private boolean checkGameWon(){
@@ -68,7 +66,7 @@ public class AlgorithmSolitare  {
         //Hvis deckpile er tomt skal discardpilen flyttes over
         if (cardPiles[7].isEmpty() && cardPiles[8].getSize() >1){
             while(!cardPiles[8].isEmpty()){
-                cardPiles[7].addCard(cardPiles[8].pollLastCard());
+                cardPiles[7].addCard(cardPiles[8].popCard());
             }
             msg = "Flip and move discardpile to deckpile";
             System.out.println("deckPileEmpty()");
@@ -148,7 +146,7 @@ public class AlgorithmSolitare  {
 
     private boolean checkGameOver(){
         newCardCounter++;
-        if (newCardCounter > cardPiles[7].getSize() + cardPiles[8].getSize()) {
+        if (newCardCounter > 25){//  cardPiles[7].getSize() + cardPiles[8].getSize()) {
             System.out.println("checkGameOver()");
             msg = "Game Over";
           //  System.out.println("Antal træk: " + moveTracker);

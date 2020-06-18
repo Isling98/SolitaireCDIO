@@ -1,31 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05b7c33f-953f-4390-8f9b-72cab173444c" name="Default Changelist" comment="-Slettet gamle Controller.class&#10;-Lavet samlet metoder der kører igennem algometoderne.">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="05b7c33f-953f-4390-8f9b-72cab173444c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Model/AlgorithmSolitare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/AlgorithmSolitare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Model/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/GameModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/GameModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Model/Piles/CardPile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Piles/CardPile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Piles/DiscardPile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Piles/DiscardPile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Piles/GamePile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Piles/GamePile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Simulation/SimGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Simulation/SimGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Util/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Piles/DeckPile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Piles/DeckPile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Util/PythonConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/PythonConnector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/View/GuiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/GuiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controller/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/AlgorithmSolitare.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/Card.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/GameModel.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Model/Piles/CardPile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Piles/CardPile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/Piles/DiscardPile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Piles/DiscardPile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/Piles/GamePile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Piles/GamePile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Simulation/SimGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Simulation/SimGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Util/Observer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Util/PythonConnector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/GuiController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Piles/DeckPile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Piles/DeckPile.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +116,8 @@
       <workItem from="1592306939880" duration="12000" />
       <workItem from="1592307056674" duration="9885000" />
       <workItem from="1592320438591" duration="19000" />
-      <workItem from="1592394970557" duration="14287000" />
+      <workItem from="1592394970557" duration="14856000" />
+      <workItem from="1592469983833" duration="4765000" />
     </task>
     <task id="LOCAL-00001" summary="Ændret i lidt metoder">
       <created>1592037532307</created>
@@ -168,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592319494449</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Programmet snakker med python hvor der er lavet en slags simulation.&#10;&#10;Algoritmen har dog problemer med at rykke kort korrekt rundt pt.">
+      <created>1592412034319</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592412034319</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +174,8 @@
     <MESSAGE value="Så har algoritmen vundet sit første spil :D" />
     <MESSAGE value="GUI er sammenkoblet spillet" />
     <MESSAGE value="-Slettet gamle Controller.class&#10;-Lavet samlet metoder der kører igennem algometoderne.&#10;-Lavet constructor til at oprette kort uden data.&#10;-Sat tekst i GUI&#10;-Slettet ObserverData.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="-Slettet gamle Controller.class&#10;-Lavet samlet metoder der kører igennem algometoderne.&#10;-Lavet constructor til at oprette kort uden data.&#10;-Sat tekst i GUI&#10;-Slettet ObserverData.java" />
+    <MESSAGE value="Programmet snakker med python hvor der er lavet en slags simulation.&#10;&#10;Algoritmen har dog problemer med at rykke kort korrekt rundt pt." />
+    <option name="LAST_COMMIT_MESSAGE" value="Programmet snakker med python hvor der er lavet en slags simulation.&#10;&#10;Algoritmen har dog problemer med at rykke kort korrekt rundt pt." />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#Project_Structure" timestamp="1592307069724">
@@ -197,63 +191,68 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="260" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592306944708" />
-    <state x="766" y="391" width="387" height="261" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1592307505287">
+    <state x="766" y="391" width="433" height="265" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1592470382202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="766" y="391" width="433" height="265" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592470382202" />
     <state x="766" y="391" width="387" height="261" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1592307505287" />
     <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592406921527">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592406921527" />
-    <state x="291" y="135" width="1537" height="905" key="CommitChangelistDialog2" timestamp="1592319493287">
+    <state x="598" y="119" width="1537" height="905" key="CommitChangelistDialog2" timestamp="1592412033442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="598" y="119" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592146772170" />
+    <state x="598" y="119" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592412033442" />
     <state x="291" y="135" width="1537" height="905" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592319493287" />
     <state x="178" y="86" key="DiffContextDialog" timestamp="1592146756416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="178" y="86" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592146756416" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1592411709057">
+    <state width="1877" height="320" key="GridCell.Tab.0.bottom" timestamp="1592474683479">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592411709057" />
+    <state width="1877" height="320" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592474683479" />
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592319894396" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1592411709057">
+    <state width="1877" height="320" key="GridCell.Tab.0.center" timestamp="1592474683479">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592411709057" />
+    <state width="1877" height="320" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592474683479" />
     <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592319894396" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1592411709057">
+    <state width="1877" height="320" key="GridCell.Tab.0.left" timestamp="1592474683479">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592411709057" />
+    <state width="1877" height="320" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592474683479" />
     <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592319894395" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1592411709057">
+    <state width="1877" height="320" key="GridCell.Tab.0.right" timestamp="1592474683479">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592411709057" />
+    <state width="1877" height="320" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592474683479" />
     <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592319894396" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1592411708924">
+    <state width="1877" height="98" key="GridCell.Tab.1.bottom" timestamp="1592471717369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592411708924" />
+    <state width="1877" height="98" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592471717369" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592319894396" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1592411708924">
+    <state width="1877" height="98" key="GridCell.Tab.1.center" timestamp="1592471717369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592411708924" />
+    <state width="1877" height="98" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592471717369" />
     <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592319894396" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1592411708923">
+    <state width="1877" height="98" key="GridCell.Tab.1.left" timestamp="1592471717368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592411708923" />
+    <state width="1877" height="98" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592471717368" />
     <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592319894396" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1592411708924">
+    <state width="1877" height="98" key="GridCell.Tab.1.right" timestamp="1592471717369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592411708924" />
+    <state width="1877" height="98" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592471717369" />
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592319894396" />
+    <state x="600" y="282" width="969" height="476" key="MultipleFileMergeDialog" timestamp="1592474523832">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="600" y="282" width="969" height="476" key="MultipleFileMergeDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592474523832" />
     <state x="736" y="234" key="RollbackChangesDialog" timestamp="1592319474826">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -264,6 +263,10 @@
     </state>
     <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592146774212" />
     <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592319506840" />
+    <state x="772" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592474496332">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="772" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592474496332" />
     <state x="672" y="164" width="575" height="711" key="find.popup" timestamp="1592319124087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -282,6 +285,20 @@
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592145273635" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592309647429" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Model/AlgorithmSolitare.java</url>
+          <line>120</line>
+          <properties class="Model.AlgorithmSolitare">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SolitaireCDIO$GuiController.ic" NAME="GuiController Coverage Results" MODIFIED="1592315200961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

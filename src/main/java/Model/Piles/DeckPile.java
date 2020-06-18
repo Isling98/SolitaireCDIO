@@ -7,7 +7,7 @@ import java.util.EmptyStackException;
 public class DeckPile extends CardPile {
 
     // Kan ikke huske hvorfor dette blev indsat
-/*
+
     @Override
     public Card popCard(){
         try {
@@ -16,7 +16,7 @@ public class DeckPile extends CardPile {
         catch (EmptyStackException e) {
             System.out.println(e);
             return null;}
-    }*/
+    }
 
     @Override
     public String printPile() {

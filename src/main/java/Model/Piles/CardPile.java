@@ -32,7 +32,6 @@ public abstract class CardPile {
         catch (Exception e) {
             System.out.println(e);
             return null;}
-
     }
 
     public void getAndFlip() throws IOException {
@@ -91,16 +90,6 @@ public abstract class CardPile {
     }
 
 
-    public int faceUpAmount(){
-        int counter = 0;
-        for (int i = 0; i < linkedCards.size(); i++) {
-            if (linkedCards.get(i).isFaceup()){
-                counter++;
-            }
-        }
-        return counter;
-    }
-
     // Sometimes overridden
 
     public void addCard(Card card) throws IOException {
@@ -113,15 +102,11 @@ public abstract class CardPile {
     }
 
 
-
     public void addPile(LinkedList<Card> pile){
         for(int i = pile.size() - 1; i >= 0; i--) {
             linkedCards.add(0, pile.get(i));
         }
 
-    }
-
-    public void select (){ ;
     }
 
     public Card backCard(){

@@ -3,6 +3,7 @@ package View;
 import Model.AlgorithmSolitare;
 import Model.GameModel;
 import Simulation.SimGame;
+import Util.PythonConnector;
 import javafx.application.Application;
 import javafx.event.EventHandler;
 import javafx.geometry.Insets;
@@ -18,6 +19,7 @@ import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
 
+import java.io.IOException;
 
 
 public class GuiController extends Application  {

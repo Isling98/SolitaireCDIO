@@ -58,7 +58,7 @@ public class PythonConnector extends Observable {
         // System.out.println(fromClient);
          Gson g = new Gson();
          Card card =g.fromJson(fromClient, Card.class);
-         System.out.println(card.toString());
+         System.out.println(fromClient);
             return card; // card
      }
 
