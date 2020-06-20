@@ -7,6 +7,7 @@ import com.google.gson.Gson;
 import java.io.*;
 import java.net.*;
 import java.util.Observable;
+import java.util.Scanner;
 
 //Editor i observerpattern da det er her ny info om spillet kommer fra
 
@@ -32,6 +33,9 @@ public class PythonConnector extends Observable {
 
 
     public PythonConnector() throws IOException {
+        System.out.println("Tryk for at starte forbindelse");
+        Scanner scanner = new Scanner(System.in);
+        scanner.nextLine();
         server = new ServerSocket(8080);
         System.out.println("wait for connection on port 8080");
         client = server.accept();

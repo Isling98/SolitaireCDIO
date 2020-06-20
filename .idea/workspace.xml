@@ -3,14 +3,71 @@
   <component name="ChangeListManager">
     <list default="true" id="05b7c33f-953f-4390-8f9b-72cab173444c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/AlgorithmSolitare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/AlgorithmSolitare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Piles/CardPile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Piles/CardPile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Piles/DeckPile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Piles/DeckPile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Util/PythonConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/PythonConnector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/View/GuiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/GuiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/Piles/CardPile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Piles/CardPile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/Piles/DeckPile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Piles/DeckPile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/2c.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/2d.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/2h.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/2s.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/3c.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/3d.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/3h.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/3s.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/4c.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/4d.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/4h.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/4s.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/5c.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/5d.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/5h.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/5s.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/6c.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/6d.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/6h.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/6s.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/7c.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/7d.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/7h.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/7s.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/8c.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/8d.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/8h.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/8s.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/9c.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/9d.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/9h.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/9s.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Piles/CardPile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Piles/DeckPile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Piles/DiscardPile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Piles/GamePile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Piles/SuitPile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Simulation/SimGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View/Cards.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View/DeckPileView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View/DiscardView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View/GamePileView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View/SuitPileView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ac.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ad.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ah.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/as.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fd.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jd.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jh.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/js.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kd.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kh.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ks.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/qc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/qd.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/qh.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/qs.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/td.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/th.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ts.gif" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +88,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -51,6 +109,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592059319183" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.20622568" />
@@ -58,20 +119,24 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.GuiController">
-    <configuration name="Controller" type="Application" factoryName="Application" singleton="true" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Controller.Controller" />
-      <module name="SolitaireCDIO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Model" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn package" />
+      <command value="mvn clean install" />
+      <command value="mvn clean package" />
+      <command value="mvn clean compile" />
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager">
     <configuration name="GuiController" type="Application" factoryName="Application" singleton="true" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="View.GuiController" />
       <module name="SolitaireCDIO" />
@@ -85,14 +150,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.Controller" />
-      <item itemvalue="Application.GuiController" />
-    </list>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.GuiController" />
-        <item itemvalue="Application.Controller" />
       </list>
     </recent_temporary>
   </component>
@@ -117,7 +184,8 @@
       <workItem from="1592307056674" duration="9885000" />
       <workItem from="1592320438591" duration="19000" />
       <workItem from="1592394970557" duration="14856000" />
-      <workItem from="1592469983833" duration="4765000" />
+      <workItem from="1592469983833" duration="9468000" />
+      <workItem from="1592638241801" duration="706000" />
     </task>
     <task id="LOCAL-00001" summary="Ændret i lidt metoder">
       <created>1592037532307</created>
@@ -161,7 +229,21 @@
       <option name="project" value="LOCAL" />
       <updated>1592412034319</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Algoritmen virker med python nu">
+      <created>1592475026826</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592475026827</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Simuolator fjernet da python sim virker">
+      <created>1592638280865</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1592638280865</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,13 +257,19 @@
     <MESSAGE value="GUI er sammenkoblet spillet" />
     <MESSAGE value="-Slettet gamle Controller.class&#10;-Lavet samlet metoder der kører igennem algometoderne.&#10;-Lavet constructor til at oprette kort uden data.&#10;-Sat tekst i GUI&#10;-Slettet ObserverData.java" />
     <MESSAGE value="Programmet snakker med python hvor der er lavet en slags simulation.&#10;&#10;Algoritmen har dog problemer med at rykke kort korrekt rundt pt." />
-    <option name="LAST_COMMIT_MESSAGE" value="Programmet snakker med python hvor der er lavet en slags simulation.&#10;&#10;Algoritmen har dog problemer med at rykke kort korrekt rundt pt." />
+    <MESSAGE value="Algoritmen virker med python nu" />
+    <MESSAGE value="Simuolator fjernet da python sim virker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simuolator fjernet da python sim virker" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#Project_Structure" timestamp="1592307069724">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1592307069724" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592481394064">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592481394064" />
     <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1592396795870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -200,54 +288,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592406921527" />
-    <state x="598" y="119" width="1537" height="905" key="CommitChangelistDialog2" timestamp="1592412033442">
+    <state x="291" y="135" width="1537" height="905" key="CommitChangelistDialog2" timestamp="1592638279570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="598" y="119" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592412033442" />
-    <state x="291" y="135" width="1537" height="905" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592319493287" />
-    <state x="178" y="86" key="DiffContextDialog" timestamp="1592146756416">
+    <state x="598" y="119" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592475026125" />
+    <state x="291" y="135" width="1537" height="905" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592638279570" />
+    <state x="178" y="86" width="1536" height="861" key="DiffContextDialog" timestamp="1592480686755">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="178" y="86" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592146756416" />
-    <state width="1877" height="320" key="GridCell.Tab.0.bottom" timestamp="1592474683479">
+    <state x="178" y="86" width="1536" height="861" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592480686755" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1592479982504">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="320" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592474683479" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592479982504" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1592481699670">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592481699670" />
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592319894396" />
-    <state width="1877" height="320" key="GridCell.Tab.0.center" timestamp="1592474683479">
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1592481699670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="320" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592474683479" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592481699670" />
     <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592319894396" />
-    <state width="1877" height="320" key="GridCell.Tab.0.left" timestamp="1592474683479">
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1592481699669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="320" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592474683479" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592481699669" />
     <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592319894395" />
-    <state width="1877" height="320" key="GridCell.Tab.0.right" timestamp="1592474683479">
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1592481699670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="320" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592474683479" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592481699670" />
     <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592319894396" />
-    <state width="1877" height="98" key="GridCell.Tab.1.bottom" timestamp="1592471717369">
+    <state width="1877" height="98" key="GridCell.Tab.1.bottom" timestamp="1592481699667">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="98" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592471717369" />
+    <state width="1877" height="98" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592481699667" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592319894396" />
-    <state width="1877" height="98" key="GridCell.Tab.1.center" timestamp="1592471717369">
+    <state width="1877" height="98" key="GridCell.Tab.1.center" timestamp="1592481699667">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="98" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592471717369" />
+    <state width="1877" height="98" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592481699667" />
     <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592319894396" />
-    <state width="1877" height="98" key="GridCell.Tab.1.left" timestamp="1592471717368">
+    <state width="1877" height="98" key="GridCell.Tab.1.left" timestamp="1592481699667">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="98" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592471717368" />
+    <state width="1877" height="98" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592481699667" />
     <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592319894396" />
-    <state width="1877" height="98" key="GridCell.Tab.1.right" timestamp="1592471717369">
+    <state width="1877" height="98" key="GridCell.Tab.1.right" timestamp="1592481699667">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="98" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592471717369" />
+    <state width="1877" height="98" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592481699667" />
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592319894396" />
     <state x="600" y="282" width="969" height="476" key="MultipleFileMergeDialog" timestamp="1592474523832">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -258,27 +350,32 @@
     </state>
     <state x="736" y="234" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592141011264" />
     <state x="736" y="234" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592319474826" />
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1592319506840">
+    <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1592638282565">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592146774212" />
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592319506840" />
+    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592475029589" />
+    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592638282565" />
     <state x="772" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592474496332">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="772" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592474496332" />
-    <state x="672" y="164" width="575" height="711" key="find.popup" timestamp="1592319124087">
+    <state x="731" y="343" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1592479739271">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="672" y="164" width="575" height="711" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592145196761" />
+    <state x="731" y="343" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592479739271" />
+    <state x="672" y="164" width="575" height="711" key="find.popup" timestamp="1592476203013">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="672" y="164" width="575" height="711" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592476203013" />
     <state x="672" y="164" width="575" height="711" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592319124087" />
     <state x="342" y="147" key="new project wizard" timestamp="1592320451960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="342" y="147" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1592320451960" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1592307904800">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1592476629426">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592476629426" />
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592307904800" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1592309647429">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -291,7 +388,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Model/AlgorithmSolitare.java</url>
-          <line>120</line>
+          <line>127</line>
           <properties class="Model.AlgorithmSolitare">
             <option name="EMULATED" value="true" />
           </properties>

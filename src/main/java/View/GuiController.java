@@ -19,6 +19,7 @@ import javafx.scene.text.Font;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.Scanner;
 
 
 public class GuiController extends Application  {
@@ -58,7 +59,6 @@ public class GuiController extends Application  {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-
         root = new GridPane();
         root.setStyle("-fx-background-color: green");
 
