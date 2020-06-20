@@ -13,6 +13,13 @@ public class AlgorithmSolitare  {
     GameModel model = new GameModel();
     CardPile[] cardPiles;
 
+    public AlgorithmSolitare() throws IOException {
+    }
+
+    public void setCardPiles(CardPile[] cardPiles) {
+        this.cardPiles = cardPiles;
+    }
+
     public GameModel nextMove(CardPile[] cardPiles) throws IOException {
         this.cardPiles = cardPiles;
         moveTracker ++;
@@ -44,7 +51,7 @@ public class AlgorithmSolitare  {
         return model;
     }
 
-    private boolean checkGameWon(){
+    public boolean checkGameWon(){
 
         //Tjekker om suitPiles er fulde og spillet er vundet
 
@@ -62,7 +69,7 @@ public class AlgorithmSolitare  {
         return false;
     }
 
-    private CardPile[] deckpileEmpty() throws IOException {
+    public CardPile[] deckpileEmpty() throws IOException {
         //Hvis deckpile er tomt skal discardpilen flyttes over
         if (cardPiles[7].isEmpty() && cardPiles[8].getSize() >1){
             while(!cardPiles[8].isEmpty()){
@@ -75,7 +82,7 @@ public class AlgorithmSolitare  {
         return null;
     }
 
-    private   CardPile[] moveToSuitPile() throws IOException {
+    public   CardPile[] moveToSuitPile() throws IOException {
         for (int i = 9; i < 13; i++) {
             for (int j = 0; j < 7; j++) {
                 if (cardPiles[i].canTake(cardPiles[j].top())) {
@@ -98,7 +105,7 @@ public class AlgorithmSolitare  {
         return null;
     }
 
-    private CardPile[] movePile() throws IOException {
+    public CardPile[] movePile() throws IOException {
         for(int i = 0; i < 7; i++) {
             Card backCard = cardPiles[i].backCard();
                 for (int j = 0; j < 7; j++) {
@@ -115,7 +122,7 @@ public class AlgorithmSolitare  {
         return null;
     }
 
-    private  CardPile[] discardToGame() throws IOException {
+    public  CardPile[] discardToGame() throws IOException {
         if (cardPiles[8].isEmpty()){
             return null;
         }
@@ -144,7 +151,7 @@ public class AlgorithmSolitare  {
         return null;
     }
 
-    private boolean checkGameOver(){
+    public boolean checkGameOver(){
         newCardCounter++;
         if (newCardCounter > 25){//  cardPiles[7].getSize() + cardPiles[8].getSize()) {
             System.out.println("checkGameOver()");
@@ -157,7 +164,7 @@ public class AlgorithmSolitare  {
         return false;
     }
 
-    private  CardPile[] newCardFromDeck() throws IOException {
+    public  CardPile[] newCardFromDeck() throws IOException {
         if (!cardPiles[7].isEmpty()) {
             cardPiles[8].addCard(cardPiles[7].popCard());
             System.out.println("newCardFromDeck()");
@@ -167,7 +174,7 @@ public class AlgorithmSolitare  {
         return cardPiles;
     }
 
-    private void printGame(){
+    public void printGame(){
         for (CardPile cardPile : cardPiles) {
             System.out.println(cardPile.printPile());
         }
