@@ -38,7 +38,7 @@ public class GuiController extends Application  {
 
     GameModel gameModel = new GameModel();
    // ObserverData observerData = new ObserverData(gameModel);
-    AlgorithmSolitare algo = new AlgorithmSolitare();
+    AlgorithmSolitare algo = new AlgorithmSolitare(gameModel);
     Label msg = new Label();
     private StackPane stackPane = new StackPane();
     private static final int HEIGHT = 600;

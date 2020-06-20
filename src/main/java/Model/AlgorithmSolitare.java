@@ -13,8 +13,8 @@ public class AlgorithmSolitare  {
     GameModel model;
     CardPile[] cardPiles;
 
-    public AlgorithmSolitare() throws IOException {
-
+    public AlgorithmSolitare(GameModel model) throws IOException {
+    this.model = model;
     }
 
     public void setCardPiles(CardPile[] cardPiles) {
