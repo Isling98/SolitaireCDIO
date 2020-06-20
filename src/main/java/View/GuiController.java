@@ -118,13 +118,14 @@ public class GuiController extends Application  {
 
 
     public void makeMove(GridPane root) throws IOException {
-            gameModel = algo.nextMove(gameModel.getCardPiles());
-            update();
 
+        update();
+        gameModel = algo.nextMove(gameModel.getCardPiles());
+        updateMsg();
     }
     public void update(){
 
-        msg.setText(gameModel.toString());
+
 
         for (int i = 0; i < 7; i++) {
             gamePileViews[i].createPiles(gameModel.getCardPiles()[i]);
@@ -136,5 +137,9 @@ public class GuiController extends Application  {
         discardView.updateView(gameModel.getCardPiles()[8]);
         deckPileView.updateView(gameModel.getCardPiles()[7]);
 
+    }
+
+    public void updateMsg(){
+        msg.setText(gameModel.toString());
     }
 }
