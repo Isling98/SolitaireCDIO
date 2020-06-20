@@ -1,73 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05b7c33f-953f-4390-8f9b-72cab173444c" name="Default Changelist" comment="">
+    <list default="true" id="05b7c33f-953f-4390-8f9b-72cab173444c" name="Default Changelist" comment="Opsat startprompter til java.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/AlgorithmSolitareOnlyMsg.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/AlgorithmSolitare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/AlgorithmSolitare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/View/GuiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/GuiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/2c.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/2d.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/2h.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/2s.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/3c.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/3d.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/3h.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/3s.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/4c.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/4d.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/4h.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/4s.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/5c.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/5d.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/5h.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/5s.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/6c.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/6d.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/6h.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/6s.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/7c.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/7d.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/7h.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/7s.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/8c.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/8d.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/8h.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/8s.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/9c.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/9d.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/9h.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/9s.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/Piles/CardPile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/Piles/DeckPile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/Piles/DiscardPile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/Piles/GamePile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/Piles/SuitPile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Simulation/SimGame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/Cards.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/DeckPileView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/DiscardView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/GamePileView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/SuitPileView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ad.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ah.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/as.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fd.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jd.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jh.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kd.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kh.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/qc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/qd.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/qh.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/qs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/td.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/th.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ts.gif" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +59,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Model" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -185,7 +126,8 @@
       <workItem from="1592320438591" duration="19000" />
       <workItem from="1592394970557" duration="14856000" />
       <workItem from="1592469983833" duration="9468000" />
-      <workItem from="1592638241801" duration="706000" />
+      <workItem from="1592638241801" duration="5228000" />
+      <workItem from="1592665495970" duration="5139000" />
     </task>
     <task id="LOCAL-00001" summary="Ændret i lidt metoder">
       <created>1592037532307</created>
@@ -243,7 +185,56 @@
       <option name="project" value="LOCAL" />
       <updated>1592638280865</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Opsat startprompter til java.">
+      <created>1592639249217</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1592639249217</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Opsat startprompter til java.">
+      <created>1592639424537</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1592639424537</updated>
+    </task>
+    <task id="LOCAL-00011" summary="bugfix">
+      <created>1592643141740</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1592643141740</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Test">
+      <created>1592643816229</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1592643816229</updated>
+    </task>
+    <task id="LOCAL-00013" summary="LOAs">
+      <created>1592643902777</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1592643902777</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Ændret kontruktør algo">
+      <created>1592644534177</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1592644534177</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Ændret flowet på gui">
+      <created>1592665696317</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1592665696317</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +250,13 @@
     <MESSAGE value="Programmet snakker med python hvor der er lavet en slags simulation.&#10;&#10;Algoritmen har dog problemer med at rykke kort korrekt rundt pt." />
     <MESSAGE value="Algoritmen virker med python nu" />
     <MESSAGE value="Simuolator fjernet da python sim virker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simuolator fjernet da python sim virker" />
+    <MESSAGE value="Opsat startprompter til java." />
+    <MESSAGE value="bugfix" />
+    <MESSAGE value="Test" />
+    <MESSAGE value="LOAs" />
+    <MESSAGE value="Ændret kontruktør algo" />
+    <MESSAGE value="Ændret flowet på gui" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ændret flowet på gui" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#Project_Structure" timestamp="1592307069724">
@@ -288,11 +285,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592406921527" />
-    <state x="291" y="135" width="1537" height="905" key="CommitChangelistDialog2" timestamp="1592638279570">
+    <state x="598" y="119" width="1537" height="905" key="CommitChangelistDialog2" timestamp="1592665695574">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="598" y="119" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592475026125" />
-    <state x="291" y="135" width="1537" height="905" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592638279570" />
+    <state x="598" y="119" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592665695574" />
+    <state x="304" y="39" width="1537" height="905" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592644533624" />
     <state x="178" y="86" width="1536" height="861" key="DiffContextDialog" timestamp="1592480686755">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -301,26 +298,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592479982504" />
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1592481699670">
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1592682032689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592481699670" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592319894396" />
-    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1592481699670">
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592682032689" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592646466432" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1592682032689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592481699670" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592319894396" />
-    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1592481699669">
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592682032689" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592646466432" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1592682032689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592481699669" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592319894395" />
-    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1592481699670">
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592682032689" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592646466432" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1592682032689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592481699670" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592319894396" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592682032689" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592646466432" />
     <state width="1877" height="98" key="GridCell.Tab.1.bottom" timestamp="1592481699667">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -350,11 +347,11 @@
     </state>
     <state x="736" y="234" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592141011264" />
     <state x="736" y="234" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592319474826" />
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1592638282565">
+    <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1592665700767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592475029589" />
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592638282565" />
+    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592665700767" />
+    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592644535193" />
     <state x="772" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592474496332">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -388,7 +385,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Model/AlgorithmSolitare.java</url>
-          <line>127</line>
+          <line>126</line>
           <properties class="Model.AlgorithmSolitare">
             <option name="EMULATED" value="true" />
           </properties>

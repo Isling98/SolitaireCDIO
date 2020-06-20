@@ -1,6 +1,7 @@
 package View;
 
 import Model.AlgorithmSolitare;
+import Model.AlgorithmSolitareOnlyMsg;
 import Model.GameModel;
 import Util.PythonConnector;
 import javafx.application.Application;
@@ -36,9 +37,12 @@ public class GuiController extends Application  {
         }
     }
 
+
+
     GameModel gameModel = new GameModel();
    // ObserverData observerData = new ObserverData(gameModel);
     AlgorithmSolitare algo = new AlgorithmSolitare(gameModel);
+    AlgorithmSolitareOnlyMsg msgPrompt = new AlgorithmSolitareOnlyMsg(gameModel);
     Label msg = new Label();
     private StackPane stackPane = new StackPane();
     private static final int HEIGHT = 600;
@@ -114,18 +118,19 @@ public class GuiController extends Application  {
         primaryStage.setTitle("7-kabale");
         primaryStage.setScene(solitaireScene);
         primaryStage.show();
+
+        msgPrompt.nextMsg(gameModel.getCardPiles());
+        updateMsg();
     }
 
 
     public void makeMove(GridPane root) throws IOException {
-
-        update();
         gameModel = algo.nextMove(gameModel.getCardPiles());
+        msgPrompt.nextMsg(gameModel.getCardPiles());
+        update();
         updateMsg();
     }
     public void update(){
-
-
 
         for (int i = 0; i < 7; i++) {
             gamePileViews[i].createPiles(gameModel.getCardPiles()[i]);
