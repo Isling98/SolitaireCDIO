@@ -62,8 +62,6 @@ public class GuiController extends Application  {
         root = new GridPane();
         root.setStyle("-fx-background-color: green");
 
-
-
         deckPileView = new DeckPileView(gameModel.getCardPiles()[7].linkedCards);
         discardView = new DiscardView(gameModel.getCardPiles()[8].linkedCards);
 
