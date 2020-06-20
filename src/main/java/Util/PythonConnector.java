@@ -33,13 +33,14 @@ public class PythonConnector extends Observable {
 
 
     public PythonConnector() throws IOException {
-        System.out.println("Tryk for at starte forbindelse");
-        Scanner scanner = new Scanner(System.in);
-        scanner.nextLine();
+
         server = new ServerSocket(8080);
         System.out.println("wait for connection on port 8080");
         client = server.accept();
         System.out.println("got connection on port 8080");
+        System.out.println("Tryk når python er klar");
+        Scanner scanner = new Scanner(System.in);
+        scanner.nextLine();
 
     }
 
