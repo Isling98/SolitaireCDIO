@@ -86,7 +86,7 @@ public class Card {
             return "fd";
         }
         else return
-                valueToString(value)+suitToString(suit);
+                valueToString(this.getValue())+suitToString(suit);
     }
 
     public String suitToString (int value){

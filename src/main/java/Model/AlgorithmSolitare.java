@@ -7,7 +7,6 @@ import java.io.IOException;
 public class AlgorithmSolitare  {
     int newCardCounter = 0;
     int moveTracker = 0;
-    String msg = "";
 
 
     GameModel model;
@@ -45,7 +44,6 @@ public class AlgorithmSolitare  {
         if (checkGameWon()){
             model.setCardPiles(cardPiles);
         }
-        model.setMsg(msg);
     //    printGame();
         return model;
     }
@@ -59,7 +57,6 @@ public class AlgorithmSolitare  {
             if (cardPiles[i].getSize() == 13){
                 counter++;
                 if (counter == 4){
-                    msg += "\nYou won the game in: " + moveTracker + " moves.";
                     return true;
 
                 }
@@ -74,7 +71,6 @@ public class AlgorithmSolitare  {
             while(!cardPiles[8].isEmpty()){
                 cardPiles[7].addCard(cardPiles[8].popCard());
             }
-            msg = "Flip and move discardpile to deckpile";
             System.out.println("deckPileEmpty()");
             return cardPiles;
         }
@@ -87,7 +83,6 @@ public class AlgorithmSolitare  {
                 if (cardPiles[i].canTake(cardPiles[j].top())) {
                     cardPiles[i].addCard(cardPiles[j].popCard());
                     System.out.println("moveToSuitPile()");
-                    msg = "Move " + cardPiles[i].top() + " to suitpile " + (i-8);
                  // System.out.println("Metode 2. Flyt " + cardPiles[i].top() + " til suitPile.");
                     newCardCounter = 0;
                     return cardPiles;
@@ -96,7 +91,6 @@ public class AlgorithmSolitare  {
             if (cardPiles[i].canTake(cardPiles[8].top())) {
                 cardPiles[i].addCard(cardPiles[8].popCard());
                 System.out.println("moveToSuitPile()");
-                msg = "Move " + cardPiles[i].top() + " to suitpile " + (i-8);
                 newCardCounter = 0;
                 return cardPiles;
             }
@@ -111,7 +105,6 @@ public class AlgorithmSolitare  {
                     if (i == j || backCard == null){ continue;}
                     if (backCard.canItStack(cardPiles[j].top()) || (backCard.getValue() == 12 && cardPiles[j].isEmpty() && cardPiles[i].faceDownAmount() > 0)) {
                         cardPiles[j].addPile(cardPiles[i].popAllFaceUp());
-                        msg = "move pile " + i + " to pile " + j;
                         System.out.println("movePile()");
                         newCardCounter = 0;
                         return cardPiles;
@@ -130,7 +123,6 @@ public class AlgorithmSolitare  {
                 if (cardPiles[8].top().getValue() == 12) {
                     cardPiles[i].addCard(cardPiles[8].popCard());
                     System.out.println("discardToGame()");
-                    msg = "Move "  + cardPiles[i].top() + " to pile " + i;
                     newCardCounter = 0;
                     return cardPiles;
                 }
@@ -139,7 +131,6 @@ public class AlgorithmSolitare  {
                 if (cardPiles[8].top().getValue() == cardPiles[i].top().getValue() - 1
                         && cardPiles[8].top().getColor() != cardPiles[i].top().getColor()) {
                         cardPiles[i].addCard(cardPiles[8].popCard());
-                        msg = "Move "  + cardPiles[i].top() + " to pile " + i;
                         System.out.println("discardToGame()");
 
                     newCardCounter = 0;
@@ -154,7 +145,6 @@ public class AlgorithmSolitare  {
         newCardCounter++;
         if (newCardCounter > 25){//  cardPiles[7].getSize() + cardPiles[8].getSize()) {
             System.out.println("checkGameOver()");
-            msg = "Game Over";
           //  System.out.println("Antal træk: " + moveTracker);
          //   System.exit(0);
             return true;
@@ -167,8 +157,6 @@ public class AlgorithmSolitare  {
         if (!cardPiles[7].isEmpty()) {
             cardPiles[8].addCard(cardPiles[7].popCard());
             System.out.println("newCardFromDeck()");
-            msg = "Draw new card from the deckpile";
-
         }
         return cardPiles;
     }

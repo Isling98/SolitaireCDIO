@@ -127,8 +127,9 @@ public class GuiController extends Application  {
     public void makeMove(GridPane root) throws IOException {
         gameModel = algo.nextMove(gameModel.getCardPiles());
         msgPrompt.nextMsg(gameModel.getCardPiles());
-        update();
         updateMsg();
+        update();
+
     }
     public void update(){
 
