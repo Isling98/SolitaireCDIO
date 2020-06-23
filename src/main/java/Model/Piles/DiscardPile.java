@@ -1,15 +1,20 @@
 package Model.Piles;
 
 import Model.Card;
+import Util.PythonConnector;
 
 import java.io.IOException;
 
 public class DiscardPile extends CardPile {
 
+    public DiscardPile(PythonConnector pc) {
+        super(pc);
+    }
+
     @Override
     public void addCard(Card card) throws IOException {
         if (!card.isFaceup()){
-            card.getAndFlip();
+            card.getAndFlip(pc);
         }
         super.addCard(card);
     }
@@ -18,7 +23,7 @@ public class DiscardPile extends CardPile {
         if (linkedCards.isEmpty()){
             return ;
         }
-        linkedCards.getFirst().getAndFlip();
+        linkedCards.getFirst().getAndFlip(pc);
     }
 
 

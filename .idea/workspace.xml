@@ -1,10 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="05b7c33f-953f-4390-8f9b-72cab173444c" name="Default Changelist" comment="Opsat startprompter til java.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/AlgorithmSolitareOnlyMsg.java" afterDir="false" />
+    <list default="true" id="05b7c33f-953f-4390-8f9b-72cab173444c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Model/AlgorithmSolitareTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Model/AlgorithmSolitare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/AlgorithmSolitare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/GameModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/GameModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Piles/CardPile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Piles/CardPile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Piles/DeckPile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Piles/DeckPile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Piles/DiscardPile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Piles/DiscardPile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Piles/GamePile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Piles/GamePile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Piles/SuitPile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Piles/SuitPile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Util/PythonConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/PythonConnector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/View/Cards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/Cards.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/View/GuiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/GuiController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +95,10 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gust1\IdeaProjects\SolitaireCDIO\src\main\resources" />
+      <recent name="C:\Users\gust1\IdeaProjects\SolitaireCDIO\src\main\resources\resources" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -75,9 +107,10 @@
       <command value="mvn clean package" />
       <command value="mvn clean compile" />
       <command value="mvn install" />
+      <command value="mvn jfx:jar" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AlgorithmSolitareTest.winRate">
     <configuration name="GuiController" type="Application" factoryName="Application" singleton="true" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="View.GuiController" />
       <module name="SolitaireCDIO" />
@@ -91,6 +124,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AlgorithmSolitareTest.winRate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SolitaireCDIO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Model" />
+      <option name="MAIN_CLASS_NAME" value="Model.AlgorithmSolitareTest" />
+      <option name="METHOD_NAME" value="winRate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
@@ -100,6 +150,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AlgorithmSolitareTest.winRate" />
         <item itemvalue="Application.GuiController" />
       </list>
     </recent_temporary>
@@ -127,7 +178,9 @@
       <workItem from="1592394970557" duration="14856000" />
       <workItem from="1592469983833" duration="9468000" />
       <workItem from="1592638241801" duration="5228000" />
-      <workItem from="1592665495970" duration="5139000" />
+      <workItem from="1592665495970" duration="6440000" />
+      <workItem from="1592741862728" duration="2363000" />
+      <workItem from="1592900758283" duration="2989000" />
     </task>
     <task id="LOCAL-00001" summary="Ændret i lidt metoder">
       <created>1592037532307</created>
@@ -234,11 +287,46 @@
       <option name="project" value="LOCAL" />
       <updated>1592665696317</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Har lavet seperat msgPrompter der er baseret på algoritmen så det pågældende træk kan laves inden algoritme laver næste træk i gm">
+      <created>1592682201063</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1592682201063</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Har lavet seperat msgPrompter der er baseret på algoritmen så det pågældende træk kan laves inden algoritme laver næste træk i gm&#10;Fixet flowet">
+      <created>1592683452188</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1592683452188</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -256,7 +344,9 @@
     <MESSAGE value="LOAs" />
     <MESSAGE value="Ændret kontruktør algo" />
     <MESSAGE value="Ændret flowet på gui" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ændret flowet på gui" />
+    <MESSAGE value="Har lavet seperat msgPrompter der er baseret på algoritmen så det pågældende træk kan laves inden algoritme laver næste træk i gm" />
+    <MESSAGE value="Har lavet seperat msgPrompter der er baseret på algoritmen så det pågældende træk kan laves inden algoritme laver næste træk i gm&#10;Fixet flowet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Har lavet seperat msgPrompter der er baseret på algoritmen så det pågældende træk kan laves inden algoritme laver næste træk i gm&#10;Fixet flowet" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#Project_Structure" timestamp="1592307069724">
@@ -267,11 +357,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592481394064" />
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1592396795870">
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1592902938587">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592396795870" />
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592316393860" />
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592902938587" />
     <state x="640" y="260" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1592306944708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -285,59 +375,60 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592406921527" />
-    <state x="598" y="119" width="1537" height="905" key="CommitChangelistDialog2" timestamp="1592665695574">
+    <state x="516" y="119" width="1537" height="905" key="CommitChangelistDialog2" timestamp="1592683451650">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="598" y="119" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592665695574" />
+    <state x="516" y="119" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592683451650" />
     <state x="304" y="39" width="1537" height="905" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592644533624" />
-    <state x="178" y="86" width="1536" height="861" key="DiffContextDialog" timestamp="1592480686755">
+    <state x="178" y="86" width="1536" height="861" key="DiffContextDialog" timestamp="1592742556873">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="178" y="86" width="1536" height="861" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592480686755" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1592479982504">
+    <state x="178" y="86" width="1536" height="861" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592742556873" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1592901075876">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592479982504" />
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1592682032689">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592901075876" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1592903724085">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592682032689" />
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592646466432" />
-    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1592682032689">
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592744226970" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592903724085" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1592903724085">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592682032689" />
-    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592646466432" />
-    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1592682032689">
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592744226970" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592903724085" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1592903724085">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592682032689" />
-    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592646466432" />
-    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1592682032689">
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592744226970" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592903724085" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1592903724085">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592682032689" />
-    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592646466432" />
-    <state width="1877" height="98" key="GridCell.Tab.1.bottom" timestamp="1592481699667">
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592744226970" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592903724085" />
+    <state width="1877" height="438" key="GridCell.Tab.1.bottom" timestamp="1592903441702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="98" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592481699667" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592319894396" />
-    <state width="1877" height="98" key="GridCell.Tab.1.center" timestamp="1592481699667">
+    <state width="1877" height="438" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592682894545" />
+    <state width="1877" height="438" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592903441702" />
+    <state width="1877" height="438" key="GridCell.Tab.1.center" timestamp="1592903441702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="98" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592481699667" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592319894396" />
-    <state width="1877" height="98" key="GridCell.Tab.1.left" timestamp="1592481699667">
+    <state width="1877" height="438" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592682894545" />
+    <state width="1877" height="438" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592903441702" />
+    <state width="1877" height="438" key="GridCell.Tab.1.left" timestamp="1592903441702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="98" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592481699667" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592319894396" />
-    <state width="1877" height="98" key="GridCell.Tab.1.right" timestamp="1592481699667">
+    <state width="1877" height="438" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592682894545" />
+    <state width="1877" height="438" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592903441702" />
+    <state width="1877" height="438" key="GridCell.Tab.1.right" timestamp="1592903441702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="98" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592481699667" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592319894396" />
+    <state width="1877" height="438" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592682894545" />
+    <state width="1877" height="438" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592903441702" />
     <state x="600" y="282" width="969" height="476" key="MultipleFileMergeDialog" timestamp="1592474523832">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -347,19 +438,24 @@
     </state>
     <state x="736" y="234" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592141011264" />
     <state x="736" y="234" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592319474826" />
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1592665700767">
+    <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1592683457289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592665700767" />
+    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592683457289" />
     <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592644535193" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1592901374023">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592901374023" />
     <state x="772" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592474496332">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="772" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592474496332" />
-    <state x="731" y="343" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1592479739271">
+    <state x="731" y="343" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1592901931685">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="731" y="343" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592479739271" />
+    <state x="731" y="343" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592901931685" />
     <state x="672" y="164" width="575" height="711" key="find.popup" timestamp="1592476203013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -369,10 +465,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="342" y="147" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1592320451960" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1592476629426">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1592744070855">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592476629426" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592744070855" />
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592307904800" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1592309647429">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -385,14 +481,24 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Model/AlgorithmSolitare.java</url>
-          <line>126</line>
+          <line>119</line>
           <properties class="Model.AlgorithmSolitare">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Model/AlgorithmSolitareOnlyMsg.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo typeName="Model.AlgorithmSolitareTest" fieldName="gameModel" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SolitaireCDIO$GuiController.ic" NAME="GuiController Coverage Results" MODIFIED="1592315200961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

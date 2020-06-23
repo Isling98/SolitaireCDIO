@@ -1,5 +1,6 @@
 package Model;
 
+import Util.PythonConnector;
 import View.GuiController;
 
 import java.io.IOException;
@@ -44,9 +45,9 @@ public class Card {
         }
     }
 
-    public void getAndFlip() throws IOException {
+    public void getAndFlip(PythonConnector pc) throws IOException {
         if (!faceup) {
-            this.setCard(GuiController.pc.getSingleCard());
+            this.setCard(pc.getSingleCard());
             faceup = true;
         }
     }

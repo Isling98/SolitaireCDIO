@@ -1,10 +1,14 @@
 package Model.Piles;
 
 import Model.Card;
+import Util.PythonConnector;
 
 import java.util.EmptyStackException;
 
 public class DeckPile extends CardPile {
+    public DeckPile(PythonConnector pc) {
+        super(pc);
+    }
 
     // Kan ikke huske hvorfor dette blev indsat
 

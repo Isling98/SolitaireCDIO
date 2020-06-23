@@ -1,11 +1,17 @@
 package Model.Piles;
 
 import Model.Card;
+import Util.PythonConnector;
 
 import java.io.IOException;
 import java.util.LinkedList;
 
 public abstract class CardPile {
+
+    PythonConnector pc;
+    public CardPile(PythonConnector pc){
+        this.pc = pc;
+    }
 
     public LinkedList<Card> linkedCards = new LinkedList<Card>();
 
@@ -24,7 +30,7 @@ public abstract class CardPile {
 
             Card tempcard = linkedCards.pop();
             if (linkedCards.size() > 0){
-                linkedCards.getFirst().getAndFlip();
+                linkedCards.getFirst().getAndFlip(pc);
             }
 
             return tempcard;
@@ -36,7 +42,7 @@ public abstract class CardPile {
 
     public void getAndFlip() throws IOException {
         if (linkedCards.size() > 0) {
-            this.top().getAndFlip();
+            this.top().getAndFlip(pc);
         }
     }
     public void onlyFlip()  {
@@ -52,7 +58,7 @@ public abstract class CardPile {
 
             Card tempcard = linkedCards.pollLast();
             if (linkedCards.size()> 0){
-                linkedCards.getFirst().getAndFlip();
+                linkedCards.getFirst().getAndFlip(pc);
             }
 
             return tempcard;

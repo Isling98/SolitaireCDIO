@@ -2,12 +2,17 @@ package Model.Piles;
 
 import Model.Card;
 import Model.Piles.CardPile;
+import Util.PythonConnector;
 
 public class SuitPile extends CardPile {
 
 
 
     boolean isFinished = false;
+
+    public SuitPile(PythonConnector pc) {
+        super(pc);
+    }
 
     // Method that checks if card is allowed to be placed
     @Override

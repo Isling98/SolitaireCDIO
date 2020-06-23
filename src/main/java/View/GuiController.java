@@ -28,18 +28,9 @@ public class GuiController extends Application  {
 
     //Brug denne simulator for nu
 
-    public static PythonConnector pc;
-    static {
-        try {
-            pc = new PythonConnector();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
+    public PythonConnector pc = new PythonConnector(true);
 
-
-
-    GameModel gameModel = new GameModel();
+    GameModel gameModel = new GameModel(pc);
    // ObserverData observerData = new ObserverData(gameModel);
     AlgorithmSolitare algo = new AlgorithmSolitare(gameModel);
     AlgorithmSolitareOnlyMsg msgPrompt = new AlgorithmSolitareOnlyMsg(gameModel);

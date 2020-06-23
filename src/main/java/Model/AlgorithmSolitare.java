@@ -57,8 +57,8 @@ public class AlgorithmSolitare  {
             if (cardPiles[i].getSize() == 13){
                 counter++;
                 if (counter == 4){
+                    model.setGameWon(true);
                     return true;
-
                 }
             }
         }
@@ -71,7 +71,7 @@ public class AlgorithmSolitare  {
             while(!cardPiles[8].isEmpty()){
                 cardPiles[7].addCard(cardPiles[8].popCard());
             }
-            System.out.println("deckPileEmpty()");
+          //  System.out.println("deckPileEmpty()");
             return cardPiles;
         }
         return null;
@@ -82,7 +82,7 @@ public class AlgorithmSolitare  {
             for (int j = 0; j < 7; j++) {
                 if (cardPiles[i].canTake(cardPiles[j].top())) {
                     cardPiles[i].addCard(cardPiles[j].popCard());
-                    System.out.println("moveToSuitPile()");
+               //     System.out.println("moveToSuitPile()");
                  // System.out.println("Metode 2. Flyt " + cardPiles[i].top() + " til suitPile.");
                     newCardCounter = 0;
                     return cardPiles;
@@ -90,7 +90,7 @@ public class AlgorithmSolitare  {
             }
             if (cardPiles[i].canTake(cardPiles[8].top())) {
                 cardPiles[i].addCard(cardPiles[8].popCard());
-                System.out.println("moveToSuitPile()");
+          //      System.out.println("moveToSuitPile()");
                 newCardCounter = 0;
                 return cardPiles;
             }
@@ -105,7 +105,7 @@ public class AlgorithmSolitare  {
                     if (i == j || backCard == null){ continue;}
                     if (backCard.canItStack(cardPiles[j].top()) || (backCard.getValue() == 12 && cardPiles[j].isEmpty() && cardPiles[i].faceDownAmount() > 0)) {
                         cardPiles[j].addPile(cardPiles[i].popAllFaceUp());
-                        System.out.println("movePile()");
+            //            System.out.println("movePile()");
                         newCardCounter = 0;
                         return cardPiles;
                     }
@@ -122,7 +122,7 @@ public class AlgorithmSolitare  {
             if (cardPiles[i].isEmpty()) {
                 if (cardPiles[8].top().getValue() == 12) {
                     cardPiles[i].addCard(cardPiles[8].popCard());
-                    System.out.println("discardToGame()");
+           //         System.out.println("discardToGame()");
                     newCardCounter = 0;
                     return cardPiles;
                 }
@@ -131,7 +131,7 @@ public class AlgorithmSolitare  {
                 if (cardPiles[8].top().getValue() == cardPiles[i].top().getValue() - 1
                         && cardPiles[8].top().getColor() != cardPiles[i].top().getColor()) {
                         cardPiles[i].addCard(cardPiles[8].popCard());
-                        System.out.println("discardToGame()");
+           //             System.out.println("discardToGame()");
 
                     newCardCounter = 0;
                     return cardPiles;
@@ -144,9 +144,10 @@ public class AlgorithmSolitare  {
     public boolean checkGameOver(){
         newCardCounter++;
         if (newCardCounter > 25){//  cardPiles[7].getSize() + cardPiles[8].getSize()) {
-            System.out.println("checkGameOver()");
+      //      System.out.println("checkGameOver()");
           //  System.out.println("Antal træk: " + moveTracker);
          //   System.exit(0);
+            model.setGameLost(true);
             return true;
         }
 
@@ -156,7 +157,7 @@ public class AlgorithmSolitare  {
     public  CardPile[] newCardFromDeck() throws IOException {
         if (!cardPiles[7].isEmpty()) {
             cardPiles[8].addCard(cardPiles[7].popCard());
-            System.out.println("newCardFromDeck()");
+      //      System.out.println("newCardFromDeck()");
         }
         return cardPiles;
     }

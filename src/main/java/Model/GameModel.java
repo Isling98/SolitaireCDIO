@@ -2,6 +2,7 @@ package Model;
 
 import Model.*;
 import Model.Piles.*;
+import Util.PythonConnector;
 import View.GuiController;
 
 import java.io.IOException;
@@ -17,9 +18,13 @@ public class GameModel {
     public void setCardPiles(CardPile[] cardPiles){
         this.cardPiles = cardPiles;
     }
+    private boolean gameWon = false;
+    private boolean gameLost = false;
 
 
-    public GameModel() throws IOException {
+
+
+    public GameModel(PythonConnector pc) throws IOException {
         ArrayList<Card> startDeck = new ArrayList<>();
         //Inserting all cards and shuffeling
         initDeck(startDeck);
@@ -28,17 +33,17 @@ public class GameModel {
         //GamePiles 0...6
         for (int i = 0; i < 7; i++) {
             //
-            cardPiles[i] = new GamePile();
+            cardPiles[i] = new GamePile(pc);
             for (int j = 0; j <= i; j++) {
                 cardPiles[i].addCard(startDeck.remove(0));
             }
         }
-        cardPiles[7] = new DeckPile();
-        cardPiles[8] = new DiscardPile();
+        cardPiles[7] = new DeckPile(pc);
+        cardPiles[8] = new DiscardPile(pc);
 
         //SuitPile
         for (int i = 9; i < 13; i++) {
-            cardPiles[i] =  new SuitPile();
+            cardPiles[i] =  new SuitPile(pc);
         }
 
 
@@ -53,7 +58,7 @@ public class GameModel {
         cardPiles[0].top().flipCard();*/
 
 
-        Card[] startCards = GuiController.pc.getStartDeck();
+        Card[] startCards = pc.getStartDeck();
         for (int i = 0; i < 7; i++) {
             if (!cardPiles[i].linkedCards.isEmpty()) {
                 {
@@ -83,5 +88,28 @@ public class GameModel {
 
     public void setMsg(String msg) {
         this.msg = msg;
+    }
+
+    public boolean isGameDone() {
+        if (gameWon || gameLost){
+            return true;
+        }
+        else return false;
+    }
+
+    public void setGameWon(boolean gameWon) {
+        this.gameWon = gameWon;
+    }
+
+    public void setGameLost(boolean gameLost) {
+        this.gameLost = gameLost;
+    }
+
+    public boolean isGameWon() {
+        return gameWon;
+    }
+
+    public boolean isGameLost() {
+        return gameLost;
     }
 }

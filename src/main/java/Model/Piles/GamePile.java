@@ -1,6 +1,7 @@
 package Model.Piles;
 
 import Model.Card;
+import Util.PythonConnector;
 
 import java.io.IOException;
 import java.util.LinkedList;
@@ -8,7 +9,9 @@ import java.util.LinkedList;
 public class GamePile extends CardPile {
 
 
-
+    public GamePile(PythonConnector pc) {
+        super(pc);
+    }
 
     @Override
     public boolean canTake(Card card) {
